@@ -1,0 +1,21 @@
+[
+  {"id":"fomc_2026_03","name":"FOMC","nameEn":"FOMC Meeting","country":"US","date":"2026-03-19","importance":3},
+  {"id":"boj_2026_03","name":"日銀金融政策決定会合","nameEn":"BOJ Policy Meeting","country":"JP","date":"2026-03-19","importance":3},
+  {"id":"boe_2026_03","name":"イングランド銀行政策決定","nameEn":"BoE Rate Decision","country":"UK","date":"2026-03-20","importance":3},
+  {"id":"us_cpi_2026_03","name":"米CPI発表","nameEn":"US CPI Release","country":"US","date":"2026-03-26","importance":2},
+  {"id":"us_pce_2026_03","name":"米PCEデフレーター","nameEn":"US PCE Deflator","country":"US","date":"2026-03-27","importance":2},
+  {"id":"us_nfp_2026_04","name":"米雇用統計","nameEn":"US Jobs Report","country":"US","date":"2026-04-03","importance":3},
+  {"id":"us_cpi_2026_04","name":"米CPI発表","nameEn":"US CPI Release","country":"US","date":"2026-04-10","importance":2},
+  {"id":"fomc_2026_04","name":"FOMC","nameEn":"FOMC Meeting","country":"US","date":"2026-04-29","importance":3},
+  {"id":"boj_2026_04","name":"日銀金融政策決定会合","nameEn":"BOJ Policy Meeting","country":"JP","date":"2026-04-28","importance":3},
+  {"id":"ecb_2026_04","name":"ECB政策金利決定","nameEn":"ECB Rate Decision","country":"EU","date":"2026-04-30","importance":3},
+  {"id":"boe_2026_04","name":"イングランド銀行政策決定","nameEn":"BoE Rate Decision","country":"UK","date":"2026-04-30","importance":3},
+  {"id":"us_gdp_2026_04","name":"米GDP速報値","nameEn":"US GDP Advance","country":"US","date":"2026-04-30","importance":2},
+  {"id":"jp_cpi_2026_04","name":"日本CPI発表","nameEn":"JP CPI Release","country":"JP","date":"2026-04-24","importance":2},
+  {"id":"us_nfp_2026_05","name":"米雇用統計","nameEn":"US Jobs Report","country":"US","date":"2026-05-08","importance":3},
+  {"id":"us_cpi_2026_05","name":"米CPI発表","nameEn":"US CPI Release","country":"US","date":"2026-05-13","importance":2},
+  {"id":"ecb_2026_06","name":"ECB政策金利決定","nameEn":"ECB Rate Decision","country":"EU","date":"2026-06-11","importance":3},
+  {"id":"boj_2026_06","name":"日銀金融政策決定会合","nameEn":"BOJ Policy Meeting","country":"JP","date":"2026-06-16","importance":3},
+  {"id":"fomc_2026_06","name":"FOMC","nameEn":"FOMC Meeting","country":"US","date":"2026-06-17","importance":3},
+  {"id":"boe_2026_06","name":"イングランド銀行政策決定","nameEn":"BoE Rate Decision","country":"UK","date":"2026-06-18","importance":3}
+]
