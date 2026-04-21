@@ -1,0 +1,37 @@
+name: Update earnings_dates.json
+
+# Weekly refresh of earnings_dates.json via SEC EDGAR (public domain data).
+# Runs every Monday at 06:00 UTC (= 15:00 JST).
+# Also runnable manually from the Actions tab.
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run collector
+        run: node collect_earnings.js
+
+      - name: Commit and push if changed
+        run: |
+          if [[ -n "$(git status --porcelain earnings_dates.json)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add earnings_dates.json
+            git commit -m "chore(auto): refresh earnings_dates.json"
+            git push
+          else
+            echo "No changes."
+          fi
