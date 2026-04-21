@@ -17,10 +17,44 @@ const fs = require('fs');
 
 const USER_AGENT = 'Chartr Collector contact@chartr.app';
 
-// Stocks to track. Extend as needed.
+// Stocks to track (~200 popular US equities covering S&P 100, NASDAQ-100,
+// and ADRs commonly held by Japanese retail investors). Extend as needed.
 const SYMBOLS = [
-  'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META', 'KO', 'MCD', 'NKE',
-  'SBUX', 'TSLA', 'NVDA', 'LMT', 'UNH', 'JNJ',
+  // Mega cap tech
+  'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'GOOG', 'META', 'NVDA', 'TSLA', 'AVGO',
+  'ORCL', 'CRM', 'ADBE', 'NFLX', 'AMD', 'INTC', 'QCOM', 'CSCO', 'IBM',
+  'TXN', 'INTU', 'NOW', 'AMAT', 'ADI', 'LRCX', 'KLAC', 'MU', 'MRVL', 'NXPI',
+  'CDNS', 'SNPS', 'ASML', 'ARM', 'SMCI', 'PANW', 'CRWD', 'FTNT', 'ZS',
+  'DDOG', 'NET', 'OKTA', 'MDB', 'WDAY', 'TEAM', 'SHOP', 'SQ', 'PYPL',
+  'COIN', 'PLTR', 'MSTR', 'ABNB', 'UBER', 'LYFT', 'SPOT', 'SNAP', 'PINS',
+  'RBLX', 'ROKU', 'U', 'DOCU', 'ZM', 'TWLO',
+  // Financials
+  'JPM', 'BAC', 'WFC', 'C', 'GS', 'MS', 'BLK', 'SCHW', 'AXP', 'V', 'MA',
+  'USB', 'PGR', 'CB', 'MMC', 'SPGI', 'ICE', 'CME', 'COF',
+  // Healthcare / pharma
+  'UNH', 'JNJ', 'LLY', 'PFE', 'ABBV', 'MRK', 'TMO', 'ABT', 'DHR', 'BMY',
+  'AMGN', 'GILD', 'VRTX', 'REGN', 'CI', 'ELV', 'ISRG', 'SYK', 'BSX',
+  'MDT', 'BIIB', 'ILMN', 'DXCM', 'IDXX', 'ZTS',
+  // Consumer discretionary / staples
+  'WMT', 'COST', 'PG', 'KO', 'PEP', 'MCD', 'SBUX', 'NKE', 'LOW', 'HD',
+  'TJX', 'TGT', 'DIS', 'CMCSA', 'MDLZ', 'MO', 'PM', 'CL', 'KHC', 'MNST',
+  'KDP', 'ORLY', 'YUM', 'CMG', 'DPZ', 'BKNG', 'EXPE', 'MAR', 'HLT',
+  // Industrials / transport
+  'CAT', 'DE', 'HON', 'UNP', 'UPS', 'FDX', 'BA', 'LMT', 'RTX', 'GE',
+  'NOC', 'GD', 'ETN', 'PH', 'EMR', 'MMM', 'ADP', 'PAYX',
+  // Energy
+  'XOM', 'CVX', 'COP', 'EOG', 'SLB', 'PSX', 'MPC', 'OXY', 'VLO', 'FANG',
+  // Utilities / REIT
+  'NEE', 'SO', 'DUK', 'XEL', 'PLD', 'EQIX', 'AMT',
+  // Materials
+  'LIN', 'SHW',
+  // Telecom
+  'VZ', 'T', 'TMUS',
+  // Chinese ADRs / global
+  'BABA', 'PDD', 'JD', 'BIDU', 'NIO', 'TSM', 'TM', 'SONY',
+  // Additional popular
+  'BRK-B', 'WBA', 'CVS', 'EA', 'TTWO', 'F', 'GM', 'CCL', 'DAL', 'UAL',
+  'AAL', 'LUV',
 ];
 
 // ---- Helpers ---------------------------------------------------------------
