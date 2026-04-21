@@ -212,9 +212,22 @@ async function main() {
     Object.assign(existing, JSON.parse(buf));
   } catch (_) {}
 
+  // Preserve any manually curated entries (source: 'manual').
+  // Their date is only refreshed when it's already in the past (>=3 days ago),
+  // at which point we fall back to auto-estimation for the next quarter.
+  const now = Date.now();
   const result = { ...existing };
   for (const sym of SYMBOLS) {
     process.stdout.write(`${sym.padEnd(6)} `);
+    const prev = existing[sym];
+    const isManual = prev && prev.source === 'manual';
+    if (isManual && prev.date) {
+      const prevTs = new Date(prev.date).getTime();
+      if (prevTs >= now - 3 * 86_400_000) {
+        console.log(`${prev.date}  manual (kept)`);
+        continue; // keep manual entry until its date passes
+      }
+    }
     try {
       const info = await collectSymbol(sym);
       if (info.error) {
