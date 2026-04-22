@@ -20,41 +20,7 @@ const USER_AGENT = 'Chartr Collector contact@chartr.app';
 // Stocks to track (~200 popular US equities covering S&P 100, NASDAQ-100,
 // and ADRs commonly held by Japanese retail investors). Extend as needed.
 const SYMBOLS = [
-  // Mega cap tech
-  'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'GOOG', 'META', 'NVDA', 'TSLA', 'AVGO',
-  'ORCL', 'CRM', 'ADBE', 'NFLX', 'AMD', 'INTC', 'QCOM', 'CSCO', 'IBM',
-  'TXN', 'INTU', 'NOW', 'AMAT', 'ADI', 'LRCX', 'KLAC', 'MU', 'MRVL', 'NXPI',
-  'CDNS', 'SNPS', 'ASML', 'ARM', 'SMCI', 'PANW', 'CRWD', 'FTNT', 'ZS',
-  'DDOG', 'NET', 'OKTA', 'MDB', 'WDAY', 'TEAM', 'SHOP', 'SQ', 'PYPL',
-  'COIN', 'PLTR', 'MSTR', 'ABNB', 'UBER', 'LYFT', 'SPOT', 'SNAP', 'PINS',
-  'RBLX', 'ROKU', 'U', 'DOCU', 'ZM', 'TWLO',
-  // Financials
-  'JPM', 'BAC', 'WFC', 'C', 'GS', 'MS', 'BLK', 'SCHW', 'AXP', 'V', 'MA',
-  'USB', 'PGR', 'CB', 'MMC', 'SPGI', 'ICE', 'CME', 'COF',
-  // Healthcare / pharma
-  'UNH', 'JNJ', 'LLY', 'PFE', 'ABBV', 'MRK', 'TMO', 'ABT', 'DHR', 'BMY',
-  'AMGN', 'GILD', 'VRTX', 'REGN', 'CI', 'ELV', 'ISRG', 'SYK', 'BSX',
-  'MDT', 'BIIB', 'ILMN', 'DXCM', 'IDXX', 'ZTS',
-  // Consumer discretionary / staples
-  'WMT', 'COST', 'PG', 'KO', 'PEP', 'MCD', 'SBUX', 'NKE', 'LOW', 'HD',
-  'TJX', 'TGT', 'DIS', 'CMCSA', 'MDLZ', 'MO', 'PM', 'CL', 'KHC', 'MNST',
-  'KDP', 'ORLY', 'YUM', 'CMG', 'DPZ', 'BKNG', 'EXPE', 'MAR', 'HLT',
-  // Industrials / transport
-  'CAT', 'DE', 'HON', 'UNP', 'UPS', 'FDX', 'BA', 'LMT', 'RTX', 'GE',
-  'NOC', 'GD', 'ETN', 'PH', 'EMR', 'MMM', 'ADP', 'PAYX',
-  // Energy
-  'XOM', 'CVX', 'COP', 'EOG', 'SLB', 'PSX', 'MPC', 'OXY', 'VLO', 'FANG',
-  // Utilities / REIT
-  'NEE', 'SO', 'DUK', 'XEL', 'PLD', 'EQIX', 'AMT',
-  // Materials
-  'LIN', 'SHW',
-  // Telecom
-  'VZ', 'T', 'TMUS',
-  // Chinese ADRs / global
-  'BABA', 'PDD', 'JD', 'BIDU', 'NIO', 'TSM', 'TM', 'SONY',
-  // Additional popular
-  'BRK-B', 'WBA', 'CVS', 'EA', 'TTWO', 'F', 'GM', 'CCL', 'DAL', 'UAL',
-  'AAL', 'LUV',
+  'MMM', 'AOS', 'ABT', 'ABBV', 'ACN', 'ADBE', 'AMD', 'AES', 'AFL', 'A', 'APD', 'ABNB', 'AKAM', 'ALB', 'ARE', 'ALGN', 'ALLE', 'LNT', 'ALL', 'GOOGL', 'GOOG', 'MO', 'AMZN', 'AMCR', 'AEE', 'AEP', 'AXP', 'AIG', 'AMT', 'AWK', 'AMP', 'AME', 'AMGN', 'APH', 'ADI', 'AON', 'APA', 'APO', 'AAPL', 'AMAT', 'APP', 'APTV', 'ACGL', 'ADM', 'ARES', 'ANET', 'AJG', 'AIZ', 'T', 'ATO', 'ADSK', 'ADP', 'AZO', 'AVB', 'AVY', 'AXON', 'BKR', 'BALL', 'BAC', 'BAX', 'BDX', 'BRK-B', 'BBY', 'TECH', 'BIIB', 'BLK', 'BX', 'XYZ', 'BK', 'BA', 'BKNG', 'BSX', 'BMY', 'AVGO', 'BR', 'BRO', 'BF-B', 'BLDR', 'BG', 'BXP', 'CHRW', 'CDNS', 'CPT', 'CPB', 'COF', 'CAH', 'CCL', 'CARR', 'CVNA', 'CASY', 'CAT', 'CBOE', 'CBRE', 'CDW', 'COR', 'CNC', 'CNP', 'CF', 'CRL', 'SCHW', 'CHTR', 'CVX', 'CMG', 'CB', 'CHD', 'CIEN', 'CI', 'CINF', 'CTAS', 'CSCO', 'C', 'CFG', 'CLX', 'CME', 'CMS', 'KO', 'CTSH', 'COHR', 'COIN', 'CL', 'CMCSA', 'FIX', 'CAG', 'COP', 'ED', 'STZ', 'CEG', 'COO', 'CPRT', 'GLW', 'CPAY', 'CTVA', 'CSGP', 'COST', 'CTRA', 'CRH', 'CRWD', 'CCI', 'CSX', 'CMI', 'CVS', 'DHR', 'DRI', 'DDOG', 'DVA', 'DECK', 'DE', 'DELL', 'DAL', 'DVN', 'DXCM', 'FANG', 'DLR', 'DG', 'DLTR', 'D', 'DPZ', 'DASH', 'DOV', 'DOW', 'DHI', 'DTE', 'DUK', 'DD', 'ETN', 'EBAY', 'SATS', 'ECL', 'EIX', 'EW', 'EA', 'ELV', 'EME', 'EMR', 'ETR', 'EOG', 'EPAM', 'EQT', 'EFX', 'EQIX', 'EQR', 'ERIE', 'ESS', 'EL', 'EG', 'EVRG', 'ES', 'EXC', 'EXE', 'EXPE', 'EXPD', 'EXR', 'XOM', 'FFIV', 'FDS', 'FICO', 'FAST', 'FRT', 'FDX', 'FIS', 'FITB', 'FSLR', 'FE', 'FISV', 'F', 'FTNT', 'FTV', 'FOXA', 'FOX', 'BEN', 'FCX', 'GRMN', 'IT', 'GE', 'GEHC', 'GEV', 'GEN', 'GNRC', 'GD', 'GIS', 'GM', 'GPC', 'GILD', 'GPN', 'GL', 'GDDY', 'GS', 'HAL', 'HIG', 'HAS', 'HCA', 'DOC', 'HSIC', 'HSY', 'HPE', 'HLT', 'HD', 'HON', 'HRL', 'HST', 'HWM', 'HPQ', 'HUBB', 'HUM', 'HBAN', 'HII', 'IBM', 'IEX', 'IDXX', 'ITW', 'INCY', 'IR', 'PODD', 'INTC', 'IBKR', 'ICE', 'IFF', 'IP', 'INTU', 'ISRG', 'IVZ', 'INVH', 'IQV', 'IRM', 'JBHT', 'JBL', 'JKHY', 'J', 'JNJ', 'JCI', 'JPM', 'KVUE', 'KDP', 'KEY', 'KEYS', 'KMB', 'KIM', 'KMI', 'KKR', 'KLAC', 'KHC', 'KR', 'LHX', 'LH', 'LRCX', 'LVS', 'LDOS', 'LEN', 'LII', 'LLY', 'LIN', 'LYV', 'LMT', 'L', 'LOW', 'LULU', 'LITE', 'LYB', 'MTB', 'MPC', 'MAR', 'MRSH', 'MLM', 'MAS', 'MA', 'MKC', 'MCD', 'MCK', 'MDT', 'MRK', 'META', 'MET', 'MTD', 'MGM', 'MCHP', 'MU', 'MSFT', 'MAA', 'MRNA', 'TAP', 'MDLZ', 'MPWR', 'MNST', 'MCO', 'MS', 'MOS', 'MSI', 'MSCI', 'NDAQ', 'NTAP', 'NFLX', 'NEM', 'NWSA', 'NWS', 'NEE', 'NKE', 'NI', 'NDSN', 'NSC', 'NTRS', 'NOC', 'NCLH', 'NRG', 'NUE', 'NVDA', 'NVR', 'NXPI', 'ORLY', 'OXY', 'ODFL', 'OMC', 'ON', 'OKE', 'ORCL', 'OTIS', 'PCAR', 'PKG', 'PLTR', 'PANW', 'PSKY', 'PH', 'PAYX', 'PYPL', 'PNR', 'PEP', 'PFE', 'PCG', 'PM', 'PSX', 'PNW', 'PNC', 'POOL', 'PPG', 'PPL', 'PFG', 'PG', 'PGR', 'PLD', 'PRU', 'PEG', 'PTC', 'PSA', 'PHM', 'PWR', 'QCOM', 'DGX', 'Q', 'RL', 'RJF', 'RTX', 'O', 'REG', 'REGN', 'RF', 'RSG', 'RMD', 'RVTY', 'HOOD', 'ROK', 'ROL', 'ROP', 'ROST', 'RCL', 'SPGI', 'CRM', 'SNDK', 'SBAC', 'SLB', 'STX', 'SRE', 'NOW', 'SHW', 'SPG', 'SWKS', 'SJM', 'SW', 'SNA', 'SOLV', 'SO', 'LUV', 'SWK', 'SBUX', 'STT', 'STLD', 'STE', 'SYK', 'SMCI', 'SYF', 'SNPS', 'SYY', 'TMUS', 'TROW', 'TTWO', 'TPR', 'TRGP', 'TGT', 'TEL', 'TDY', 'TER', 'TSLA', 'TXN', 'TPL', 'TXT', 'TMO', 'TJX', 'TKO', 'TTD', 'TSCO', 'TT', 'TDG', 'TRV', 'TRMB', 'TFC', 'TYL', 'TSN', 'USB', 'UBER', 'UDR', 'ULTA', 'UNP', 'UAL', 'UPS', 'URI', 'UNH', 'UHS', 'VLO', 'VTR', 'VLTO', 'VRSN', 'VRSK', 'VZ', 'VRTX', 'VRT', 'VTRS', 'VICI', 'V', 'VST', 'VMC', 'WRB', 'GWW', 'WAB', 'WMT', 'DIS', 'WBD', 'WM', 'WAT', 'WEC', 'WFC', 'WELL', 'WST', 'WDC', 'WY', 'WSM', 'WMB', 'WTW', 'WDAY', 'WYNN', 'XEL', 'XYL', 'YUM', 'ZBRA', 'ZBH', 'ZTS', 'ASML', 'ARM', 'TSM', 'BABA', 'PDD', 'JD', 'BIDU', 'NIO', 'TM', 'SONY', 'SPOT', 'MSTR', 'BRK-A',
 ];
 
 // ---- Helpers ---------------------------------------------------------------
@@ -79,15 +45,59 @@ function ymd(d) {
 
 // ---- CIK lookup ------------------------------------------------------------
 
+// Manual CIK overrides for tickers not in SEC's public ticker files.
+const MANUAL_CIK = {
+  MMC: '0000062709', // Marsh & McLennan
+  WBA: '0001618921', // Walgreens Boots Alliance
+};
+
 let tickerMap = null;
 async function loadTickerMap() {
   if (tickerMap) return tickerMap;
-  const data = await fetchJson('https://www.sec.gov/files/company_tickers.json');
-  tickerMap = {};
-  for (const entry of Object.values(data)) {
-    tickerMap[entry.ticker.toUpperCase()] = String(entry.cik_str).padStart(10, '0');
-  }
+  tickerMap = { ...MANUAL_CIK };
+  // Primary: standard domestic tickers.
+  try {
+    const data = await fetchJson('https://www.sec.gov/files/company_tickers.json');
+    for (const entry of Object.values(data)) {
+      tickerMap[entry.ticker.toUpperCase()] = String(entry.cik_str).padStart(10, '0');
+    }
+  } catch (_) {}
+  // Fallback: extended list that includes foreign ADRs (ASML, ARM, TSM, BABA…).
+  try {
+    const ext = await fetchJson('https://www.sec.gov/files/company_tickers_exchange.json');
+    const fields = ext.fields || [];
+    const tIdx = fields.indexOf('ticker');
+    const cIdx = fields.indexOf('cik');
+    if (tIdx >= 0 && cIdx >= 0) {
+      for (const row of ext.data || []) {
+        const sym = (row[tIdx] || '').toUpperCase();
+        if (sym && !tickerMap[sym]) {
+          tickerMap[sym] = String(row[cIdx]).padStart(10, '0');
+        }
+      }
+    }
+  } catch (_) {}
   return tickerMap;
+}
+
+// Foreign ADR 6-K filename patterns to EXCLUDE (monthly revenue, dividends,
+// director meetings that aren't earnings). Keep only earnings-like filings.
+const SKIP_6K_PATTERNS = [
+  /revenue/i,          // monthly revenue (TSM)
+  /monthend/i,         // month-end report (TSM)
+  /dividend/i,         // dividend announcement
+  /director/i,         // director changes
+  /resoluti/i,         // resolutions
+  /agm[-_]?/i,         // AGM (annual general meeting)
+  /annual[-_]?meeting/i,
+];
+
+function is6KEarnings(primaryDoc) {
+  if (!primaryDoc) return true; // assume earnings if no filename hint
+  for (const p of SKIP_6K_PATTERNS) {
+    if (p.test(primaryDoc)) return false;
+  }
+  return true;
 }
 
 // ---- Date parsing ----------------------------------------------------------
@@ -155,14 +165,45 @@ async function collectSymbol(symbol) {
   const now = new Date();
   const todayTs = now.getTime();
 
-  // Collect 8-K/2.02 dates for YoY fallback.
-  const earningsDates = [];
+  // Collect 8-K/2.02 dates (domestic) OR filtered 6-K dates (foreign ADRs)
+  // for YoY fallback. Dedup by date.
+  const rawDates = [];
   for (let i = 0; i < forms.length; i++) {
-    if (forms[i] === '8-K' && typeof items[i] === 'string' && items[i].includes('2.02')) {
-      earningsDates.push(dates[i]);
-      if (earningsDates.length >= 8) break;
+    const form = forms[i];
+    const item = items[i];
+    const doc = primaryDocs[i];
+    const date = dates[i];
+    let isEarnings = false;
+    if (form === '8-K' && typeof item === 'string' && item.includes('2.02')) {
+      isEarnings = true;
+    } else if (form === '6-K' && is6KEarnings(doc)) {
+      isEarnings = true;
+    }
+    if (isEarnings) rawDates.push(date);
+  }
+  // Dedup & keep up to 12 (2-3 years of quarterly data).
+  const seen = new Set();
+  const earningsDates = [];
+  for (const d of rawDates) {
+    if (!seen.has(d)) {
+      seen.add(d);
+      earningsDates.push(d);
+      if (earningsDates.length >= 12) break;
     }
   }
+  // For foreign ADRs with many 6-Ks, further filter to quarterly cadence
+  // (drop filings that are within 30 days of a kept filing to avoid
+  // picking up non-earnings 6-Ks that slipped through the filename filter).
+  const quarterlyDates = [];
+  const sorted = [...earningsDates].sort((a, b) => b.localeCompare(a));
+  for (const d of sorted) {
+    const ts = new Date(d).getTime();
+    const tooClose = quarterlyDates.some(kept => Math.abs(new Date(kept).getTime() - ts) < 30 * 86_400_000);
+    if (!tooClose) quarterlyDates.push(d);
+    if (quarterlyDates.length >= 8) break;
+  }
+  earningsDates.length = 0;
+  earningsDates.push(...quarterlyDates);
 
   // ---- 1. Search recent 8-K filings for an announcement of an upcoming date ----
   for (let i = 0; i < Math.min(forms.length, 15); i++) {
