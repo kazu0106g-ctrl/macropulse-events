@@ -1,23 +1,29 @@
 #!/usr/bin/env node
 // Macropulse-events fact checker.
 //
-// Compares events.json against authoritative sources for known event series
-// (currently: BOJ Monetary Policy Meeting). Generates a markdown report.
+// Compares events.json against authoritative issuer pages (BOJ, FOMC, ECB) and
+// generates a markdown report. NEVER edits events.json. The report is the
+// human review surface; corrections are applied manually.
 //
-// IMPORTANT: This tool NEVER edits events.json. It only reports discrepancies.
-// Human review and explicit edit are required to apply any change. This is the
-// safety net in case a third-party site (or our own parser) has the wrong date.
+// Trust model:
+//   - The official issuer page is THE source of truth for that issuer's events.
+//   - Raw HTML is parsed in code (no LLM in the data path) so a third-party
+//     summary cannot inject wrong dates.
+//   - Aggregator quorum (planned) is reserved for events without a single
+//     authoritative issuer.
 //
 // Usage:
-//   node factcheck/factcheck.js              # check current and next year
+//   node factcheck/factcheck.js              # current and next year
 //   node factcheck/factcheck.js --year 2026
-//   node factcheck/factcheck.js --no-cache   # skip 24h cache
+//   node factcheck/factcheck.js --no-cache   # bypass 24h HTML cache
 
 'use strict';
 
 const fs = require('fs');
 const path = require('path');
 const { getBojMeetings } = require('./sources/boj');
+const { getFomcMeetings } = require('./sources/fomc');
+const { getEcbMeetings } = require('./sources/ecb');
 
 const ROOT = path.join(__dirname, '..');
 const EVENTS_PATH = path.join(ROOT, 'events.json');
@@ -44,9 +50,8 @@ function loadEvents() {
   return JSON.parse(fs.readFileSync(EVENTS_PATH, 'utf8'));
 }
 
-// BOJ id pattern in events.json: boj_YYYYMM (e.g. boj_202604).
-function findBojEventForMonth(events, year, month) {
-  const id = `boj_${year}${String(month).padStart(2, '0')}`;
+function findEventByIdPrefix(events, prefix, year, month) {
+  const id = `${prefix}_${year}${String(month).padStart(2, '0')}`;
   return events.find((e) => e.id === id) || null;
 }
 
@@ -56,20 +61,43 @@ function classifyDiff(eventDate, day1, day2) {
   return { status: 'mismatch', note: 'date does not match either Day 1 or Day 2' };
 }
 
-async function checkBojYear(events, year, opts) {
-  const result = await getBojMeetings(year, opts);
+// Collect events.json entries for an issuer in a given year. Used to detect
+// "phantom" events whose IDs exist in our data but have no corresponding
+// official meeting (e.g. the bogus fomc_202605 from a bulk LLM run).
+function collectIdsForYear(events, prefix, year) {
+  const re = new RegExp(`^${prefix}_${year}\\d{2}$`);
+  return events.filter((e) => re.test(e.id));
+}
+
+async function checkIssuerYear({ events, year, prefix, label, fetcher, opts }) {
+  let result;
+  try {
+    result = await fetcher(year, opts);
+  } catch (err) {
+    return {
+      label,
+      year,
+      source: '(error)',
+      fromCache: false,
+      cachedAt: new Date(),
+      findings: [],
+      notFound: true,
+      error: String(err.message || err),
+    };
+  }
+
   const findings = [];
+  const seenMonths = new Set();
   for (const m of result.meetings) {
     const month = parseInt(m.day2.slice(5, 7), 10);
-    // The id encodes the month of Day 2 announcement.
-    const ev = findBojEventForMonth(events, year, month);
+    seenMonths.add(month);
+    const ev = findEventByIdPrefix(events, prefix, year, month);
     if (!ev) {
-      // Missing in events.json. Worth reporting as info.
       findings.push({
         kind: 'missing',
         year,
         month,
-        expected_id: `boj_${year}${String(month).padStart(2, '0')}`,
+        expected_id: `${prefix}_${year}${String(month).padStart(2, '0')}`,
         official: m,
       });
       continue;
@@ -87,7 +115,32 @@ async function checkBojYear(events, year, opts) {
       note: cls.note,
     });
   }
-  return { year, source: result.source, fromCache: result.fromCache, cachedAt: result.cachedAt, findings, notFound: result.notFound };
+
+  // Phantom events: IDs whose month doesn't appear in the official schedule.
+  const ourEntries = collectIdsForYear(events, prefix, year);
+  for (const ev of ourEntries) {
+    const month = parseInt(ev.id.slice(-2), 10);
+    if (!seenMonths.has(month)) {
+      findings.push({
+        kind: 'phantom',
+        id: ev.id,
+        year,
+        month,
+        events_date: ev.date,
+        note: 'no meeting found for this month on the official site',
+      });
+    }
+  }
+
+  return {
+    label,
+    year,
+    source: result.source,
+    fromCache: result.fromCache,
+    cachedAt: result.cachedAt,
+    findings,
+    notFound: result.notFound,
+  };
 }
 
 function md(reports) {
@@ -97,24 +150,30 @@ function md(reports) {
   lines.push(``);
   lines.push(`Generated: ${now}`);
   lines.push(``);
-  lines.push(`This tool compares events.json against authoritative issuer pages.`);
-  lines.push(`No changes are written to events.json. Review the findings below and`);
-  lines.push(`update events.json manually if you agree with the diagnosis.`);
+  lines.push(`Compares events.json against authoritative issuer pages.`);
+  lines.push(`No automatic edits are applied; review and update events.json manually.`);
   lines.push(``);
+
   for (const r of reports) {
-    lines.push(`## BOJ ${r.year}`);
+    lines.push(`## ${r.label} ${r.year}`);
     lines.push(``);
     lines.push(`Source: ${r.source} (${r.fromCache ? 'cached' : 'fresh'} at ${new Date(r.cachedAt).toISOString()})`);
     lines.push(``);
-    if (r.notFound) {
-      lines.push(`> Year section not found on the page. The site layout may have changed; investigate the parser.`);
+    if (r.error) {
+      lines.push(`> Error: ${r.error}`);
       lines.push(``);
       continue;
     }
+    if (r.notFound) {
+      lines.push(`> Year section not found / no meetings parsed. Investigate the parser or check whether the page layout changed.`);
+      lines.push(``);
+      continue;
+    }
+    const ok = r.findings.filter((f) => f.kind === 'ok');
     const mismatches = r.findings.filter((f) => f.kind === 'mismatch');
     const missing = r.findings.filter((f) => f.kind === 'missing');
-    const ok = r.findings.filter((f) => f.kind === 'ok');
-    lines.push(`OK: ${ok.length}, Mismatch: ${mismatches.length}, Missing: ${missing.length}`);
+    const phantom = r.findings.filter((f) => f.kind === 'phantom');
+    lines.push(`OK: ${ok.length}, Mismatch: ${mismatches.length}, Missing: ${missing.length}, Phantom: ${phantom.length}`);
     lines.push(``);
     if (mismatches.length) {
       lines.push(`### Mismatch (events.json date differs from official Day 2)`);
@@ -123,6 +182,16 @@ function md(reports) {
       lines.push(`|---|---|---|---|---|---|`);
       for (const f of mismatches) {
         lines.push(`| ${f.id} | ${f.events_date} | ${f.official_day1} | ${f.official_day2} | ${f.official_label} | ${f.note} |`);
+      }
+      lines.push(``);
+    }
+    if (phantom.length) {
+      lines.push(`### Phantom (events.json has an entry for a month with no official meeting)`);
+      lines.push(``);
+      lines.push(`| id | events.json date | note |`);
+      lines.push(`|---|---|---|`);
+      for (const f of phantom) {
+        lines.push(`| ${f.id} | ${f.events_date} | ${f.note} |`);
       }
       lines.push(``);
     }
@@ -150,14 +219,27 @@ function md(reports) {
   const args = parseArgs(process.argv);
   const events = loadEvents();
   const reports = [];
+
+  const issuers = [
+    { prefix: 'boj', label: 'BOJ', fetcher: getBojMeetings },
+    { prefix: 'fomc', label: 'FOMC', fetcher: getFomcMeetings },
+    { prefix: 'ecb', label: 'ECB', fetcher: getEcbMeetings },
+  ];
+
   for (const year of args.years) {
-    try {
-      const r = await checkBojYear(events, year, { useCache: args.useCache });
+    for (const issuer of issuers) {
+      const r = await checkIssuerYear({
+        events,
+        year,
+        prefix: issuer.prefix,
+        label: issuer.label,
+        fetcher: issuer.fetcher,
+        opts: { useCache: args.useCache },
+      });
       reports.push(r);
-    } catch (err) {
-      reports.push({ year, source: '(BOJ)', fromCache: false, cachedAt: new Date(), findings: [], notFound: true, error: String(err.message || err) });
     }
   }
+
   const report = md(reports);
   fs.mkdirSync(REPORTS_DIR, { recursive: true });
   const stamp = new Date().toISOString().slice(0, 10);
@@ -166,7 +248,8 @@ function md(reports) {
   process.stdout.write(report);
   process.stderr.write(`\n[factcheck] report written to ${outPath}\n`);
 
-  // Exit non-zero if any mismatches, so a scheduled task can detect.
-  const hasMismatches = reports.some((r) => r.findings.some((f) => f.kind === 'mismatch'));
-  process.exit(hasMismatches ? 2 : 0);
+  const hasIssues = reports.some((r) =>
+    r.findings.some((f) => f.kind === 'mismatch' || f.kind === 'phantom'),
+  );
+  process.exit(hasIssues ? 2 : 0);
 })();
