@@ -2,25 +2,38 @@
 // Macropulse-events fact checker.
 //
 // Compares events.json against authoritative issuer pages (BOJ, FOMC, ECB) and
-// generates a markdown report. NEVER edits events.json. The report is the
-// human review surface; corrections are applied manually.
+// generates a markdown report. With --apply, automatically writes corrections
+// for tier-A (single authoritative issuer) mismatches and commits/pushes them.
 //
 // Trust model:
 //   - The official issuer page is THE source of truth for that issuer's events.
 //   - Raw HTML is parsed in code (no LLM in the data path) so a third-party
 //     summary cannot inject wrong dates.
-//   - Aggregator quorum (planned) is reserved for events without a single
-//     authoritative issuer.
+//   - Aggregator quorum is reserved for events without a single issuer (not in
+//     this MVP).
+//
+// Auto-apply safeguards:
+//   - --max-changes (default 5): refuse to bulk-edit if mismatches exceed this
+//     (catches a buggy parser before it corrupts the data set).
+//   - Phantoms (events.json entry for a month with no official meeting) are
+//     NEVER auto-applied -- they require a human decision (rename vs delete).
+//   - Smoke test: re-runs in memory after applying, aborts and rolls back if
+//     any mismatch remains.
+//   - Atomic commit/push with a clear message naming the source URLs.
 //
 // Usage:
-//   node factcheck/factcheck.js              # current and next year
+//   node factcheck/factcheck.js                        # report only
 //   node factcheck/factcheck.js --year 2026
-//   node factcheck/factcheck.js --no-cache   # bypass 24h HTML cache
+//   node factcheck/factcheck.js --no-cache             # bypass 24h HTML cache
+//   node factcheck/factcheck.js --apply                # auto-fix mismatches
+//   node factcheck/factcheck.js --apply --max-changes=10
+//   node factcheck/factcheck.js --apply --no-commit    # edit but don't commit
 
 'use strict';
 
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 const { getBojMeetings } = require('./sources/boj');
 const { getFomcMeetings } = require('./sources/fomc');
 const { getEcbMeetings } = require('./sources/ecb');
@@ -29,14 +42,28 @@ const ROOT = path.join(__dirname, '..');
 const EVENTS_PATH = path.join(ROOT, 'events.json');
 const REPORTS_DIR = path.join(__dirname, 'reports');
 
+const ISSUERS = [
+  { prefix: 'boj', label: 'BOJ', fetcher: getBojMeetings },
+  { prefix: 'fomc', label: 'FOMC', fetcher: getFomcMeetings },
+  { prefix: 'ecb', label: 'ECB', fetcher: getEcbMeetings },
+];
+
 function parseArgs(argv) {
-  const args = { years: null, useCache: true };
+  const args = { years: null, useCache: true, apply: false, maxChanges: 5, commit: true };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--year' || a === '-y') {
       args.years = [parseInt(argv[++i], 10)];
     } else if (a === '--no-cache') {
       args.useCache = false;
+    } else if (a === '--apply') {
+      args.apply = true;
+    } else if (a === '--no-commit') {
+      args.commit = false;
+    } else if (a === '--max-changes') {
+      args.maxChanges = parseInt(argv[++i], 10);
+    } else if (a.startsWith('--max-changes=')) {
+      args.maxChanges = parseInt(a.split('=')[1], 10);
     }
   }
   if (!args.years) {
@@ -61,9 +88,6 @@ function classifyDiff(eventDate, day1, day2) {
   return { status: 'mismatch', note: 'date does not match either Day 1 or Day 2' };
 }
 
-// Collect events.json entries for an issuer in a given year. Used to detect
-// "phantom" events whose IDs exist in our data but have no corresponding
-// official meeting (e.g. the bogus fomc_202605 from a bulk LLM run).
 function collectIdsForYear(events, prefix, year) {
   const re = new RegExp(`^${prefix}_${year}\\d{2}$`);
   return events.filter((e) => re.test(e.id));
@@ -75,13 +99,9 @@ async function checkIssuerYear({ events, year, prefix, label, fetcher, opts }) {
     result = await fetcher(year, opts);
   } catch (err) {
     return {
-      label,
-      year,
-      source: '(error)',
-      fromCache: false,
-      cachedAt: new Date(),
-      findings: [],
-      notFound: true,
+      label, prefix, year,
+      source: '(error)', fromCache: false, cachedAt: new Date(),
+      findings: [], notFound: true,
       error: String(err.message || err),
     };
   }
@@ -95,8 +115,7 @@ async function checkIssuerYear({ events, year, prefix, label, fetcher, opts }) {
     if (!ev) {
       findings.push({
         kind: 'missing',
-        year,
-        month,
+        year, month,
         expected_id: `${prefix}_${year}${String(month).padStart(2, '0')}`,
         official: m,
       });
@@ -105,9 +124,7 @@ async function checkIssuerYear({ events, year, prefix, label, fetcher, opts }) {
     const cls = classifyDiff(ev.date, m.day1, m.day2);
     findings.push({
       kind: cls.status === 'ok' ? 'ok' : 'mismatch',
-      id: ev.id,
-      year,
-      month,
+      id: ev.id, year, month,
       events_date: ev.date,
       official_day1: m.day1,
       official_day2: m.day2,
@@ -116,16 +133,14 @@ async function checkIssuerYear({ events, year, prefix, label, fetcher, opts }) {
     });
   }
 
-  // Phantom events: IDs whose month doesn't appear in the official schedule.
+  // Phantom: id present in events.json but its month has no official meeting.
   const ourEntries = collectIdsForYear(events, prefix, year);
   for (const ev of ourEntries) {
     const month = parseInt(ev.id.slice(-2), 10);
     if (!seenMonths.has(month)) {
       findings.push({
         kind: 'phantom',
-        id: ev.id,
-        year,
-        month,
+        id: ev.id, year, month,
         events_date: ev.date,
         note: 'no meeting found for this month on the official site',
       });
@@ -133,13 +148,9 @@ async function checkIssuerYear({ events, year, prefix, label, fetcher, opts }) {
   }
 
   return {
-    label,
-    year,
-    source: result.source,
-    fromCache: result.fromCache,
-    cachedAt: result.cachedAt,
-    findings,
-    notFound: result.notFound,
+    label, prefix, year,
+    source: result.source, fromCache: result.fromCache, cachedAt: result.cachedAt,
+    findings, notFound: result.notFound,
   };
 }
 
@@ -151,7 +162,6 @@ function md(reports) {
   lines.push(`Generated: ${now}`);
   lines.push(``);
   lines.push(`Compares events.json against authoritative issuer pages.`);
-  lines.push(`No automatic edits are applied; review and update events.json manually.`);
   lines.push(``);
 
   for (const r of reports) {
@@ -165,7 +175,7 @@ function md(reports) {
       continue;
     }
     if (r.notFound) {
-      lines.push(`> Year section not found / no meetings parsed. Investigate the parser or check whether the page layout changed.`);
+      lines.push(`> Year section not found / no meetings parsed.`);
       lines.push(``);
       continue;
     }
@@ -187,6 +197,8 @@ function md(reports) {
     }
     if (phantom.length) {
       lines.push(`### Phantom (events.json has an entry for a month with no official meeting)`);
+      lines.push(``);
+      lines.push(`Auto-apply skips these; rename vs delete needs a human decision.`);
       lines.push(``);
       lines.push(`| id | events.json date | note |`);
       lines.push(`|---|---|---|`);
@@ -215,22 +227,108 @@ function md(reports) {
   return lines.join('\n');
 }
 
+// --- Auto-apply -------------------------------------------------------------
+
+function collectMismatches(reports) {
+  const out = [];
+  for (const r of reports) {
+    for (const f of r.findings) {
+      if (f.kind !== 'mismatch') continue;
+      out.push({
+        id: f.id,
+        before: f.events_date,
+        after: f.official_day2,
+        issuer: r.label,
+        source: r.source,
+        label: f.official_label,
+      });
+    }
+  }
+  return out;
+}
+
+function applyToEvents(events, mismatches) {
+  for (const m of mismatches) {
+    const ev = events.find((e) => e.id === m.id);
+    if (!ev) throw new Error(`Auto-apply: id ${m.id} not found in events.json`);
+    ev.date = m.after;
+  }
+}
+
+function writeEvents(events) {
+  // Preserve existing formatting: 2-space JSON, trailing newline.
+  fs.writeFileSync(EVENTS_PATH, JSON.stringify(events, null, 2) + '\n', 'utf8');
+}
+
+async function smokeTest(years, useCache) {
+  const fresh = loadEvents();
+  const reports = [];
+  for (const year of years) {
+    for (const issuer of ISSUERS) {
+      const r = await checkIssuerYear({
+        events: fresh, year, prefix: issuer.prefix, label: issuer.label,
+        fetcher: issuer.fetcher, opts: { useCache },
+      });
+      reports.push(r);
+    }
+  }
+  const remaining = collectMismatches(reports);
+  return { ok: remaining.length === 0, remaining };
+}
+
+function gitCommitAndPush(applied) {
+  const summary = applied.map((a) => `- ${a.id}: ${a.before} -> ${a.after} (${a.issuer})`).join('\n');
+  const sources = [...new Set(applied.map((a) => a.source))].join(', ');
+  const msg = [
+    `factcheck auto-apply: ${applied.length} date correction(s)`,
+    '',
+    'Verified against authoritative issuer pages and applied automatically by',
+    'factcheck/factcheck.js --apply. Smoke test passed (zero remaining mismatches).',
+    '',
+    'Changes:',
+    summary,
+    '',
+    `Sources: ${sources}`,
+  ].join('\n');
+
+  const opts = { cwd: ROOT, stdio: ['ignore', 'pipe', 'pipe'] };
+  execFileSync('git', ['add', 'events.json'], opts);
+  execFileSync('git', ['commit', '-m', msg], opts);
+  execFileSync('git', ['push', 'origin', 'main'], opts);
+}
+
+function purgeRelayCache() {
+  // Best-effort. Don't fail the run if the relay is unreachable.
+  try {
+    execFileSync(
+      'curl',
+      [
+        '-sfS',
+        '-X', 'POST',
+        '-H', 'Content-Length: 0',
+        '--max-time', '30',
+        'https://chartr-relay-985476703637.asia-northeast1.run.app/purge-cache?key=events',
+      ],
+      { stdio: ['ignore', 'pipe', 'pipe'] },
+    );
+    return true;
+  } catch (err) {
+    process.stderr.write(`[factcheck] cache purge failed (non-fatal): ${err.message}\n`);
+    return false;
+  }
+}
+
+// --- Main -------------------------------------------------------------------
+
 (async function main() {
   const args = parseArgs(process.argv);
   const events = loadEvents();
   const reports = [];
 
-  const issuers = [
-    { prefix: 'boj', label: 'BOJ', fetcher: getBojMeetings },
-    { prefix: 'fomc', label: 'FOMC', fetcher: getFomcMeetings },
-    { prefix: 'ecb', label: 'ECB', fetcher: getEcbMeetings },
-  ];
-
   for (const year of args.years) {
-    for (const issuer of issuers) {
+    for (const issuer of ISSUERS) {
       const r = await checkIssuerYear({
-        events,
-        year,
+        events, year,
         prefix: issuer.prefix,
         label: issuer.label,
         fetcher: issuer.fetcher,
@@ -248,8 +346,78 @@ function md(reports) {
   process.stdout.write(report);
   process.stderr.write(`\n[factcheck] report written to ${outPath}\n`);
 
-  const hasIssues = reports.some((r) =>
-    r.findings.some((f) => f.kind === 'mismatch' || f.kind === 'phantom'),
-  );
-  process.exit(hasIssues ? 2 : 0);
+  const mismatches = collectMismatches(reports);
+  const phantoms = reports.flatMap((r) => r.findings.filter((f) => f.kind === 'phantom'));
+
+  if (!args.apply) {
+    const exit = mismatches.length > 0 || phantoms.length > 0 ? 2 : 0;
+    process.exit(exit);
+  }
+
+  // --- Auto-apply path -----------------------------------------------------
+  process.stderr.write(`\n[factcheck] --apply mode\n`);
+
+  if (mismatches.length === 0) {
+    process.stderr.write(`[factcheck] No mismatches; nothing to apply.\n`);
+    if (phantoms.length) {
+      process.stderr.write(`[factcheck] ${phantoms.length} phantom(s) require human review (not auto-applied).\n`);
+    }
+    process.exit(phantoms.length ? 3 : 0);
+  }
+
+  if (mismatches.length > args.maxChanges) {
+    process.stderr.write(
+      `[factcheck] ABORT: ${mismatches.length} mismatches exceeds --max-changes=${args.maxChanges}.\n` +
+        `[factcheck] This is the bulk-edit safeguard. Investigate the parser or the source page before forcing.\n`,
+    );
+    process.exit(4);
+  }
+
+  // Backup the original file in case we need to roll back.
+  const backupPath = `${EVENTS_PATH}.bak`;
+  fs.copyFileSync(EVENTS_PATH, backupPath);
+
+  try {
+    applyToEvents(events, mismatches);
+    writeEvents(events);
+    process.stderr.write(`[factcheck] applied ${mismatches.length} change(s) to events.json\n`);
+
+    const smoke = await smokeTest(args.years, args.useCache);
+    if (!smoke.ok) {
+      throw new Error(
+        `Smoke test failed after apply: ${smoke.remaining.length} mismatch(es) still present. Rolling back.`,
+      );
+    }
+    process.stderr.write(`[factcheck] smoke test passed (zero remaining mismatches)\n`);
+
+    fs.unlinkSync(backupPath);
+  } catch (err) {
+    process.stderr.write(`[factcheck] ${err.message}\n`);
+    if (fs.existsSync(backupPath)) {
+      fs.copyFileSync(backupPath, EVENTS_PATH);
+      fs.unlinkSync(backupPath);
+      process.stderr.write(`[factcheck] events.json restored from backup\n`);
+    }
+    process.exit(5);
+  }
+
+  if (args.commit) {
+    try {
+      gitCommitAndPush(mismatches);
+      process.stderr.write(`[factcheck] committed and pushed to origin/main\n`);
+      const purged = purgeRelayCache();
+      if (purged) process.stderr.write(`[factcheck] chartr-relay cache purged\n`);
+    } catch (err) {
+      process.stderr.write(`[factcheck] git commit/push failed: ${err.message}\n`);
+      process.exit(6);
+    }
+  } else {
+    process.stderr.write(`[factcheck] --no-commit set; events.json modified but not committed\n`);
+  }
+
+  if (phantoms.length) {
+    process.stderr.write(`[factcheck] ${phantoms.length} phantom(s) require human review (not auto-applied).\n`);
+    process.exit(3);
+  }
+  process.exit(0);
 })();
