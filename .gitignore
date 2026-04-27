@@ -1,0 +1,5 @@
+node_modules/
+
+# Factcheck runtime artifacts (HTML cache stays local; reports are reviewed in-place)
+factcheck/cache/
+factcheck/sources/*.html
