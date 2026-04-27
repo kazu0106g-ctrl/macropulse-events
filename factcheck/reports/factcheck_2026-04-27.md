@@ -1,9 +1,8 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-04-27T13:08:24.716Z
+Generated: 2026-04-27T13:30:11.534Z
 
 Compares events.json against authoritative issuer pages.
-No automatic edits are applied; review and update events.json manually.
 
 ## BOJ 2026
 
