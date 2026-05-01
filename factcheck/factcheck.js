@@ -37,16 +37,115 @@ const { execFileSync } = require('child_process');
 const { getBojMeetings } = require('./sources/boj');
 const { getFomcMeetings } = require('./sources/fomc');
 const { getEcbMeetings } = require('./sources/ecb');
+const bls = require('./sources/bls');
+const bea = require('./sources/bea');
 
 const ROOT = path.join(__dirname, '..');
 const EVENTS_PATH = path.join(ROOT, 'events.json');
 const REPORTS_DIR = path.join(__dirname, 'reports');
 
+// Central-bank meetings: one event id per meeting (boj_YYYYMM etc.).
 const ISSUERS = [
   { prefix: 'boj', label: 'BOJ', fetcher: getBojMeetings },
   { prefix: 'fomc', label: 'FOMC', fetcher: getFomcMeetings },
   { prefix: 'ecb', label: 'ECB', fetcher: getEcbMeetings },
 ];
+
+// Statistical releases where ONE official release corresponds to one OR more
+// events.json ids (e.g. BLS Employment Situation = NFP + Unemployment Rate;
+// BEA Personal Income and Outlays = PCE + Core PCE).
+async function gatherStatisticalReleases(year, opts) {
+  const out = [];
+  // BLS releases (Empsit, CPI, PPI).
+  for (const releaseKey of Object.keys(bls.RELEASES)) {
+    try {
+      const r = await bls.getReleases(releaseKey, year, opts);
+      for (const rel of r.releases) {
+        // Each prefix in the release maps to an event id whose YYYYMM equals
+        // the release month (events.json convention). NFP/Unemp share the
+        // same release, CPI / Core CPI share the same release, etc.
+        const releaseMonth = parseInt(rel.releaseDate.slice(5, 7), 10);
+        const releaseYear = parseInt(rel.releaseDate.slice(0, 4), 10);
+        const yyyymm = `${releaseYear}${String(releaseMonth).padStart(2, '0')}`;
+        const eventIds = r.eventPrefixes.map((p) => `${p}_${yyyymm}`);
+        out.push({
+          label: r.label,
+          source: r.source,
+          fromCache: r.fromCache,
+          cachedAt: r.cachedAt,
+          year,
+          releaseDate: rel.releaseDate,
+          referenceLabel: rel.refLabel,
+          eventIds,
+        });
+      }
+    } catch (err) {
+      out.push({ label: `BLS ${releaseKey}`, source: '(error)', error: String(err.message || err), eventIds: [] });
+    }
+  }
+  // BEA releases (GDP advance, PCE).
+  try {
+    const r = await bea.getReleases(year, opts);
+    for (const rel of r.releases) {
+      out.push({
+        label: rel.kind === 'gdp_advance' ? 'BEA GDP (Advance)' : 'BEA Personal Income & Outlays (PCE)',
+        source: r.source,
+        fromCache: r.fromCache,
+        cachedAt: r.cachedAt,
+        year,
+        releaseDate: rel.releaseDate,
+        referenceLabel: rel.title,
+        eventIds: rel.eventIds,
+      });
+    }
+  } catch (err) {
+    out.push({ label: 'BEA', source: '(error)', error: String(err.message || err), eventIds: [] });
+  }
+  return out;
+}
+
+async function checkStatisticalReleases({ events, year, opts }) {
+  const releases = await gatherStatisticalReleases(year, opts);
+  const findings = [];
+  let fromCache = true;
+  let cachedAt = new Date();
+  let source = 'BLS+BEA';
+  for (const rel of releases) {
+    if (rel.error) {
+      findings.push({ kind: 'error', note: rel.error, label: rel.label });
+      continue;
+    }
+    fromCache = fromCache && rel.fromCache;
+    cachedAt = rel.cachedAt;
+    source = rel.source;
+    for (const id of rel.eventIds) {
+      const ev = events.find((e) => e.id === id);
+      if (!ev) continue; // missing entries are not auto-flagged here
+      if (ev.date === rel.releaseDate) {
+        findings.push({ kind: 'ok', id, events_date: ev.date, official_day2: rel.releaseDate, official_label: rel.referenceLabel });
+      } else {
+        findings.push({
+          kind: 'mismatch',
+          id,
+          events_date: ev.date,
+          official_day1: null,
+          official_day2: rel.releaseDate,
+          official_label: rel.referenceLabel,
+          note: `${rel.label} schedule says ${rel.releaseDate}`,
+        });
+      }
+    }
+  }
+  return {
+    label: 'BLS/BEA',
+    year,
+    source,
+    fromCache,
+    cachedAt,
+    findings,
+    notFound: false,
+  };
+}
 
 function parseArgs(argv) {
   const args = { years: null, useCache: true, apply: false, maxChanges: 5, commit: true };
@@ -134,10 +233,15 @@ async function checkIssuerYear({ events, year, prefix, label, fetcher, opts }) {
   }
 
   // Phantom: id present in events.json but its month has no official meeting.
+  // Skip entries whose date is already in the past — those are history, the
+  // official site rolled them off the future-only calendar, and we don't want
+  // to alarm the user about events that have already happened correctly.
+  const todayIso = new Date().toISOString().slice(0, 10);
   const ourEntries = collectIdsForYear(events, prefix, year);
   for (const ev of ourEntries) {
     const month = parseInt(ev.id.slice(-2), 10);
     if (!seenMonths.has(month)) {
+      if (ev.date < todayIso) continue; // past: not a phantom, just history
       findings.push({
         kind: 'phantom',
         id: ev.id, year, month,
@@ -336,6 +440,10 @@ function purgeRelayCache() {
       });
       reports.push(r);
     }
+    const stat = await checkStatisticalReleases({
+      events, year, opts: { useCache: args.useCache },
+    });
+    reports.push(stat);
   }
 
   const report = md(reports);
