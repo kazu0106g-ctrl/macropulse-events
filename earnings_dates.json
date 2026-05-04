@@ -1,45 +1,45 @@
 {
   "AAPL": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:09.680Z"
   },
   "MSFT": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-29",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:11.078Z"
   },
   "AMZN": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Yahoo Finance verified",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:02.495Z"
   },
   "GOOGL": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Yahoo Finance verified",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-22",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:01.449Z"
   },
   "META": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-29",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:09.012Z"
   },
   "KO": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-21",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:44.689Z"
   },
   "MCD": {
     "date": "2026-05-07",
@@ -53,21 +53,21 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-31",
-    "updatedAt": "2026-04-27T08:33:44.053Z"
+    "updatedAt": "2026-05-04T08:36:23.104Z"
   },
   "SBUX": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-28",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:59.995Z"
   },
   "TSLA": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:27.074Z"
+    "updatedAt": "2026-05-04T08:37:07.094Z"
   },
   "NVDA": {
     "date": "2026-05-20",
@@ -81,63 +81,63 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:25.903Z"
+    "updatedAt": "2026-05-04T08:36:01.356Z"
   },
   "UNH": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:36.794Z"
+    "updatedAt": "2026-05-04T08:37:17.293Z"
   },
   "JNJ": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-14",
-    "updatedAt": "2026-04-27T08:33:15.152Z"
+    "updatedAt": "2026-05-04T08:35:50.956Z"
   },
   "GOOG": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Yahoo Finance verified",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-22",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:01.751Z"
   },
   "AVGO": {
     "date": "2026-06-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-04",
-    "updatedAt": "2026-04-27T08:31:58.526Z"
+    "updatedAt": "2026-05-04T08:34:24.793Z"
   },
   "ORCL": {
     "date": "2026-06-10",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-10",
-    "updatedAt": "2026-04-27T08:33:53.232Z"
+    "updatedAt": "2026-05-04T08:36:31.316Z"
   },
   "CRM": {
     "date": "2026-05-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:34:13.534Z"
+    "updatedAt": "2026-05-04T08:36:52.650Z"
   },
   "ADBE": {
     "date": "2026-06-11",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-12",
-    "updatedAt": "2026-04-27T08:31:34.292Z"
+    "updatedAt": "2026-05-04T08:33:56.094Z"
   },
   "NFLX": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:33:39.285Z"
+    "updatedAt": "2026-05-04T08:36:16.830Z"
   },
   "AMD": {
     "date": "2026-05-05",
@@ -151,14 +151,14 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:08.507Z"
+    "updatedAt": "2026-05-04T08:35:44.619Z"
   },
   "QCOM": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-29",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:44.099Z"
   },
   "CSCO": {
     "date": "2026-05-13",
@@ -172,14 +172,14 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:05.455Z"
+    "updatedAt": "2026-05-04T08:35:41.357Z"
   },
   "TXN": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:27.646Z"
+    "updatedAt": "2026-05-04T08:37:07.404Z"
   },
   "INTU": {
     "date": "2026-05-21",
@@ -193,7 +193,7 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:16.346Z"
+    "updatedAt": "2026-05-04T08:36:55.327Z"
   },
   "AMAT": {
     "date": "2026-05-14",
@@ -214,21 +214,21 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:23.146Z"
+    "updatedAt": "2026-05-04T08:35:58.413Z"
   },
   "KLAC": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:56.332Z"
   },
   "MU": {
     "date": "2026-06-24",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-18",
-    "updatedAt": "2026-04-27T08:33:33.751Z"
+    "updatedAt": "2026-05-04T08:36:10.780Z"
   },
   "MRVL": {
     "date": "2026-05-28",
@@ -238,25 +238,25 @@
     "updatedAt": "2026-04-21T13:21:29.347Z"
   },
   "NXPI": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-21",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:27.409Z"
   },
   "CDNS": {
-    "date": "2026-04-27",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-27",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:34:28.640Z"
   },
   "SNPS": {
     "date": "2026-05-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:34:23.086Z"
+    "updatedAt": "2026-05-04T08:37:02.509Z"
   },
   "SMCI": {
     "date": "2026-05-05",
@@ -277,7 +277,7 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-03",
-    "updatedAt": "2026-04-27T08:32:23.394Z"
+    "updatedAt": "2026-05-04T08:34:54.638Z"
   },
   "FTNT": {
     "date": "2026-05-06",
@@ -368,7 +368,7 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:34:52.514Z"
+    "updatedAt": "2026-05-04T08:37:36.082Z"
   },
   "ABNB": {
     "date": "2026-05-07",
@@ -452,133 +452,133 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-14",
-    "updatedAt": "2026-04-27T08:33:16.781Z"
+    "updatedAt": "2026-05-04T08:35:51.856Z"
   },
   "BAC": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:31:53.463Z"
+    "updatedAt": "2026-05-04T08:34:18.497Z"
   },
   "WFC": {
     "date": "2026-07-14",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-14",
-    "updatedAt": "2026-04-27T08:34:44.420Z"
+    "updatedAt": "2026-05-04T08:37:26.719Z"
   },
   "C": {
     "date": "2026-07-14",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-14",
-    "updatedAt": "2026-04-27T08:32:12.982Z"
+    "updatedAt": "2026-05-04T08:34:42.175Z"
   },
   "GS": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-13",
-    "updatedAt": "2026-04-27T08:32:56.751Z"
+    "updatedAt": "2026-05-04T08:35:32.383Z"
   },
   "MS": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:33:36.583Z"
+    "updatedAt": "2026-05-04T08:36:14.317Z"
   },
   "BLK": {
     "date": "2026-07-14",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-14",
-    "updatedAt": "2026-04-27T08:31:56.440Z"
+    "updatedAt": "2026-05-04T08:34:21.605Z"
   },
   "SCHW": {
     "date": "2026-07-17",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:32:10.252Z"
+    "updatedAt": "2026-05-04T08:34:38.432Z"
   },
   "AXP": {
     "date": "2026-07-17",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:31:41.435Z"
+    "updatedAt": "2026-05-04T08:34:04.450Z"
   },
   "V": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-28",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:22.022Z"
   },
   "MA": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:06.944Z"
   },
   "USB": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:34:34.512Z"
+    "updatedAt": "2026-05-04T08:37:14.339Z"
   },
   "PGR": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:34:01.147Z"
+    "updatedAt": "2026-05-04T08:36:39.780Z"
   },
   "CB": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:11.374Z"
+    "updatedAt": "2026-05-04T08:34:40.054Z"
   },
   "SPGI": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:52.355Z"
   },
   "ICE": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:45.358Z"
   },
   "CME": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:32:14.505Z"
+    "updatedAt": "2026-05-04T08:34:43.812Z"
   },
   "COF": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:03.609Z"
+    "updatedAt": "2026-05-04T08:34:30.431Z"
   },
   "LLY": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-08-06",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:00.479Z"
   },
   "PFE": {
     "date": "2026-05-05",
@@ -588,60 +588,60 @@
     "updatedAt": "2026-04-21T13:30:27.135Z"
   },
   "ABBV": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Yahoo Finance verified",
-    "updatedAt": "2026-04-22T12:30:43.958Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:33:55.206Z"
   },
   "MRK": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-28",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:08.717Z"
   },
   "TMO": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:28.826Z"
+    "updatedAt": "2026-05-04T08:37:08.730Z"
   },
   "ABT": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:31:33.390Z"
+    "updatedAt": "2026-05-04T08:33:54.899Z"
   },
   "DHR": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:24.788Z"
+    "updatedAt": "2026-05-04T08:34:56.419Z"
   },
   "BMY": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:24.261Z"
   },
   "AMGN": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-08-04",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:07.135Z"
   },
   "GILD": {
-    "date": "2026-04-23",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:32:54.388Z"
+    "updatedAt": "2026-05-04T08:35:30.706Z"
   },
   "VRTX": {
     "date": "2026-05-04",
@@ -654,43 +654,43 @@
     "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-08",
-    "updatedAt": "2026-04-27T08:34:08.877Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:47.773Z"
   },
   "CI": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:41.083Z"
   },
   "ELV": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:32:36.023Z"
+    "updatedAt": "2026-05-04T08:35:08.491Z"
   },
   "ISRG": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:33:10.038Z"
+    "updatedAt": "2026-05-04T08:35:46.387Z"
   },
   "SYK": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:01.624Z"
   },
   "BSX": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:31:58.110Z"
+    "updatedAt": "2026-05-04T08:34:23.826Z"
   },
   "MDT": {
     "date": "2026-06-03",
@@ -703,8 +703,8 @@
     "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-06",
-    "updatedAt": "2026-04-27T08:31:56.154Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:21.318Z"
   },
   "ILMN": {
     "date": "2026-05-07",
@@ -714,11 +714,11 @@
     "updatedAt": "2026-04-21T13:22:11.472Z"
   },
   "DXCM": {
-    "date": "2026-04-30",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:32:27.557Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:59.240Z"
   },
   "IDXX": {
     "date": "2026-05-05",
@@ -746,28 +746,28 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-05",
-    "updatedAt": "2026-04-27T08:32:21.850Z"
+    "updatedAt": "2026-05-04T08:34:52.864Z"
   },
   "PG": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-24",
-    "updatedAt": "2026-04-27T08:34:00.810Z"
+    "updatedAt": "2026-05-04T08:36:39.484Z"
   },
   "PEP": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:33:55.867Z"
+    "updatedAt": "2026-05-04T08:36:34.448Z"
   },
   "LOW": {
     "date": "2026-05-20",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:33:26.685Z"
+    "updatedAt": "2026-05-04T08:36:01.946Z"
   },
   "HD": {
     "date": "2026-05-19",
@@ -802,91 +802,91 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:16.468Z"
+    "updatedAt": "2026-05-04T08:34:46.768Z"
   },
   "MDLZ": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-28",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:12.571Z"
   },
   "MO": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-29",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:02.049Z"
   },
   "PM": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:56.830Z"
+    "updatedAt": "2026-05-04T08:36:35.623Z"
   },
   "CL": {
-    "date": "2026-04-24",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-30",
-    "updatedAt": "2026-04-27T08:32:16.047Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:34:46.309Z"
   },
   "KHC": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:33:21.352Z"
+    "updatedAt": "2026-05-04T08:35:56.623Z"
   },
   "MNST": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:33:35.464Z"
+    "updatedAt": "2026-05-04T08:36:13.164Z"
   },
   "KDP": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:18.333Z"
+    "updatedAt": "2026-05-04T08:35:53.173Z"
   },
   "ORLY": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-07-22",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:28.140Z"
   },
   "YUM": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-08-04",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:37:31.500Z"
   },
   "CMG": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-22",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:39.607Z"
   },
   "DPZ": {
-    "date": "2026-04-27",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-20",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:35:01.936Z"
   },
   "BKNG": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-28",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:23.385Z"
   },
   "EXPE": {
     "date": "2026-05-07",
@@ -903,18 +903,18 @@
     "updatedAt": "2026-04-21T13:30:27.135Z"
   },
   "HLT": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-22",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:36.255Z"
   },
   "CAT": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-22T12:42:05.135Z"
+    "date": "2026-08-04",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:33.523Z"
   },
   "DE": {
     "date": "2026-05-21",
@@ -928,77 +928,77 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:00.623Z"
+    "updatedAt": "2026-05-04T08:35:36.691Z"
   },
   "UNP": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:35.674Z"
+    "updatedAt": "2026-05-04T08:37:15.675Z"
   },
   "UPS": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-28",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:16.555Z"
   },
   "FDX": {
     "date": "2026-06-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-19",
-    "updatedAt": "2026-04-27T08:32:46.375Z"
+    "updatedAt": "2026-05-04T08:35:20.498Z"
   },
   "BA": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:31:57.695Z"
+    "updatedAt": "2026-05-04T08:34:22.651Z"
   },
   "RTX": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:07.095Z"
+    "updatedAt": "2026-05-04T08:36:46.006Z"
   },
   "GE": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:51.170Z"
+    "updatedAt": "2026-05-04T08:35:26.572Z"
   },
   "NOC": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:33:47.627Z"
+    "updatedAt": "2026-05-04T08:36:25.042Z"
   },
   "GD": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-22",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:28.627Z"
   },
   "ETN": {
     "date": "2026-05-01",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:32:33.661Z"
+    "updatedAt": "2026-05-04T08:35:05.942Z"
   },
   "PH": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-08-06",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:33.417Z"
   },
   "EMR": {
     "date": "2026-05-05",
@@ -1012,105 +1012,105 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:31:32.396Z"
+    "updatedAt": "2026-05-04T08:33:54.143Z"
   },
   "ADP": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-29",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:14.977Z"
   },
   "PAYX": {
     "date": "2026-06-24",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-25",
-    "updatedAt": "2026-04-27T08:33:55.201Z"
+    "updatedAt": "2026-05-04T08:36:33.713Z"
   },
   "XOM": {
-    "date": "2026-05-01",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-31",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:35:17.374Z"
   },
   "CVX": {
     "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-09",
-    "updatedAt": "2026-04-27T08:32:10.959Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:34:39.170Z"
   },
   "COP": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-08-06",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:48.428Z"
   },
   "EOG": {
     "date": "2026-08-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-09",
-    "updatedAt": "2026-04-27T08:32:37.031Z"
+    "updatedAt": "2026-05-04T08:35:09.662Z"
   },
   "SLB": {
     "date": "2026-07-17",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-24",
-    "updatedAt": "2026-04-27T08:34:15.103Z"
+    "updatedAt": "2026-05-04T08:36:53.987Z"
   },
   "PSX": {
     "date": "2026-07-24",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-06",
-    "updatedAt": "2026-04-27T08:33:57.253Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:36.060Z"
   },
   "MPC": {
     "date": "2026-08-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-13",
-    "updatedAt": "2026-04-27T08:33:29.177Z"
+    "updatedAt": "2026-05-04T08:36:05.040Z"
   },
   "OXY": {
     "date": "2026-08-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-10",
-    "updatedAt": "2026-04-27T08:33:50.372Z"
+    "updatedAt": "2026-05-04T08:36:28.591Z"
   },
   "VLO": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-23",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:18.315Z"
   },
   "FANG": {
     "date": "2026-08-03",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-13",
-    "updatedAt": "2026-04-27T08:32:28.104Z"
+    "updatedAt": "2026-05-04T08:34:59.852Z"
   },
   "NEE": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:43.489Z"
+    "updatedAt": "2026-05-04T08:36:22.506Z"
   },
   "SO": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:58.383Z"
   },
   "DUK": {
     "date": "2026-05-05",
@@ -1120,67 +1120,67 @@
     "updatedAt": "2026-04-21T13:30:27.135Z"
   },
   "XEL": {
-    "date": "2026-04-23",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:34:47.944Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:30.739Z"
   },
   "PLD": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:34:01.704Z"
+    "updatedAt": "2026-05-04T08:36:40.376Z"
   },
   "EQIX": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-29",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:11.141Z"
   },
   "AMT": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-28",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:05.347Z"
   },
   "LIN": {
-    "date": "2026-05-01",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-31",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:36:00.773Z"
   },
   "SHW": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-21",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:55.761Z"
   },
   "VZ": {
-    "date": "2026-04-27",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-20",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:37:19.816Z"
   },
   "T": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:31:49.345Z"
+    "updatedAt": "2026-05-04T08:34:13.778Z"
   },
   "TMUS": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-22",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:03.832Z"
   },
   "BRK-B": {
     "date": "2026-05-04",
@@ -1208,42 +1208,42 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:34:24.673Z"
+    "updatedAt": "2026-05-04T08:37:04.581Z"
   },
   "F": {
-    "date": "2026-04-29",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-29",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:23.579Z"
   },
   "GM": {
-    "date": "2026-04-28",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
+    "date": "2026-07-21",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:29.521Z"
   },
   "CCL": {
     "date": "2026-06-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-27",
-    "updatedAt": "2026-04-27T08:32:04.720Z"
+    "updatedAt": "2026-05-04T08:34:31.597Z"
   },
   "DAL": {
     "date": "2026-07-09",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-08",
-    "updatedAt": "2026-04-27T08:32:26.332Z"
+    "updatedAt": "2026-05-04T08:34:58.058Z"
   },
   "UAL": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:36.088Z"
+    "updatedAt": "2026-05-04T08:37:16.260Z"
   },
   "AAL": {
     "date": "2026-04-23",
@@ -1257,84 +1257,84 @@
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:19.260Z"
+    "updatedAt": "2026-05-04T08:36:58.672Z"
   },
   "ASML": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:34:49.102Z"
+    "updatedAt": "2026-05-04T08:37:32.536Z"
   },
   "ARM": {
     "date": "2026-08-10",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:49.385Z"
+    "updatedAt": "2026-05-04T08:37:32.828Z"
   },
   "TSM": {
     "date": "2026-07-17",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-17",
-    "updatedAt": "2026-04-27T08:34:49.661Z"
+    "updatedAt": "2026-05-04T08:37:33.131Z"
   },
   "BABA": {
-    "date": "2026-07-24",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-24",
-    "updatedAt": "2026-04-27T08:34:49.942Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:37:33.420Z"
   },
   "PDD": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-26",
-    "updatedAt": "2026-04-27T08:34:50.219Z"
+    "updatedAt": "2026-05-04T08:37:33.727Z"
   },
   "JD": {
-    "date": "2026-07-16",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:34:50.495Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:34.029Z"
   },
   "BIDU": {
-    "date": "2026-07-23",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:50.778Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:34.320Z"
   },
   "NIO": {
     "date": "2026-07-10",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-10",
-    "updatedAt": "2026-04-27T08:34:51.056Z"
+    "updatedAt": "2026-05-04T08:37:34.607Z"
   },
   "TM": {
-    "date": "2026-06-29",
+    "date": "2026-08-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-03-30",
-    "updatedAt": "2026-04-27T08:34:51.338Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:34.898Z"
   },
   "SONY": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:51.622Z"
+    "updatedAt": "2026-05-04T08:37:35.192Z"
   },
   "SPOT": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:34:51.897Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:35.492Z"
   },
   "XYZ": {
     "date": "2026-05-07",
@@ -1358,2397 +1358,2397 @@
     "updatedAt": "2026-04-21T13:22:56.928Z"
   },
   "AOS": {
-    "date": "2026-04-28",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:31:32.822Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:33:54.590Z"
   },
   "ACN": {
     "date": "2026-06-19",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-19",
-    "updatedAt": "2026-04-27T08:31:33.849Z"
+    "updatedAt": "2026-05-04T08:33:55.651Z"
   },
   "AES": {
     "date": "2026-05-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2025-11-04",
-    "updatedAt": "2026-04-27T08:31:34.931Z"
+    "updatedAt": "2026-05-04T08:33:56.697Z"
   },
   "AFL": {
-    "date": "2026-04-29",
+    "date": "2026-08-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:31:35.209Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:33:57.153Z"
   },
   "A": {
     "date": "2026-05-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:31:35.809Z"
+    "updatedAt": "2026-05-04T08:33:57.594Z"
   },
   "APD": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-30",
-    "updatedAt": "2026-04-27T08:31:36.273Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:33:57.906Z"
   },
   "AKAM": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:31:36.583Z"
+    "updatedAt": "2026-05-04T08:33:58.211Z"
   },
   "ALB": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:31:37.320Z"
+    "updatedAt": "2026-05-04T08:33:58.894Z"
   },
   "ARE": {
-    "date": "2026-04-27",
+    "date": "2026-07-20",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-26",
-    "updatedAt": "2026-04-27T08:31:37.723Z"
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:33:59.199Z"
   },
   "ALGN": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:31:38.141Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:33:59.795Z"
   },
   "ALLE": {
-    "date": "2026-04-23",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:31:38.592Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:00.239Z"
   },
   "LNT": {
-    "date": "2026-05-08",
+    "date": "2026-08-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-20",
-    "updatedAt": "2026-04-27T08:31:39.070Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:34:00.554Z"
   },
   "ALL": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:31:39.682Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:01.152Z"
   },
   "AMCR": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:31:40.125Z"
+    "updatedAt": "2026-05-04T08:34:02.946Z"
   },
   "AEE": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:31:40.583Z"
+    "updatedAt": "2026-05-04T08:34:03.406Z"
   },
   "AEP": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:31:40.862Z"
+    "updatedAt": "2026-05-04T08:34:03.853Z"
   },
   "AIG": {
-    "date": "2026-04-30",
+    "date": "2026-08-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:31:41.739Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:05.044Z"
   },
   "AWK": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:31:42.491Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:05.800Z"
   },
   "AMP": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:31:42.800Z"
+    "updatedAt": "2026-05-04T08:34:06.243Z"
   },
   "AME": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:31:43.086Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:06.695Z"
   },
   "APH": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-28",
-    "updatedAt": "2026-04-27T08:31:43.698Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:07.742Z"
   },
   "AON": {
-    "date": "2026-04-24",
+    "date": "2026-07-24",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-30",
-    "updatedAt": "2026-04-27T08:31:43.993Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:34:08.039Z"
   },
   "APA": {
     "date": "2026-08-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-14",
-    "updatedAt": "2026-04-27T08:31:44.372Z"
+    "updatedAt": "2026-05-04T08:34:08.339Z"
   },
   "APO": {
     "date": "2026-06-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-01",
-    "updatedAt": "2026-04-27T08:31:45.236Z"
+    "updatedAt": "2026-05-04T08:34:09.229Z"
   },
   "APP": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:31:45.718Z"
+    "updatedAt": "2026-05-04T08:34:10.126Z"
   },
   "APTV": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-02",
-    "updatedAt": "2026-04-27T08:31:46.546Z"
+    "updatedAt": "2026-05-04T08:34:10.604Z"
   },
   "ACGL": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-09",
-    "updatedAt": "2026-04-27T08:31:46.967Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:11.079Z"
   },
   "ADM": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:31:47.251Z"
+    "updatedAt": "2026-05-04T08:34:11.393Z"
   },
   "ARES": {
-    "date": "2026-05-04",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:31:47.810Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:34:12.142Z"
   },
   "ANET": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:31:48.154Z"
+    "updatedAt": "2026-05-04T08:34:12.441Z"
   },
   "AJG": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:31:48.456Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:12.881Z"
   },
   "AIZ": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:31:48.779Z"
+    "updatedAt": "2026-05-04T08:34:13.187Z"
   },
   "ATO": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:31:50.174Z"
+    "updatedAt": "2026-05-04T08:34:14.231Z"
   },
   "ADSK": {
     "date": "2026-05-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:31:50.745Z"
+    "updatedAt": "2026-05-04T08:34:14.680Z"
   },
   "AZO": {
     "date": "2026-05-26",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-03",
-    "updatedAt": "2026-04-27T08:31:51.091Z"
+    "updatedAt": "2026-05-04T08:34:15.271Z"
   },
   "AVB": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:31:51.462Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:15.595Z"
   },
   "AVY": {
-    "date": "2026-07-22",
+    "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:31:51.756Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:16.039Z"
   },
   "AXON": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:31:52.353Z"
+    "updatedAt": "2026-05-04T08:34:16.628Z"
   },
   "BKR": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:31:52.767Z"
+    "updatedAt": "2026-05-04T08:34:17.072Z"
   },
   "BALL": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:31:53.127Z"
+    "updatedAt": "2026-05-04T08:34:17.534Z"
   },
   "BAX": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:31:54.018Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:19.252Z"
   },
   "BDX": {
     "date": "2026-07-02",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-02",
-    "updatedAt": "2026-04-27T08:31:54.595Z"
+    "updatedAt": "2026-05-04T08:34:19.841Z"
   },
   "BBY": {
     "date": "2026-05-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-03",
-    "updatedAt": "2026-04-27T08:31:55.028Z"
+    "updatedAt": "2026-05-04T08:34:20.284Z"
   },
   "TECH": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:31:55.598Z"
+    "updatedAt": "2026-05-04T08:34:20.875Z"
   },
   "BX": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:31:56.859Z"
+    "updatedAt": "2026-05-04T08:34:21.903Z"
   },
   "BK": {
     "date": "2026-07-14",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:31:57.272Z"
+    "updatedAt": "2026-05-04T08:34:22.196Z"
   },
   "BR": {
-    "date": "2026-04-30",
+    "date": "2026-08-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:31:58.805Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:25.088Z"
   },
   "BRO": {
-    "date": "2026-04-27",
+    "date": "2026-08-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-26",
-    "updatedAt": "2026-04-27T08:31:59.379Z"
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:34:25.671Z"
   },
   "BF-B": {
     "date": "2026-06-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-04",
-    "updatedAt": "2026-04-27T08:31:59.929Z"
+    "updatedAt": "2026-05-04T08:34:26.415Z"
   },
   "BLDR": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:32:00.244Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:26.850Z"
   },
   "BG": {
-    "date": "2026-05-06",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:00.920Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:27.579Z"
   },
   "BXP": {
-    "date": "2026-04-28",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-28",
-    "updatedAt": "2026-04-27T08:32:01.344Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:28.026Z"
   },
   "CHRW": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-28",
-    "updatedAt": "2026-04-27T08:32:01.627Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:28.330Z"
   },
   "CPT": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:32:02.480Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:29.375Z"
   },
   "CPB": {
     "date": "2026-06-01",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-11",
-    "updatedAt": "2026-04-27T08:32:02.796Z"
+    "updatedAt": "2026-05-04T08:34:29.697Z"
   },
   "CAH": {
-    "date": "2026-04-30",
+    "date": "2026-08-11",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:32:04.301Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:31.163Z"
   },
   "CARR": {
-    "date": "2026-04-30",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:32:05.125Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:32.047Z"
   },
   "CVNA": {
-    "date": "2026-05-06",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:05.468Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:32.337Z"
   },
   "CASY": {
     "date": "2026-06-08",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-09",
-    "updatedAt": "2026-04-27T08:32:05.774Z"
+    "updatedAt": "2026-05-04T08:34:32.636Z"
   },
   "CBOE": {
-    "date": "2026-05-01",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-06",
-    "updatedAt": "2026-04-27T08:32:06.070Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:34:33.819Z"
   },
   "CBRE": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:06.640Z"
+    "updatedAt": "2026-05-04T08:34:34.559Z"
   },
   "CDW": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:07.071Z"
+    "updatedAt": "2026-05-04T08:34:35.156Z"
   },
   "COR": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:07.619Z"
+    "updatedAt": "2026-05-04T08:34:35.743Z"
   },
   "CNC": {
-    "date": "2026-04-24",
+    "date": "2026-07-24",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-06",
-    "updatedAt": "2026-04-27T08:32:08.028Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:36.185Z"
   },
   "CNP": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:08.847Z"
+    "updatedAt": "2026-05-04T08:34:37.063Z"
   },
   "CF": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:09.270Z"
+    "updatedAt": "2026-05-04T08:34:37.368Z"
   },
   "CRL": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:09.817Z"
+    "updatedAt": "2026-05-04T08:34:37.961Z"
   },
   "CHTR": {
     "date": "2026-07-24",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-24",
-    "updatedAt": "2026-04-27T08:32:10.538Z"
+    "updatedAt": "2026-05-04T08:34:38.729Z"
   },
   "CHD": {
-    "date": "2026-04-30",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-30",
-    "updatedAt": "2026-04-27T08:32:11.659Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:34:40.344Z"
   },
   "CIEN": {
     "date": "2026-06-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-05",
-    "updatedAt": "2026-04-27T08:32:11.938Z"
+    "updatedAt": "2026-05-04T08:34:40.649Z"
   },
   "CINF": {
-    "date": "2026-04-27",
+    "date": "2026-07-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-09",
-    "updatedAt": "2026-04-27T08:32:12.218Z"
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:34:41.374Z"
   },
   "CTAS": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-25",
-    "updatedAt": "2026-04-27T08:32:12.632Z"
+    "updatedAt": "2026-05-04T08:34:41.814Z"
   },
   "CFG": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:32:13.543Z"
+    "updatedAt": "2026-05-04T08:34:42.618Z"
   },
   "CLX": {
-    "date": "2026-05-04",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:32:14.234Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:43.368Z"
   },
   "CMS": {
-    "date": "2026-04-23",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:32:14.789Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:44.249Z"
   },
   "CTSH": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:15.068Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:34:45.122Z"
   },
   "COHR": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:15.365Z"
+    "updatedAt": "2026-05-04T08:34:45.564Z"
   },
   "FIX": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:16.873Z"
+    "updatedAt": "2026-05-04T08:34:47.352Z"
   },
   "CAG": {
     "date": "2026-07-09",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-01",
-    "updatedAt": "2026-04-27T08:32:17.558Z"
+    "updatedAt": "2026-05-04T08:34:48.134Z"
   },
   "ED": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:32:18.108Z"
+    "updatedAt": "2026-05-04T08:34:49.017Z"
   },
   "STZ": {
     "date": "2026-06-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-08",
-    "updatedAt": "2026-04-27T08:32:18.529Z"
+    "updatedAt": "2026-05-04T08:34:49.319Z"
   },
   "CEG": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:32:19.333Z"
+    "updatedAt": "2026-05-04T08:34:49.902Z"
   },
   "COO": {
     "date": "2026-05-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-05",
-    "updatedAt": "2026-04-27T08:32:19.749Z"
+    "updatedAt": "2026-05-04T08:34:50.342Z"
   },
   "CPRT": {
     "date": "2026-05-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:32:20.039Z"
+    "updatedAt": "2026-05-04T08:34:50.638Z"
   },
   "GLW": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-28",
-    "updatedAt": "2026-04-27T08:32:20.316Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:51.093Z"
   },
   "CPAY": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:20.595Z"
+    "updatedAt": "2026-05-04T08:34:51.533Z"
   },
   "CTVA": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:32:21.003Z"
+    "updatedAt": "2026-05-04T08:34:51.988Z"
   },
   "CSGP": {
-    "date": "2026-04-28",
+    "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:32:21.425Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:34:52.422Z"
   },
   "CTRA": {
     "date": "2026-05-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:32:22.419Z"
+    "updatedAt": "2026-05-04T08:34:53.458Z"
   },
   "CRH": {
-    "date": "2026-05-04",
+    "date": "2026-08-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:22.840Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:34:54.047Z"
   },
   "CCI": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:32:23.802Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:34:55.370Z"
   },
   "CSX": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:32:24.087Z"
+    "updatedAt": "2026-05-04T08:34:55.672Z"
   },
   "CMI": {
     "date": "2026-05-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:32:24.376Z"
+    "updatedAt": "2026-05-04T08:34:55.983Z"
   },
   "DRI": {
     "date": "2026-06-19",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-19",
-    "updatedAt": "2026-04-27T08:32:25.063Z"
+    "updatedAt": "2026-05-04T08:34:56.730Z"
   },
   "DVA": {
     "date": "2026-05-11",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-02",
-    "updatedAt": "2026-04-27T08:32:25.337Z"
+    "updatedAt": "2026-05-04T08:34:57.023Z"
   },
   "DECK": {
     "date": "2026-05-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:32:25.620Z"
+    "updatedAt": "2026-05-04T08:34:57.320Z"
   },
   "DELL": {
     "date": "2026-05-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:32:26.042Z"
+    "updatedAt": "2026-05-04T08:34:57.764Z"
   },
   "DVN": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:32:27.149Z"
+    "updatedAt": "2026-05-04T08:34:58.936Z"
   },
   "DLR": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:28.653Z"
+    "updatedAt": "2026-05-04T08:35:00.299Z"
   },
   "DG": {
     "date": "2026-06-02",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-12",
-    "updatedAt": "2026-04-27T08:32:28.929Z"
+    "updatedAt": "2026-05-04T08:35:00.591Z"
   },
   "DLTR": {
     "date": "2026-06-03",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-16",
-    "updatedAt": "2026-04-27T08:32:29.208Z"
+    "updatedAt": "2026-05-04T08:35:00.881Z"
   },
   "D": {
-    "date": "2026-04-30",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-23",
-    "updatedAt": "2026-04-27T08:32:29.627Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:35:01.344Z"
   },
   "DASH": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:29.901Z"
+    "updatedAt": "2026-05-04T08:35:02.243Z"
   },
   "DOV": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:30.454Z"
+    "updatedAt": "2026-05-04T08:35:02.844Z"
   },
   "DOW": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:30.869Z"
+    "updatedAt": "2026-05-04T08:35:03.283Z"
   },
   "DHI": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:31.317Z"
+    "updatedAt": "2026-05-04T08:35:03.581Z"
   },
   "DTE": {
-    "date": "2026-05-01",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-27",
-    "updatedAt": "2026-04-27T08:32:32.415Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:35:04.612Z"
   },
   "DD": {
     "date": "2026-05-01",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:32:33.106Z"
+    "updatedAt": "2026-05-04T08:35:05.348Z"
   },
   "EBAY": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:33.958Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:06.233Z"
   },
   "SATS": {
     "date": "2026-05-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2017-02-24",
-    "updatedAt": "2026-04-27T08:32:34.368Z"
+    "updatedAt": "2026-05-04T08:35:06.687Z"
   },
   "ECL": {
-    "date": "2026-06-26",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-03-27",
-    "updatedAt": "2026-04-27T08:32:34.774Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:07.140Z"
   },
   "EIX": {
-    "date": "2026-04-28",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:35.313Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:07.734Z"
   },
   "EW": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:35.606Z"
+    "updatedAt": "2026-05-04T08:35:08.034Z"
   },
   "EME": {
-    "date": "2026-04-29",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:32:36.327Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:08.782Z"
   },
   "ETR": {
-    "date": "2026-04-28",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:32:36.746Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:09.365Z"
   },
   "EPAM": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:32:37.453Z"
+    "updatedAt": "2026-05-04T08:35:10.099Z"
   },
   "EQT": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:37.863Z"
+    "updatedAt": "2026-05-04T08:35:10.393Z"
   },
   "EFX": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:38.287Z"
+    "updatedAt": "2026-05-04T08:35:10.842Z"
   },
   "EQR": {
-    "date": "2026-04-28",
+    "date": "2026-08-03",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:32:38.844Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:11.743Z"
   },
   "ERIE": {
     "date": "2026-08-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:39.255Z"
+    "updatedAt": "2026-05-04T08:35:12.180Z"
   },
   "ESS": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:39.536Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:12.471Z"
   },
   "EL": {
-    "date": "2026-04-30",
+    "date": "2026-08-19",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:32:39.960Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:35:12.917Z"
   },
   "EG": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:40.647Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:13.518Z"
   },
   "EVRG": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:32:41.057Z"
+    "updatedAt": "2026-05-04T08:35:13.951Z"
   },
   "ES": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:32:41.618Z"
+    "updatedAt": "2026-05-04T08:35:14.546Z"
   },
   "EXC": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:32:42.170Z"
+    "updatedAt": "2026-05-04T08:35:15.125Z"
   },
   "EXE": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:32:42.731Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:15.863Z"
   },
   "EXPD": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:32:43.271Z"
+    "updatedAt": "2026-05-04T08:35:16.342Z"
   },
   "EXR": {
-    "date": "2026-04-28",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:32:43.553Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:16.635Z"
   },
   "FFIV": {
-    "date": "2026-04-27",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-27",
-    "updatedAt": "2026-04-27T08:32:43.833Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:17.818Z"
   },
   "FDS": {
     "date": "2026-06-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-31",
-    "updatedAt": "2026-04-27T08:32:44.377Z"
+    "updatedAt": "2026-05-04T08:35:18.417Z"
   },
   "FICO": {
-    "date": "2026-04-28",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-28",
-    "updatedAt": "2026-04-27T08:32:45.214Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:19.148Z"
   },
   "FAST": {
     "date": "2026-07-13",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-13",
-    "updatedAt": "2026-04-27T08:32:45.632Z"
+    "updatedAt": "2026-05-04T08:35:19.761Z"
   },
   "FRT": {
-    "date": "2026-05-07",
+    "date": "2026-08-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:32:46.055Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:35:20.199Z"
   },
   "FIS": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:32:47.052Z"
+    "updatedAt": "2026-05-04T08:35:21.229Z"
   },
   "FITB": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-17",
-    "updatedAt": "2026-04-27T08:32:47.479Z"
+    "updatedAt": "2026-05-04T08:35:21.671Z"
   },
   "FSLR": {
-    "date": "2026-04-28",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:32:47.761Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:21.968Z"
   },
   "FE": {
-    "date": "2026-07-22",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:32:48.047Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:22.406Z"
   },
   "FISV": {
-    "date": "2026-04-23",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:32:48.327Z"
+    "updatedAt": "2026-05-04T08:35:22.705Z"
   },
   "FTV": {
-    "date": "2026-04-30",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:48.761Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:24.025Z"
   },
   "FOXA": {
     "date": "2026-05-11",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:49.044Z"
+    "updatedAt": "2026-05-04T08:35:24.325Z"
   },
   "FOX": {
     "date": "2026-05-11",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:49.319Z"
+    "updatedAt": "2026-05-04T08:35:24.644Z"
   },
   "BEN": {
-    "date": "2026-05-01",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-30",
-    "updatedAt": "2026-04-27T08:32:49.600Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:24.949Z"
   },
   "FCX": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:50.295Z"
+    "updatedAt": "2026-05-04T08:35:25.681Z"
   },
   "GRMN": {
-    "date": "2026-05-20",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:50.588Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:25.972Z"
   },
   "IT": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:32:50.888Z"
+    "updatedAt": "2026-05-04T08:35:26.275Z"
   },
   "GEHC": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:32:51.614Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:27.013Z"
   },
   "GEV": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:32:51.885Z"
+    "updatedAt": "2026-05-04T08:35:27.298Z"
   },
   "GEN": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:32:52.434Z"
+    "updatedAt": "2026-05-04T08:35:27.745Z"
   },
   "GNRC": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:32:53.131Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:28.334Z"
   },
   "GIS": {
     "date": "2026-06-24",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-18",
-    "updatedAt": "2026-04-27T08:32:53.548Z"
+    "updatedAt": "2026-05-04T08:35:29.078Z"
   },
   "GPC": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:54.102Z"
+    "updatedAt": "2026-05-04T08:35:30.250Z"
   },
   "GPN": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:32:55.074Z"
+    "updatedAt": "2026-05-04T08:35:31.428Z"
   },
   "GL": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:32:56.113Z"
+    "updatedAt": "2026-05-04T08:35:31.727Z"
   },
   "GDDY": {
-    "date": "2026-04-30",
+    "date": "2026-08-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:32:56.392Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:32.021Z"
   },
   "HAL": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:32:57.158Z"
+    "updatedAt": "2026-05-04T08:35:32.831Z"
   },
   "HIG": {
     "date": "2026-07-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:57.449Z"
+    "updatedAt": "2026-05-04T08:35:33.130Z"
   },
   "HAS": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:32:57.857Z"
+    "updatedAt": "2026-05-04T08:35:33.588Z"
   },
   "HCA": {
     "date": "2026-07-24",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-24",
-    "updatedAt": "2026-04-27T08:32:58.420Z"
+    "updatedAt": "2026-05-04T08:35:34.329Z"
   },
   "DOC": {
-    "date": "2026-04-23",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-02",
-    "updatedAt": "2026-04-27T08:32:59.160Z"
+    "updatedAt": "2026-05-04T08:35:34.930Z"
   },
   "HSIC": {
     "date": "2026-05-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:32:59.450Z"
+    "updatedAt": "2026-05-04T08:35:35.223Z"
   },
   "HSY": {
     "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-03-31",
-    "updatedAt": "2026-04-27T08:32:59.858Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:35.663Z"
   },
   "HPE": {
     "date": "2026-06-02",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-09",
-    "updatedAt": "2026-04-27T08:33:00.185Z"
+    "updatedAt": "2026-05-04T08:35:35.956Z"
   },
   "HRL": {
     "date": "2026-05-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:33:00.905Z"
+    "updatedAt": "2026-05-04T08:35:36.986Z"
   },
   "HST": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:33:01.182Z"
+    "updatedAt": "2026-05-04T08:35:37.280Z"
   },
   "HWM": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:33:02.211Z"
+    "updatedAt": "2026-05-04T08:35:38.190Z"
   },
   "HPQ": {
     "date": "2026-05-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:33:02.685Z"
+    "updatedAt": "2026-05-04T08:35:38.645Z"
   },
   "HUBB": {
-    "date": "2026-04-30",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:33:02.971Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:38.950Z"
   },
   "HUM": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:33:03.682Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:39.842Z"
   },
   "HBAN": {
     "date": "2026-07-17",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:04.263Z"
+    "updatedAt": "2026-05-04T08:35:40.474Z"
   },
   "HII": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:04.565Z"
+    "updatedAt": "2026-05-04T08:35:40.920Z"
   },
   "IEX": {
-    "date": "2026-04-30",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:33:05.881Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:41.653Z"
   },
   "ITW": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:33:06.303Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:42.096Z"
   },
   "INCY": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:33:06.980Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:42.682Z"
   },
   "IR": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:33:07.257Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:42.982Z"
   },
   "PODD": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:33:07.814Z"
+    "updatedAt": "2026-05-04T08:35:43.727Z"
   },
   "IBKR": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:33:08.809Z"
+    "updatedAt": "2026-05-04T08:35:45.057Z"
   },
   "IFF": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:33:09.118Z"
+    "updatedAt": "2026-05-04T08:35:45.647Z"
   },
   "IP": {
-    "date": "2026-04-29",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:33:09.553Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:46.090Z"
   },
   "IVZ": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-27",
-    "updatedAt": "2026-04-27T08:33:10.617Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:46.971Z"
   },
   "INVH": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:33:11.174Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:35:47.407Z"
   },
   "IQV": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:11.587Z"
+    "updatedAt": "2026-05-04T08:35:47.847Z"
   },
   "IRM": {
-    "date": "2026-04-30",
+    "date": "2026-08-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:33:12.093Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:48.167Z"
   },
   "JBHT": {
     "date": "2026-07-14",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:33:12.999Z"
+    "updatedAt": "2026-05-04T08:35:48.612Z"
   },
   "JBL": {
     "date": "2026-06-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-18",
-    "updatedAt": "2026-04-27T08:33:13.445Z"
+    "updatedAt": "2026-05-04T08:35:49.044Z"
   },
   "JKHY": {
-    "date": "2026-05-05",
+    "date": "2026-08-18",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:33:13.902Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:49.482Z"
   },
   "J": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:33:14.738Z"
+    "updatedAt": "2026-05-04T08:35:50.372Z"
   },
   "JCI": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:33:15.586Z"
+    "updatedAt": "2026-05-04T08:35:51.414Z"
   },
   "KVUE": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:33:17.507Z"
+    "updatedAt": "2026-05-04T08:35:52.300Z"
   },
   "KEY": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:33:18.792Z"
+    "updatedAt": "2026-05-04T08:35:53.465Z"
   },
   "KEYS": {
     "date": "2026-05-19",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-23",
-    "updatedAt": "2026-04-27T08:33:19.340Z"
+    "updatedAt": "2026-05-04T08:35:54.055Z"
   },
   "KMB": {
-    "date": "2026-07-21",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-27",
-    "updatedAt": "2026-04-27T08:33:19.765Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:35:54.349Z"
   },
   "KIM": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:33:20.037Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:54.684Z"
   },
   "KMI": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:20.462Z"
+    "updatedAt": "2026-05-04T08:35:55.271Z"
   },
   "KKR": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:20.874Z"
+    "updatedAt": "2026-05-04T08:35:55.741Z"
   },
   "KR": {
     "date": "2026-06-19",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-05",
-    "updatedAt": "2026-04-27T08:33:21.634Z"
+    "updatedAt": "2026-05-04T08:35:56.925Z"
   },
   "LHX": {
-    "date": "2026-04-23",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:33:22.185Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:57.527Z"
   },
   "LH": {
-    "date": "2026-04-28",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:33:22.850Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:35:58.116Z"
   },
   "LVS": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:23.710Z"
+    "updatedAt": "2026-05-04T08:35:58.851Z"
   },
   "LDOS": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:33:24.378Z"
+    "updatedAt": "2026-05-04T08:35:59.451Z"
   },
   "LEN": {
     "date": "2026-06-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-12",
-    "updatedAt": "2026-04-27T08:33:24.984Z"
+    "updatedAt": "2026-05-04T08:35:59.890Z"
   },
   "LII": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-28",
-    "updatedAt": "2026-04-27T08:33:25.295Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:00.188Z"
   },
   "LYV": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:33:25.572Z"
+    "updatedAt": "2026-05-04T08:36:01.064Z"
   },
   "L": {
     "date": "2026-05-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-09",
-    "updatedAt": "2026-04-27T08:33:26.346Z"
+    "updatedAt": "2026-05-04T08:36:01.649Z"
   },
   "LULU": {
     "date": "2026-06-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-17",
-    "updatedAt": "2026-04-27T08:33:27.104Z"
+    "updatedAt": "2026-05-04T08:36:02.538Z"
   },
   "LITE": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:33:27.652Z"
+    "updatedAt": "2026-05-04T08:36:03.121Z"
   },
   "LYB": {
-    "date": "2026-04-24",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-30",
-    "updatedAt": "2026-04-27T08:33:28.032Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:36:03.563Z"
   },
   "MTB": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:33:28.895Z"
+    "updatedAt": "2026-05-04T08:36:04.600Z"
   },
   "MRSH": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:33:29.745Z"
+    "updatedAt": "2026-05-04T08:36:05.470Z"
   },
   "MLM": {
-    "date": "2026-04-29",
+    "date": "2026-08-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:33:30.040Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:06.062Z"
   },
   "MAS": {
     "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:30.597Z"
+    "updatedAt": "2026-05-04T08:36:06.650Z"
   },
   "MKC": {
     "date": "2026-06-25",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-31",
-    "updatedAt": "2026-04-27T08:33:31.057Z"
+    "updatedAt": "2026-05-04T08:36:07.547Z"
   },
   "MCK": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:33:31.739Z"
+    "updatedAt": "2026-05-04T08:36:08.424Z"
   },
   "MET": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:33:32.168Z"
+    "updatedAt": "2026-05-04T08:36:09.473Z"
   },
   "MTD": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:32.463Z"
+    "updatedAt": "2026-05-04T08:36:09.766Z"
   },
   "MGM": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:32.996Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:10.200Z"
   },
   "MCHP": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:33.288Z"
+    "updatedAt": "2026-05-04T08:36:10.488Z"
   },
   "MAA": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:33:34.163Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:11.369Z"
   },
   "MRNA": {
-    "date": "2026-04-30",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-13",
-    "updatedAt": "2026-04-27T08:33:34.601Z"
+    "lastFilingDate": "2026-05-01",
+    "updatedAt": "2026-05-04T08:36:11.807Z"
   },
   "TAP": {
-    "date": "2026-05-07",
+    "date": "2026-08-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:33:34.907Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:12.103Z"
   },
   "MPWR": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:35.183Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:12.871Z"
   },
   "MCO": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:36.140Z"
+    "updatedAt": "2026-05-04T08:36:13.895Z"
   },
   "MOS": {
     "date": "2026-05-26",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:33:37.189Z"
+    "updatedAt": "2026-05-04T08:36:14.762Z"
   },
   "MSI": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:33:37.495Z"
+    "updatedAt": "2026-05-04T08:36:15.062Z"
   },
   "MSCI": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:33:38.121Z"
+    "updatedAt": "2026-05-04T08:36:15.645Z"
   },
   "NDAQ": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:38.567Z"
+    "updatedAt": "2026-05-04T08:36:16.094Z"
   },
   "NTAP": {
     "date": "2026-05-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:33:38.843Z"
+    "updatedAt": "2026-05-04T08:36:16.383Z"
   },
   "NEM": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:39.574Z"
+    "updatedAt": "2026-05-04T08:36:17.268Z"
   },
   "NWSA": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:41.328Z"
+    "updatedAt": "2026-05-04T08:36:19.675Z"
   },
   "NWS": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:33:43.072Z"
+    "updatedAt": "2026-05-04T08:36:22.048Z"
   },
   "NI": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:33:44.611Z"
+    "updatedAt": "2026-05-04T08:36:23.403Z"
   },
   "NDSN": {
     "date": "2026-05-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:33:45.031Z"
+    "updatedAt": "2026-05-04T08:36:23.862Z"
   },
   "NSC": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-24",
-    "updatedAt": "2026-04-27T08:33:45.715Z"
+    "updatedAt": "2026-05-04T08:36:24.448Z"
   },
   "NTRS": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:33:46.306Z"
+    "updatedAt": "2026-05-04T08:36:24.747Z"
   },
   "NCLH": {
     "date": "2026-06-01",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-02",
-    "updatedAt": "2026-04-27T08:33:48.367Z"
+    "updatedAt": "2026-05-04T08:36:25.330Z"
   },
   "NRG": {
     "date": "2026-05-11",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:33:49.100Z"
+    "updatedAt": "2026-05-04T08:36:26.211Z"
   },
   "NUE": {
-    "date": "2026-04-27",
+    "date": "2026-07-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-26",
-    "updatedAt": "2026-04-27T08:33:49.530Z"
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:36:26.666Z"
   },
   "NVR": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:49.901Z"
+    "updatedAt": "2026-05-04T08:36:26.964Z"
   },
   "ODFL": {
-    "date": "2026-07-22",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:33:50.994Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:29.030Z"
   },
   "OMC": {
-    "date": "2026-05-20",
+    "date": "2026-07-14",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:33:51.402Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:29.557Z"
   },
   "ON": {
     "date": "2026-05-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-09",
-    "updatedAt": "2026-04-27T08:33:51.921Z"
+    "updatedAt": "2026-05-04T08:36:29.996Z"
   },
   "OKE": {
-    "date": "2026-04-28",
+    "date": "2026-08-03",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-23",
-    "updatedAt": "2026-04-27T08:33:52.540Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:30.725Z"
   },
   "OTIS": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:33:53.507Z"
+    "updatedAt": "2026-05-04T08:36:31.605Z"
   },
   "PCAR": {
-    "date": "2026-04-28",
+    "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-27",
-    "updatedAt": "2026-04-27T08:33:53.789Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:32.038Z"
   },
   "PKG": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:54.088Z"
+    "updatedAt": "2026-05-04T08:36:32.332Z"
   },
   "PSKY": {
     "date": "2026-05-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:33:54.817Z"
+    "updatedAt": "2026-05-04T08:36:33.093Z"
   },
   "PNR": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:33:55.494Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:34.161Z"
   },
   "PCG": {
     "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:56.286Z"
+    "updatedAt": "2026-05-04T08:36:34.888Z"
   },
   "PNW": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:33:57.947Z"
+    "updatedAt": "2026-05-04T08:36:36.789Z"
   },
   "PNC": {
     "date": "2026-07-15",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:33:58.499Z"
+    "updatedAt": "2026-05-04T08:36:37.247Z"
   },
   "POOL": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:33:58.929Z"
+    "updatedAt": "2026-05-04T08:36:37.856Z"
   },
   "PPG": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-04-15",
-    "updatedAt": "2026-04-27T08:33:59.333Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:38.155Z"
   },
   "PPL": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-20",
-    "updatedAt": "2026-04-27T08:33:59.769Z"
+    "updatedAt": "2026-05-04T08:36:38.455Z"
   },
   "PFG": {
     "date": "2026-07-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:00.206Z"
+    "updatedAt": "2026-05-04T08:36:38.893Z"
   },
   "PRU": {
     "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:02.406Z"
+    "updatedAt": "2026-05-04T08:36:41.103Z"
   },
   "PEG": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:02.825Z"
+    "updatedAt": "2026-05-04T08:36:41.718Z"
   },
   "PTC": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:34:03.252Z"
+    "updatedAt": "2026-05-04T08:36:42.167Z"
   },
   "PSA": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:34:03.879Z"
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:36:42.749Z"
   },
   "PHM": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:04.658Z"
+    "updatedAt": "2026-05-04T08:36:43.201Z"
   },
   "PWR": {
-    "date": "2026-04-30",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:34:05.095Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:43.797Z"
   },
   "DGX": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:05.541Z"
+    "updatedAt": "2026-05-04T08:36:44.548Z"
   },
   "Q": {
     "date": "2026-05-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:05.829Z"
+    "updatedAt": "2026-05-04T08:36:44.837Z"
   },
   "RL": {
     "date": "2026-05-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:34:06.118Z"
+    "updatedAt": "2026-05-04T08:36:45.131Z"
   },
   "RJF": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:06.590Z"
+    "updatedAt": "2026-05-04T08:36:45.566Z"
   },
   "O": {
     "date": "2026-05-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-24",
-    "updatedAt": "2026-04-27T08:34:07.821Z"
+    "updatedAt": "2026-05-04T08:36:46.745Z"
   },
   "REG": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:34:08.569Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:47.479Z"
   },
   "RF": {
     "date": "2026-07-17",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-17",
-    "updatedAt": "2026-04-27T08:34:09.479Z"
+    "updatedAt": "2026-05-04T08:36:48.210Z"
   },
   "RSG": {
-    "date": "2026-04-23",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:34:09.819Z"
+    "updatedAt": "2026-05-04T08:36:48.500Z"
   },
   "RMD": {
-    "date": "2026-07-22",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:34:10.106Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:49.099Z"
   },
   "RVTY": {
-    "date": "2026-04-27",
+    "date": "2026-07-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-02",
-    "updatedAt": "2026-04-27T08:34:10.412Z"
+    "updatedAt": "2026-05-04T08:36:49.538Z"
   },
   "HOOD": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:34:10.803Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:49.833Z"
   },
   "ROK": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:34:11.244Z"
+    "updatedAt": "2026-05-04T08:36:50.275Z"
   },
   "ROL": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:11.588Z"
+    "updatedAt": "2026-05-04T08:36:50.736Z"
   },
   "ROP": {
     "date": "2026-07-20",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:12.543Z"
+    "updatedAt": "2026-05-04T08:36:51.174Z"
   },
   "ROST": {
     "date": "2026-05-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-03",
-    "updatedAt": "2026-04-27T08:34:12.837Z"
+    "updatedAt": "2026-05-04T08:36:51.472Z"
   },
   "RCL": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:34:13.253Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:51.914Z"
   },
   "SNDK": {
-    "date": "2026-05-06",
+    "date": "2026-08-13",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:34:13.941Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:53.233Z"
   },
   "SBAC": {
-    "date": "2026-04-27",
+    "date": "2026-08-03",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:14.424Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:53.677Z"
   },
   "STX": {
-    "date": "2026-04-28",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-27",
-    "updatedAt": "2026-04-27T08:34:15.433Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:36:54.438Z"
   },
   "SRE": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:15.860Z"
+    "updatedAt": "2026-05-04T08:36:54.886Z"
   },
   "SPG": {
     "date": "2026-05-11",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-02",
-    "updatedAt": "2026-04-27T08:34:16.622Z"
+    "updatedAt": "2026-05-04T08:36:56.056Z"
   },
   "SWKS": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:34:17.758Z"
+    "updatedAt": "2026-05-04T08:36:56.494Z"
   },
   "SJM": {
     "date": "2026-06-09",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:18.040Z"
+    "updatedAt": "2026-05-04T08:36:56.789Z"
   },
   "SW": {
-    "date": "2026-04-30",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:34:18.373Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:36:57.370Z"
   },
   "SNA": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:18.706Z"
+    "updatedAt": "2026-05-04T08:36:57.806Z"
   },
   "SOLV": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:18.983Z"
+    "updatedAt": "2026-05-04T08:36:58.093Z"
   },
   "SWK": {
-    "date": "2026-04-29",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:34:19.939Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:36:59.409Z"
   },
   "STT": {
     "date": "2026-07-14",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-17",
-    "updatedAt": "2026-04-27T08:34:20.504Z"
+    "updatedAt": "2026-05-04T08:37:00.589Z"
   },
   "STLD": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:20.935Z"
+    "updatedAt": "2026-05-04T08:37:00.882Z"
   },
   "STE": {
     "date": "2026-05-13",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:34:21.393Z"
+    "updatedAt": "2026-05-04T08:37:01.318Z"
   },
   "SYF": {
     "date": "2026-07-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:22.653Z"
+    "updatedAt": "2026-05-04T08:37:02.065Z"
   },
   "SYY": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-03-30",
-    "updatedAt": "2026-04-27T08:34:23.785Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:03.100Z"
   },
   "TROW": {
-    "date": "2026-05-01",
+    "date": "2026-07-31",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-04-27T08:34:24.308Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:04.270Z"
   },
   "TPR": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:34:25.100Z"
+    "updatedAt": "2026-05-04T08:37:05.017Z"
   },
   "TRGP": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-19",
-    "updatedAt": "2026-04-27T08:34:25.519Z"
+    "updatedAt": "2026-05-04T08:37:05.458Z"
   },
   "TEL": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:26.207Z"
+    "updatedAt": "2026-05-04T08:37:06.182Z"
   },
   "TDY": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:26.490Z"
+    "updatedAt": "2026-05-04T08:37:06.490Z"
   },
   "TER": {
-    "date": "2026-04-28",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:34:26.773Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:37:06.792Z"
   },
   "TPL": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:34:28.088Z"
+    "updatedAt": "2026-05-04T08:37:07.699Z"
   },
   "TXT": {
-    "date": "2026-04-23",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-28",
-    "updatedAt": "2026-04-27T08:34:28.391Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:08.286Z"
   },
   "TKO": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:34:29.260Z"
+    "updatedAt": "2026-05-04T08:37:09.166Z"
   },
   "TTD": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:34:30.071Z"
+    "updatedAt": "2026-05-04T08:37:09.898Z"
   },
   "TSCO": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:30.358Z"
+    "updatedAt": "2026-05-04T08:37:10.196Z"
   },
   "TT": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:34:30.776Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:10.645Z"
   },
   "TDG": {
     "date": "2026-08-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-14",
-    "updatedAt": "2026-04-27T08:34:31.580Z"
+    "updatedAt": "2026-05-04T08:37:11.529Z"
   },
   "TRV": {
     "date": "2026-07-16",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-16",
-    "updatedAt": "2026-04-27T08:34:31.862Z"
+    "updatedAt": "2026-05-04T08:37:11.850Z"
   },
   "TRMB": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:34:32.168Z"
+    "updatedAt": "2026-05-04T08:37:12.142Z"
   },
   "TFC": {
     "date": "2026-07-17",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-17",
-    "updatedAt": "2026-04-27T08:34:32.588Z"
+    "updatedAt": "2026-05-04T08:37:12.725Z"
   },
   "TYL": {
-    "date": "2026-07-22",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-27T08:34:33.151Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:37:13.311Z"
   },
   "TSN": {
     "date": "2026-05-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-02",
-    "updatedAt": "2026-04-27T08:34:33.834Z"
+    "updatedAt": "2026-05-04T08:37:14.048Z"
   },
   "UDR": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-09",
-    "updatedAt": "2026-04-27T08:34:35.056Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:37:15.088Z"
   },
   "ULTA": {
     "date": "2026-05-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-12",
-    "updatedAt": "2026-04-27T08:34:35.378Z"
+    "updatedAt": "2026-05-04T08:37:15.380Z"
   },
   "URI": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:36.503Z"
+    "updatedAt": "2026-05-04T08:37:16.995Z"
   },
   "UHS": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:37.346Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:17.873Z"
   },
   "VTR": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:34:37.667Z"
+    "lastFilingDate": "2026-04-27",
+    "updatedAt": "2026-05-04T08:37:18.619Z"
   },
   "VLTO": {
-    "date": "2026-04-28",
+    "date": "2026-07-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:34:37.946Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:18.905Z"
   },
   "VRSN": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:38.232Z"
+    "updatedAt": "2026-05-04T08:37:19.194Z"
   },
   "VRSK": {
-    "date": "2026-05-06",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-18",
-    "updatedAt": "2026-04-27T08:34:38.709Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:37:19.494Z"
   },
   "VRT": {
     "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:39.255Z"
+    "updatedAt": "2026-05-04T08:37:20.561Z"
   },
   "VTRS": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:39.556Z"
+    "updatedAt": "2026-05-04T08:37:20.851Z"
   },
   "VICI": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-25",
-    "updatedAt": "2026-04-27T08:34:39.850Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:37:21.442Z"
   },
   "VST": {
     "date": "2026-05-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:40.179Z"
+    "updatedAt": "2026-05-04T08:37:22.468Z"
   },
   "VMC": {
-    "date": "2026-04-29",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-17",
-    "updatedAt": "2026-04-27T08:34:40.590Z"
+    "lastFilingDate": "2026-04-29",
+    "updatedAt": "2026-05-04T08:37:22.909Z"
   },
   "WRB": {
     "date": "2026-07-20",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
-    "updatedAt": "2026-04-27T08:34:40.925Z"
+    "updatedAt": "2026-05-04T08:37:23.206Z"
   },
   "GWW": {
     "date": "2026-04-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:34:41.237Z"
+    "updatedAt": "2026-05-04T08:37:23.641Z"
   },
   "WAB": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
-    "updatedAt": "2026-04-27T08:34:41.656Z"
+    "updatedAt": "2026-05-04T08:37:24.082Z"
   },
   "WBD": {
     "date": "2026-05-07",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-26",
-    "updatedAt": "2026-04-27T08:34:42.203Z"
+    "updatedAt": "2026-05-04T08:37:24.671Z"
   },
   "WM": {
-    "date": "2026-04-27",
+    "date": "2026-07-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-28",
-    "updatedAt": "2026-04-27T08:34:42.739Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:25.251Z"
   },
   "WAT": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-09",
-    "updatedAt": "2026-04-27T08:34:43.307Z"
+    "updatedAt": "2026-05-04T08:37:25.688Z"
   },
   "WEC": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-27T08:34:43.990Z"
+    "updatedAt": "2026-05-04T08:37:26.419Z"
   },
   "WELL": {
-    "date": "2026-04-27",
+    "date": "2026-07-27",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:34:44.844Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:27.305Z"
   },
   "WST": {
     "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-23",
-    "updatedAt": "2026-04-27T08:34:45.396Z"
+    "updatedAt": "2026-05-04T08:37:27.893Z"
   },
   "WDC": {
-    "date": "2026-04-29",
+    "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:34:45.681Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:28.202Z"
   },
   "WY": {
-    "date": "2026-04-23",
+    "date": "2026-07-23",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-01-29",
-    "updatedAt": "2026-04-27T08:34:46.232Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:28.650Z"
   },
   "WSM": {
     "date": "2026-05-21",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-18",
-    "updatedAt": "2026-04-27T08:34:46.531Z"
+    "updatedAt": "2026-05-04T08:37:28.943Z"
   },
   "WMB": {
     "date": "2026-05-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:34:46.944Z"
+    "updatedAt": "2026-05-04T08:37:29.385Z"
   },
   "WTW": {
-    "date": "2026-04-23",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-04-27T08:34:47.220Z"
+    "lastFilingDate": "2026-04-30",
+    "updatedAt": "2026-05-04T08:37:29.820Z"
   },
   "WYNN": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:34:47.651Z"
+    "updatedAt": "2026-05-04T08:37:30.280Z"
   },
   "XYL": {
-    "date": "2026-04-28",
+    "date": "2026-07-30",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:34:48.255Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:31.042Z"
   },
   "ZBRA": {
-    "date": "2026-04-28",
+    "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-27T08:34:48.543Z"
+    "updatedAt": "2026-05-04T08:37:31.797Z"
   },
   "ZBH": {
-    "date": "2026-05-04",
+    "date": "2026-08-06",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "lastFilingDate": "2026-02-10",
-    "updatedAt": "2026-04-27T08:34:48.826Z"
+    "lastFilingDate": "2026-04-28",
+    "updatedAt": "2026-05-04T08:37:32.239Z"
   },
   "BRK-A": {
     "date": "2026-05-05",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-03-02",
-    "updatedAt": "2026-04-27T08:34:53.220Z"
+    "updatedAt": "2026-05-04T08:37:36.676Z"
   }
 }
