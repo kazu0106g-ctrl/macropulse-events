@@ -39,6 +39,7 @@ const { getFomcMeetings } = require('./sources/fomc');
 const { getEcbMeetings } = require('./sources/ecb');
 const bls = require('./sources/bls');
 const bea = require('./sources/bea');
+const census = require('./sources/census');
 
 const ROOT = path.join(__dirname, '..');
 const EVENTS_PATH = path.join(ROOT, 'events.json');
@@ -101,6 +102,24 @@ async function gatherStatisticalReleases(year, opts) {
   } catch (err) {
     out.push({ label: 'BEA', source: '(error)', error: String(err.message || err), eventIds: [] });
   }
+  // Census Bureau releases (Retail Sales, Housing Starts, Durable Goods).
+  try {
+    const r = await census.getReleases(year, opts);
+    for (const rel of r.releases) {
+      out.push({
+        label: rel.label,
+        source: r.source,
+        fromCache: r.fromCache,
+        cachedAt: r.cachedAt,
+        year,
+        releaseDate: rel.releaseDate,
+        referenceLabel: rel.eventId,
+        eventIds: [rel.eventId],
+      });
+    }
+  } catch (err) {
+    out.push({ label: 'Census Bureau', source: '(error)', error: String(err.message || err), eventIds: [] });
+  }
   return out;
 }
 
@@ -109,7 +128,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
   const findings = [];
   let fromCache = true;
   let cachedAt = new Date();
-  let source = 'BLS+BEA';
+  let source = 'BLS+BEA+Census';
   for (const rel of releases) {
     if (rel.error) {
       findings.push({ kind: 'error', note: rel.error, label: rel.label });
@@ -137,7 +156,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
     }
   }
   return {
-    label: 'BLS/BEA',
+    label: 'BLS/BEA/Census',
     year,
     source,
     fromCache,
