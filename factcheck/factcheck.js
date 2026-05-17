@@ -42,6 +42,8 @@ const bea = require('./sources/bea');
 const census = require('./sources/census');
 const cao = require('./sources/cao');
 const customs_jp = require('./sources/customs_jp');
+const estat_jp = require('./sources/estat_jp');
+const tankan_boj = require('./sources/tankan_boj');
 
 const ROOT = path.join(__dirname, '..');
 const EVENTS_PATH = path.join(ROOT, 'events.json');
@@ -158,6 +160,42 @@ async function gatherStatisticalReleases(year, opts) {
   } catch (err) {
     out.push({ label: 'Japan Customs', source: '(error)', error: String(err.message || err), eventIds: [] });
   }
+  // e-Stat Japan — CPI, Unemployment, Retail Sales, Industrial Production.
+  try {
+    const r = await estat_jp.getReleases(year, opts);
+    for (const rel of r.releases) {
+      out.push({
+        label: rel.label,
+        source: r.source,
+        fromCache: r.fromCache,
+        cachedAt: r.cachedAt,
+        year,
+        releaseDate: rel.releaseDate,
+        referenceLabel: rel.eventId,
+        eventIds: [rel.eventId],
+      });
+    }
+  } catch (err) {
+    out.push({ label: 'e-Stat Japan', source: '(error)', error: String(err.message || err), eventIds: [] });
+  }
+  // BOJ Tankan — quarterly business sentiment survey.
+  try {
+    const r = await tankan_boj.getReleases(year, opts);
+    for (const rel of r.releases) {
+      out.push({
+        label: rel.label,
+        source: r.source,
+        fromCache: r.fromCache,
+        cachedAt: r.cachedAt,
+        year,
+        releaseDate: rel.releaseDate,
+        referenceLabel: rel.eventId,
+        eventIds: [rel.eventId],
+      });
+    }
+  } catch (err) {
+    out.push({ label: 'BOJ Tankan', source: '(error)', error: String(err.message || err), eventIds: [] });
+  }
   return out;
 }
 
@@ -166,7 +204,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
   const findings = [];
   let fromCache = true;
   let cachedAt = new Date();
-  let source = 'BLS+BEA+Census+CAO+Customs';
+  let source = 'BLS+BEA+Census+CAO+Customs+eStat+Tankan';
   for (const rel of releases) {
     if (rel.error) {
       findings.push({ kind: 'error', note: rel.error, label: rel.label });
@@ -194,7 +232,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
     }
   }
   return {
-    label: 'BLS/BEA/Census/CAO/Customs',
+    label: 'BLS/BEA/Census/CAO/Customs/eStat/Tankan',
     year,
     source,
     fromCache,
