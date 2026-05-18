@@ -160,13 +160,6 @@
     "lastFilingDate": "2026-04-29",
     "updatedAt": "2026-05-11T09:49:12.596Z"
   },
-  "CSCO": {
-    "date": "2026-05-13",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
-  },
   "IBM": {
     "date": "2026-07-22",
     "source": "sec_8k_yoy_estimate",
@@ -194,13 +187,6 @@
     "confirmed": false,
     "lastFilingDate": "2026-04-22",
     "updatedAt": "2026-05-11T09:49:23.507Z"
-  },
-  "AMAT": {
-    "date": "2026-05-14",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
   },
   "ADI": {
     "date": "2026-05-21",
@@ -300,13 +286,6 @@
     "lastFilingDate": "2026-05-07",
     "updatedAt": "2026-05-11T09:47:28.376Z"
   },
-  "NET": {
-    "date": "2026-05-07",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
-  },
   "OKTA": {
     "date": "2026-05-26",
     "source": "sec_8k_yoy_estimate",
@@ -323,20 +302,6 @@
   },
   "WDAY": {
     "date": "2026-05-21",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
-  },
-  "TEAM": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
-  },
-  "SHOP": {
-    "date": "2026-05-05",
     "source": "manual",
     "confirmed": true,
     "note": "Q1/Q2 2026 confirmed via IR/press release",
@@ -384,47 +349,12 @@
     "lastFilingDate": "2026-05-06",
     "updatedAt": "2026-05-11T09:49:42.898Z"
   },
-  "LYFT": {
-    "date": "2026-05-07",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
-  },
   "SNAP": {
     "date": "2026-08-04",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-04-15",
     "updatedAt": "2026-04-21T13:21:43.862Z"
-  },
-  "PINS": {
-    "date": "2026-05-04",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
-  },
-  "RBLX": {
-    "date": "2026-04-30",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
-  },
-  "ROKU": {
-    "date": "2026-05-07",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
-  },
-  "U": {
-    "date": "2026-05-06",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2026-02-11",
-    "updatedAt": "2026-04-21T13:21:46.348Z"
   },
   "DOCU": {
     "date": "2026-06-04",
@@ -439,13 +369,6 @@
     "confirmed": false,
     "lastFilingDate": "2026-02-25",
     "updatedAt": "2026-04-21T13:21:47.353Z"
-  },
-  "TWLO": {
-    "date": "2026-04-30",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2026-02-12",
-    "updatedAt": "2026-04-21T13:21:47.911Z"
   },
   "JPM": {
     "date": "2026-07-14",
@@ -705,13 +628,6 @@
     "confirmed": false,
     "lastFilingDate": "2026-04-29",
     "updatedAt": "2026-05-11T09:46:53.026Z"
-  },
-  "ILMN": {
-    "date": "2026-05-07",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2026-02-05",
-    "updatedAt": "2026-04-21T13:22:11.472Z"
   },
   "DXCM": {
     "date": "2026-07-29",
@@ -1203,13 +1119,6 @@
     "lastFilingDate": "2026-05-05",
     "updatedAt": "2026-05-11T09:47:39.752Z"
   },
-  "TTWO": {
-    "date": "2026-05-14",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2026-02-03",
-    "updatedAt": "2026-05-11T09:49:33.090Z"
-  },
   "F": {
     "date": "2026-07-29",
     "source": "sec_8k_yoy_estimate",
@@ -1244,13 +1153,6 @@
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
     "updatedAt": "2026-05-11T09:49:44.908Z"
-  },
-  "AAL": {
-    "date": "2026-04-23",
-    "source": "manual",
-    "confirmed": true,
-    "note": "Q1/Q2 2026 confirmed via IR/press release",
-    "updatedAt": "2026-04-21T13:30:27.135Z"
   },
   "LUV": {
     "date": "2026-07-22",
@@ -2120,13 +2022,6 @@
     "lastFilingDate": "2026-04-29",
     "updatedAt": "2026-05-11T09:47:37.381Z"
   },
-  "SATS": {
-    "date": "2026-05-15",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2017-02-24",
-    "updatedAt": "2026-05-11T09:47:37.796Z"
-  },
   "ECL": {
     "date": "2026-07-28",
     "source": "sec_8k_yoy_estimate",
@@ -2336,20 +2231,6 @@
     "confirmed": false,
     "lastFilingDate": "2026-04-30",
     "updatedAt": "2026-05-11T09:47:56.820Z"
-  },
-  "FOXA": {
-    "date": "2026-05-11",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-05-11T09:47:57.078Z"
-  },
-  "FOX": {
-    "date": "2026-05-11",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-05-11T09:47:57.346Z"
   },
   "BEN": {
     "date": "2026-07-31",
@@ -3317,13 +3198,6 @@
     "lastFilingDate": "2026-05-07",
     "updatedAt": "2026-05-11T09:49:23.107Z"
   },
-  "SPG": {
-    "date": "2026-05-11",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2026-02-02",
-    "updatedAt": "2026-05-11T09:49:24.231Z"
-  },
   "SWKS": {
     "date": "2026-08-04",
     "source": "sec_8k_yoy_estimate",
@@ -3379,13 +3253,6 @@
     "confirmed": false,
     "lastFilingDate": "2026-04-21",
     "updatedAt": "2026-05-11T09:49:28.722Z"
-  },
-  "STE": {
-    "date": "2026-05-13",
-    "source": "sec_8k_yoy_estimate",
-    "confirmed": false,
-    "lastFilingDate": "2026-02-04",
-    "updatedAt": "2026-05-11T09:49:29.265Z"
   },
   "SYF": {
     "date": "2026-07-21",
@@ -3750,5 +3617,119 @@
     "confirmed": false,
     "lastFilingDate": "2026-05-07",
     "updatedAt": "2026-05-11T09:50:05.725Z"
+  },
+  "CSCO": {
+    "date": "2026-08-12",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:42.014Z"
+  },
+  "AMAT": {
+    "date": "2026-08-13",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:42.571Z"
+  },
+  "NET": {
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:43.122Z"
+  },
+  "TEAM": {
+    "date": "2026-08-06",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:43.666Z"
+  },
+  "SHOP": {
+    "date": "2026-08-05",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:44.216Z"
+  },
+  "LYFT": {
+    "date": "2026-08-05",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:44.773Z"
+  },
+  "PINS": {
+    "date": "2026-08-06",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:45.318Z"
+  },
+  "RBLX": {
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:45.874Z"
+  },
+  "ROKU": {
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:46.431Z"
+  },
+  "U": {
+    "date": "2026-08-05",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:46.979Z"
+  },
+  "TWLO": {
+    "date": "2026-08-06",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:47.522Z"
+  },
+  "ILMN": {
+    "date": "2026-07-30",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:48.069Z"
+  },
+  "TTWO": {
+    "date": "2026-08-13",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:48.633Z"
+  },
+  "AAL": {
+    "date": "2026-07-23",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:49.233Z"
+  },
+  "SATS": {
+    "date": "2026-08-14",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:49.790Z"
+  },
+  "FOXA": {
+    "date": "2026-08-04",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:50.335Z"
+  },
+  "FOX": {
+    "date": "2026-08-04",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:50.893Z"
+  },
+  "SPG": {
+    "date": "2026-08-03",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:51.461Z"
+  },
+  "STE": {
+    "date": "2026-08-05",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "updatedAt": "2026-05-18T04:02:52.002Z"
   }
 }
