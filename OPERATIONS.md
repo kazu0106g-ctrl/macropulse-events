@@ -13,12 +13,17 @@ free-tier friendly, legal, and auditable.
 
 - Scope: US-listed equities only, currently about 536 symbols.
 - Primary source: SEC EDGAR public data.
+- Optional auxiliary source: Alpha Vantage `EARNINGS_CALENDAR`, when
+  `ALPHAVANTAGE_API_KEY` is configured as a GitHub Actions secret.
 - Runner: GitHub Actions standard Ubuntu runner.
 - Schedule: daily at 22:00 UTC / 07:00 JST.
 - Cost guard: no paid APIs, no artifacts, no Cloud Run job.
 - SEC guard: declared User-Agent, sequential collection, polite delay.
-- Mismatches or weak dates remain non-confirmed so the app can keep guiding
-  users toward manual correction.
+- Official/manual dates are the only `confirmed: true` records.
+- If SEC only has a weak YoY estimate and the auxiliary calendar has a
+  different future date, the auxiliary date is written with `confirmed: false`,
+  `needsReview: true`, and the SEC estimate is retained for audit.
+- If no auxiliary source is configured, the pipeline still runs using SEC only.
 
 ## Economic Events
 

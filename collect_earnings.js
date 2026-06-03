@@ -16,6 +16,7 @@
 const fs = require('fs');
 
 const USER_AGENT = 'Chartr Collector contact@chartr.app';
+const ALPHAVANTAGE_API_KEY = process.env.ALPHAVANTAGE_API_KEY || '';
 
 // Stocks to track (~200 popular US equities covering S&P 100, NASDAQ-100,
 // and ADRs commonly held by Japanese retail investors). Extend as needed.
@@ -41,6 +42,128 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 function ymd(d) {
   return `${d.getUTCFullYear()}-${String(d.getUTCMonth()+1).padStart(2,'0')}-${String(d.getUTCDate()).padStart(2,'0')}`;
+}
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let cell = '';
+  let quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    const next = text[i + 1];
+    if (quoted) {
+      if (ch === '"' && next === '"') {
+        cell += '"';
+        i++;
+      } else if (ch === '"') {
+        quoted = false;
+      } else {
+        cell += ch;
+      }
+    } else if (ch === '"') {
+      quoted = true;
+    } else if (ch === ',') {
+      row.push(cell);
+      cell = '';
+    } else if (ch === '\n') {
+      row.push(cell);
+      rows.push(row);
+      row = [];
+      cell = '';
+    } else if (ch !== '\r') {
+      cell += ch;
+    }
+  }
+  if (cell || row.length) {
+    row.push(cell);
+    rows.push(row);
+  }
+  return rows.filter((r) => r.some((v) => v !== ''));
+}
+
+async function loadAlphaVantageCalendar() {
+  if (!ALPHAVANTAGE_API_KEY) {
+    return { bySymbol: {}, source: 'alpha_vantage_skipped_no_key', count: 0 };
+  }
+
+  const url =
+    'https://www.alphavantage.co/query?function=EARNINGS_CALENDAR' +
+    '&horizon=3month' +
+    `&apikey=${encodeURIComponent(ALPHAVANTAGE_API_KEY)}`;
+  const resp = await fetch(url, {
+    headers: { 'User-Agent': USER_AGENT },
+    signal: AbortSignal.timeout(30_000),
+  });
+  if (!resp.ok) throw new Error(`Alpha Vantage HTTP ${resp.status}`);
+
+  const text = await resp.text();
+  if (/Thank you for using Alpha Vantage/i.test(text) || /rate limit/i.test(text)) {
+    throw new Error('Alpha Vantage rate limit or invalid response');
+  }
+
+  const rows = parseCsv(text);
+  if (rows.length < 2) return { bySymbol: {}, source: 'alpha_vantage_empty', count: 0 };
+  const header = rows[0].map((h) => h.trim());
+  const symbolIdx = header.indexOf('symbol');
+  const dateIdx = header.indexOf('reportDate');
+  if (symbolIdx < 0 || dateIdx < 0) {
+    throw new Error('Alpha Vantage CSV missing symbol/reportDate columns');
+  }
+
+  const today = new Date();
+  const todayDate = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+  const bySymbol = {};
+  for (const row of rows.slice(1)) {
+    const symbol = (row[symbolIdx] || '').trim().toUpperCase();
+    const date = (row[dateIdx] || '').trim();
+    if (!symbol || !/^\d{4}-\d{2}-\d{2}$/.test(date)) continue;
+    const ts = Date.parse(`${date}T00:00:00Z`);
+    if (!Number.isFinite(ts) || ts < todayDate - 2 * 86_400_000) continue;
+    bySymbol[symbol] = { date, source: 'alpha_vantage_calendar' };
+  }
+  return { bySymbol, source: 'alpha_vantage_calendar', count: Object.keys(bySymbol).length };
+}
+
+function chooseBestDate({ symbol, secInfo, aux }) {
+  if (!secInfo || secInfo.error) return secInfo;
+  if (secInfo.confirmed === true || secInfo.source === 'manual') {
+    return {
+      ...secInfo,
+      verification: aux
+        ? { auxiliarySource: aux.source, auxiliaryDate: aux.date, agreement: aux.date === secInfo.date }
+        : undefined,
+    };
+  }
+
+  if (!aux || !aux.date) {
+    return {
+      ...secInfo,
+      needsReview: true,
+      reviewReason: 'sec_estimate_without_auxiliary_confirmation',
+    };
+  }
+
+  if (aux.date === secInfo.date) {
+    return {
+      ...secInfo,
+      source: `${secInfo.source}+${aux.source}`,
+      auxiliaryDate: aux.date,
+      needsReview: false,
+      reviewReason: null,
+    };
+  }
+
+  return {
+    date: aux.date,
+    source: aux.source,
+    confirmed: false,
+    filingDate: secInfo.filingDate || null,
+    secEstimateDate: secInfo.date,
+    secEstimateSource: secInfo.source,
+    needsReview: true,
+    reviewReason: 'sec_estimate_differs_from_auxiliary_calendar',
+  };
 }
 
 // ---- CIK lookup ------------------------------------------------------------
@@ -291,7 +414,22 @@ async function main() {
   // Their date is only refreshed when it's already in the past (>=3 days ago),
   // at which point we fall back to auto-estimation for the next quarter.
   const now = Date.now();
+  let auxCalendar = { bySymbol: {}, source: 'none', count: 0 };
+  try {
+    auxCalendar = await loadAlphaVantageCalendar();
+    console.log(`[aux] ${auxCalendar.source}: ${auxCalendar.count} symbols`);
+  } catch (e) {
+    console.log(`[aux] Alpha Vantage unavailable: ${e.message}`);
+  }
+
   const result = { ...existing };
+  const stats = {
+    officialOrManual: 0,
+    auxAgreed: 0,
+    auxReplacedEstimate: 0,
+    secEstimateOnly: 0,
+    errors: 0,
+  };
   for (const sym of SYMBOLS) {
     process.stdout.write(`${sym.padEnd(6)} `);
     const prev = existing[sym];
@@ -304,9 +442,15 @@ async function main() {
       }
     }
     try {
-      const info = await collectSymbol(sym);
+      const rawInfo = await collectSymbol(sym);
+      const info = chooseBestDate({
+        symbol: sym,
+        secInfo: rawInfo,
+        aux: auxCalendar.bySymbol[sym],
+      });
       if (info.error) {
         console.log('ERROR:', info.error);
+        stats.errors++;
         continue;
       }
       result[sym] = {
@@ -314,17 +458,29 @@ async function main() {
         source: info.source,
         confirmed: info.confirmed,
         lastFilingDate: info.filingDate || null,
+        ...(info.secEstimateDate ? { secEstimateDate: info.secEstimateDate } : {}),
+        ...(info.secEstimateSource ? { secEstimateSource: info.secEstimateSource } : {}),
+        ...(info.auxiliaryDate ? { auxiliaryDate: info.auxiliaryDate } : {}),
+        ...(info.needsReview !== undefined ? { needsReview: info.needsReview } : {}),
+        ...(info.reviewReason ? { reviewReason: info.reviewReason } : {}),
+        ...(info.verification ? { verification: info.verification } : {}),
         updatedAt: new Date().toISOString(),
       };
+      if (info.confirmed === true) stats.officialOrManual++;
+      else if (info.source.includes('+alpha_vantage_calendar')) stats.auxAgreed++;
+      else if (info.source === 'alpha_vantage_calendar') stats.auxReplacedEstimate++;
+      else stats.secEstimateOnly++;
       console.log(`${info.date}  ${info.source}  confirmed=${info.confirmed}`);
     } catch (e) {
       console.log('ERROR:', e.message);
+      stats.errors++;
     }
     await sleep(200); // be polite to SEC
   }
 
   fs.writeFileSync('earnings_dates.json', JSON.stringify(result, null, 2));
   console.log(`\nWrote ${Object.keys(result).length} symbols to earnings_dates.json`);
+  console.log(`[stats] ${JSON.stringify(stats)}`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
