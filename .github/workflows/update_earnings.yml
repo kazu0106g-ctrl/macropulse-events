@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     concurrency:
-      group: update-earnings
+      group: macropulse-data-updates
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
@@ -35,6 +35,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add earnings_dates.json
             git commit -m "chore(auto): daily refresh earnings_dates.json"
+            git pull --rebase origin main
             git push
           else
             echo "No changes."

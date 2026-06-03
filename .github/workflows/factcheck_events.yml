@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     concurrency:
-      group: factcheck-events
+      group: macropulse-data-updates
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
@@ -43,6 +43,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add factcheck/reports
             git commit -m "factcheck(auto): events calendar report"
+            git pull --rebase origin main
             git push
           else
             echo "No report changes."
