@@ -26,6 +26,8 @@ jobs:
           node-version: '20'
 
       - name: Run collector
+        env:
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
         run: node collect_earnings.js
 
       - name: Commit and push if changed
