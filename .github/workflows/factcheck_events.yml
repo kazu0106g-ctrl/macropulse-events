@@ -1,0 +1,49 @@
+name: Factcheck events.json
+
+# Official-source calendar validation.
+# Runs daily at 22:20 UTC (= 07:20 JST), after the earnings refresh window.
+# This workflow is report-first: it does not auto-edit events.json.
+
+on:
+  schedule:
+    - cron: '20 22 * * *'
+  workflow_dispatch:
+
+jobs:
+  factcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    concurrency:
+      group: factcheck-events
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run current-year factcheck
+        run: |
+          set +e
+          node factcheck/factcheck.js --year "$(date -u +%Y)" --no-cache
+          status=$?
+          set -e
+          if [[ "$status" != "0" && "$status" != "2" ]]; then
+            exit "$status"
+          fi
+          echo "factcheck exit status: $status (0=clean, 2=review needed)"
+
+      - name: Commit factcheck report if changed
+        run: |
+          if [[ -n "$(git status --porcelain factcheck/reports)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add factcheck/reports
+            git commit -m "factcheck(auto): events calendar report"
+            git push
+          else
+            echo "No report changes."
+          fi
