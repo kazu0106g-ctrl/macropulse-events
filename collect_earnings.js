@@ -130,6 +130,8 @@ function chooseBestDate({ symbol, secInfo, aux }) {
   if (secInfo.confirmed === true || secInfo.source === 'manual') {
     return {
       ...secInfo,
+      officialConfirmed: secInfo.source !== 'manual',
+      confidence: secInfo.source === 'manual' ? 'manual_confirmed' : 'official_sec_preannounce',
       verification: aux
         ? { auxiliarySource: aux.source, auxiliaryDate: aux.date, agreement: aux.date === secInfo.date }
         : undefined,
@@ -148,6 +150,9 @@ function chooseBestDate({ symbol, secInfo, aux }) {
     return {
       ...secInfo,
       source: `${secInfo.source}+${aux.source}`,
+      confirmed: true,
+      officialConfirmed: false,
+      confidence: 'multi_source_agreed',
       auxiliaryDate: aux.date,
       needsReview: false,
       reviewReason: null,
@@ -158,6 +163,8 @@ function chooseBestDate({ symbol, secInfo, aux }) {
     date: aux.date,
     source: aux.source,
     confirmed: false,
+    officialConfirmed: false,
+    confidence: 'auxiliary_conflicts_with_sec_estimate',
     filingDate: secInfo.filingDate || null,
     secEstimateDate: secInfo.date,
     secEstimateSource: secInfo.source,
@@ -457,6 +464,8 @@ async function main() {
         date: info.date,
         source: info.source,
         confirmed: info.confirmed,
+        ...(info.officialConfirmed !== undefined ? { officialConfirmed: info.officialConfirmed } : {}),
+        ...(info.confidence ? { confidence: info.confidence } : {}),
         lastFilingDate: info.filingDate || null,
         ...(info.secEstimateDate ? { secEstimateDate: info.secEstimateDate } : {}),
         ...(info.secEstimateSource ? { secEstimateSource: info.secEstimateSource } : {}),

@@ -19,7 +19,13 @@ free-tier friendly, legal, and auditable.
 - Schedule: daily at 22:00 UTC / 07:00 JST.
 - Cost guard: no paid APIs, no artifacts, no Cloud Run job.
 - SEC guard: declared User-Agent, sequential collection, polite delay.
-- Official/manual dates are the only `confirmed: true` records.
+- `confirmed: true` means the date is good enough for app display:
+  official/manual confirmation OR SEC estimate matching the auxiliary calendar.
+- `officialConfirmed: true` means the date was found in an official/primary
+  source path, not just a multi-source agreement.
+- If SEC only has a weak YoY estimate and the auxiliary calendar agrees, the
+  date is written with `confirmed: true`, `officialConfirmed: false`, and
+  `confidence: multi_source_agreed`.
 - If SEC only has a weak YoY estimate and the auxiliary calendar has a
   different future date, the auxiliary date is written with `confirmed: false`,
   `needsReview: true`, and the SEC estimate is retained for audit.
