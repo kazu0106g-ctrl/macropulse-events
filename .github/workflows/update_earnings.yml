@@ -1,19 +1,23 @@
 name: Update earnings_dates.json
 
-# Weekly refresh of earnings_dates.json via SEC EDGAR (public domain data).
-# Runs every Monday at 06:00 UTC (= 15:00 JST).
+# Daily refresh of earnings_dates.json via SEC EDGAR (public domain data).
+# Runs at 22:00 UTC (= 07:00 JST).
 # Also runnable manually from the Actions tab.
 
 on:
   schedule:
-    - cron: '0 6 * * 1'
+    - cron: '0 22 * * *'
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
+    concurrency:
+      group: update-earnings
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
@@ -30,7 +34,7 @@ jobs:
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add earnings_dates.json
-            git commit -m "chore(auto): refresh earnings_dates.json"
+            git commit -m "chore(auto): daily refresh earnings_dates.json"
             git push
           else
             echo "No changes."
