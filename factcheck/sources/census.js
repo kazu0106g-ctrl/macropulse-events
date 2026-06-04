@@ -8,6 +8,7 @@
 //   ARTS  (Advance Monthly Sales for Retail and Food Services) → us_retail_*
 //   NEWR  (New Residential Construction / Housing Starts)      → us_housing_*
 //   DURG  (Advance Report on Durable Goods Orders)             → us_durable_*
+//   FT900 (U.S. International Trade in Goods and Services)      → us_trade_*
 
 'use strict';
 
@@ -43,6 +44,11 @@ const INDICATOR_MAP = [
     match: /Advance.*Durable Goods|Durable Goods.*Orders/i,
     label: 'Census Durable Goods Orders',
     eventPrefix: 'us_durable',
+  },
+  {
+    match: /U\.?S\.?\s+International Trade in Goods and Services|International Trade.*Goods and Services/i,
+    label: 'Census/BEA U.S. International Trade',
+    eventPrefix: 'us_trade',
   },
 ];
 
