@@ -40,6 +40,7 @@ const { getEcbMeetings } = require('./sources/ecb');
 const bls = require('./sources/bls');
 const bea = require('./sources/bea');
 const census = require('./sources/census');
+const fed = require('./sources/fed');
 const cao = require('./sources/cao');
 const customs_jp = require('./sources/customs_jp');
 const estat_jp = require('./sources/estat_jp');
@@ -124,6 +125,24 @@ async function gatherStatisticalReleases(year, opts) {
   } catch (err) {
     out.push({ label: 'Census Bureau', source: '(error)', error: String(err.message || err), eventIds: [] });
   }
+  // Federal Reserve statistical releases (Industrial Production G.17).
+  try {
+    const r = await fed.getReleases(year, opts);
+    for (const rel of r.releases) {
+      out.push({
+        label: rel.label,
+        source: r.source,
+        fromCache: r.fromCache,
+        cachedAt: r.cachedAt,
+        year,
+        releaseDate: rel.releaseDate,
+        referenceLabel: rel.eventId,
+        eventIds: [rel.eventId],
+      });
+    }
+  } catch (err) {
+    out.push({ label: 'Federal Reserve', source: '(error)', error: String(err.message || err), eventIds: [] });
+  }
   // CAO (Cabinet Office Japan) — Machinery Orders (機械受注).
   try {
     const r = await cao.getReleases(year, opts);
@@ -204,7 +223,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
   const findings = [];
   let fromCache = true;
   let cachedAt = new Date();
-  let source = 'BLS+BEA+Census+CAO+Customs+eStat+Tankan';
+  let source = 'BLS+BEA+Census+Federal Reserve+CAO+Customs+eStat+Tankan';
   for (const rel of releases) {
     if (rel.error) {
       findings.push({ kind: 'error', note: rel.error, label: rel.label });
@@ -214,11 +233,13 @@ async function checkStatisticalReleases({ events, year, opts }) {
     cachedAt = rel.cachedAt;
     source = rel.source;
     for (const id of rel.eventIds) {
-      const ev = events.find((e) => e.id === id);
-      if (!ev) continue; // missing entries are not auto-flagged here
-      if (ev.date === rel.releaseDate) {
-        findings.push({ kind: 'ok', id, events_date: ev.date, official_day2: rel.releaseDate, official_label: rel.referenceLabel });
+      const matchingEvents = events.filter((e) => e.id === id);
+      if (matchingEvents.length === 0) continue; // missing entries are not auto-flagged here
+      const exactMatch = matchingEvents.find((e) => e.date === rel.releaseDate);
+      if (exactMatch) {
+        findings.push({ kind: 'ok', id, events_date: exactMatch.date, official_day2: rel.releaseDate, official_label: rel.referenceLabel });
       } else {
+        const ev = matchingEvents[0];
         findings.push({
           kind: 'mismatch',
           id,
@@ -232,7 +253,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
     }
   }
   return {
-    label: 'BLS/BEA/Census/CAO/Customs/eStat/Tankan',
+    label: 'BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan',
     year,
     source,
     fromCache,
