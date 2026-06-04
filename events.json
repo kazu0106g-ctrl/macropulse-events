@@ -7478,5 +7478,49 @@
     "importance": 2,
     "forecast": null,
     "previous": null
+  },
+  {
+    "id": "boj_202601",
+    "name": "日銀金融政策決定会合",
+    "nameEn": "BOJ Rate Decision",
+    "nameCn": "日本央行利率决议",
+    "country": "JP",
+    "date": "2026-01-23",
+    "importance": 3,
+    "forecast": null,
+    "previous": null
+  },
+  {
+    "id": "fomc_202601",
+    "name": "FOMC政策金利発表",
+    "nameEn": "FOMC Rate Decision",
+    "nameCn": "FOMC利率决议",
+    "country": "US",
+    "date": "2026-01-28",
+    "importance": 3,
+    "forecast": null,
+    "previous": null
+  },
+  {
+    "id": "fomc_202603",
+    "name": "FOMC政策金利発表",
+    "nameEn": "FOMC Rate Decision",
+    "nameCn": "FOMC利率决议",
+    "country": "US",
+    "date": "2026-03-18",
+    "importance": 3,
+    "forecast": null,
+    "previous": null
+  },
+  {
+    "id": "boj_202603",
+    "name": "日銀金融政策決定会合",
+    "nameEn": "BOJ Rate Decision",
+    "nameCn": "日本央行利率决议",
+    "country": "JP",
+    "date": "2026-03-19",
+    "importance": 3,
+    "forecast": null,
+    "previous": null
   }
 ]

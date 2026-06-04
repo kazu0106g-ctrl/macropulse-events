@@ -1,22 +1,19 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-06-04T00:04:31.747Z
+Generated: 2026-06-04T13:48:42.719Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-04T00:04:24.690Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-04T13:48:38.096Z)
 
-OK: 6, Mismatch: 0, Missing: 2, Phantom: 0
-
-### Missing (no entry in events.json for this meeting)
-
-- boj_202601: official "1月22日（木）・23日（金）" Day 2 = 2026-01-23
-- boj_202603: official "3月18日（水）・19日（木）" Day 2 = 2026-03-19
+OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ### OK
 
+- boj_202601: 2026-01-23 matches Day 2 2026-01-23
+- boj_202603: 2026-03-19 matches Day 2 2026-03-19
 - boj_202604: 2026-04-28 matches Day 2 2026-04-28
 - boj_202606: 2026-06-16 matches Day 2 2026-06-16
 - boj_202607: 2026-07-31 matches Day 2 2026-07-31
@@ -26,17 +23,14 @@ OK: 6, Mismatch: 0, Missing: 2, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-04T00:04:24.807Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-04T13:48:38.372Z)
 
-OK: 6, Mismatch: 0, Missing: 2, Phantom: 0
-
-### Missing (no entry in events.json for this meeting)
-
-- fomc_202601: official "January 27-28" Day 2 = 2026-01-28
-- fomc_202603: official "March 17-18" Day 2 = 2026-03-18
+OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ### OK
 
+- fomc_202601: 2026-01-28 matches Day 2 2026-01-28
+- fomc_202603: 2026-03-18 matches Day 2 2026-03-18
 - fomc_202604: 2026-04-29 matches Day 2 2026-04-29
 - fomc_202606: 2026-06-17 matches Day 2 2026-06-17
 - fomc_202607: 2026-07-29 matches Day 2 2026-07-29
@@ -46,7 +40,7 @@ OK: 6, Mismatch: 0, Missing: 2, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-04T00:04:25.617Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-04T13:48:39.417Z)
 
 OK: 5, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -60,7 +54,7 @@ OK: 5, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## BLS/BEA/Census/CAO/Customs/eStat/Tankan 2026
 
-Source: https://www.boj.or.jp/statistics/tk/yoshi/index.htm (fresh at 2026-06-04T00:04:31.745Z)
+Source: https://www.boj.or.jp/statistics/tk/yoshi/index.htm (fresh at 2026-06-04T13:48:42.717Z)
 
 OK: 99, Mismatch: 0, Missing: 0, Phantom: 0
 
