@@ -177,6 +177,7 @@ function chooseBestDate({ symbol, secInfo, aux }) {
 
 // Manual CIK overrides for tickers not in SEC's public ticker files.
 const MANUAL_CIK = {
+  CTRA: '0000858470', // Coterra Energy
   MMC: '0000062709', // Marsh & McLennan
   WBA: '0001618921', // Walgreens Boots Alliance
 };
