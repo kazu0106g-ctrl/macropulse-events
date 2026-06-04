@@ -50,6 +50,11 @@ const INDICATOR_MAP = [
     label: 'Census/BEA U.S. International Trade',
     eventPrefix: 'us_trade',
   },
+  {
+    match: /New Residential Sales|New Home Sales/i,
+    label: 'Census New Home Sales',
+    eventPrefix: 'us_newhome',
+  },
 ];
 
 function fetchUrl(url, redirects = 0) {

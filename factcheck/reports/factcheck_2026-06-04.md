@@ -1,12 +1,12 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-06-04T13:48:42.719Z
+Generated: 2026-06-04T14:11:31.617Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-04T13:48:38.096Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-04T14:11:26.002Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -23,7 +23,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-04T13:48:38.372Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-04T14:11:26.266Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -40,7 +40,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-04T13:48:39.417Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-04T14:11:27.326Z)
 
 OK: 5, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -52,11 +52,11 @@ OK: 5, Mismatch: 0, Missing: 0, Phantom: 0
 - ecb_202610: 2026-10-29 matches Day 2 2026-10-29
 - ecb_202612: 2026-12-17 matches Day 2 2026-12-17
 
-## BLS/BEA/Census/CAO/Customs/eStat/Tankan 2026
+## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan 2026
 
-Source: https://www.boj.or.jp/statistics/tk/yoshi/index.htm (fresh at 2026-06-04T13:48:42.717Z)
+Source: https://www.boj.or.jp/statistics/tk/yoshi/index.htm (fresh at 2026-06-04T14:11:31.614Z)
 
-OK: 99, Mismatch: 0, Missing: 0, Phantom: 0
+OK: 132, Mismatch: 0, Missing: 0, Phantom: 0
 
 ### OK
 
@@ -103,6 +103,14 @@ OK: 99, Mismatch: 0, Missing: 0, Phantom: 0
 - us_ppi_202610: 2026-10-15 matches Day 2 2026-10-15
 - us_ppi_202611: 2026-11-13 matches Day 2 2026-11-13
 - us_ppi_202612: 2026-12-15 matches Day 2 2026-12-15
+- us_jolts_202605: 2026-05-05 matches Day 2 2026-05-05
+- us_jolts_202606: 2026-06-02 matches Day 2 2026-06-02
+- us_jolts_202606: 2026-06-30 matches Day 2 2026-06-30
+- us_jolts_202608: 2026-08-04 matches Day 2 2026-08-04
+- us_jolts_202609: 2026-09-01 matches Day 2 2026-09-01
+- us_jolts_202609: 2026-09-29 matches Day 2 2026-09-29
+- us_jolts_202611: 2026-11-03 matches Day 2 2026-11-03
+- us_jolts_202612: 2026-12-01 matches Day 2 2026-12-01
 - us_pce_202606: 2026-06-25 matches Day 2 2026-06-25
 - us_core_pce_202606: 2026-06-25 matches Day 2 2026-06-25
 - us_gdp_2026Q2: 2026-07-30 matches Day 2 2026-07-30
@@ -122,30 +130,55 @@ OK: 99, Mismatch: 0, Missing: 0, Phantom: 0
 - us_retail_202604: 2026-04-21 matches Day 2 2026-04-21
 - us_durable_202604: 2026-04-29 matches Day 2 2026-04-29
 - us_housing_202604: 2026-04-29 matches Day 2 2026-04-29
+- us_trade_202605: 2026-05-05 matches Day 2 2026-05-05
+- us_newhome_202605: 2026-05-28 matches Day 2 2026-05-28
 - us_retail_202605: 2026-05-14 matches Day 2 2026-05-14
 - us_housing_202605: 2026-05-21 matches Day 2 2026-05-21
 - us_durable_202605: 2026-05-28 matches Day 2 2026-05-28
+- us_trade_202606: 2026-06-09 matches Day 2 2026-06-09
 - us_housing_202606: 2026-06-16 matches Day 2 2026-06-16
 - us_retail_202606: 2026-06-17 matches Day 2 2026-06-17
+- us_newhome_202606: 2026-06-24 matches Day 2 2026-06-24
 - us_durable_202606: 2026-06-25 matches Day 2 2026-06-25
+- us_trade_202607: 2026-07-07 matches Day 2 2026-07-07
 - us_retail_202607: 2026-07-16 matches Day 2 2026-07-16
 - us_housing_202607: 2026-07-17 matches Day 2 2026-07-17
+- us_newhome_202607: 2026-07-24 matches Day 2 2026-07-24
 - us_durable_202607: 2026-07-27 matches Day 2 2026-07-27
+- us_trade_202608: 2026-08-04 matches Day 2 2026-08-04
 - us_retail_202608: 2026-08-14 matches Day 2 2026-08-14
 - us_housing_202608: 2026-08-18 matches Day 2 2026-08-18
+- us_newhome_202608: 2026-08-25 matches Day 2 2026-08-25
 - us_durable_202608: 2026-08-26 matches Day 2 2026-08-26
+- us_trade_202609: 2026-09-03 matches Day 2 2026-09-03
 - us_retail_202609: 2026-09-16 matches Day 2 2026-09-16
 - us_housing_202609: 2026-09-17 matches Day 2 2026-09-17
+- us_newhome_202609: 2026-09-24 matches Day 2 2026-09-24
 - us_durable_202609: 2026-09-25 matches Day 2 2026-09-25
+- us_trade_202610: 2026-10-06 matches Day 2 2026-10-06
 - us_retail_202610: 2026-10-15 matches Day 2 2026-10-15
 - us_housing_202610: 2026-10-20 matches Day 2 2026-10-20
 - us_durable_202610: 2026-10-27 matches Day 2 2026-10-27
+- us_newhome_202610: 2026-10-27 matches Day 2 2026-10-27
+- us_trade_202611: 2026-11-04 matches Day 2 2026-11-04
 - us_retail_202611: 2026-11-17 matches Day 2 2026-11-17
 - us_housing_202611: 2026-11-18 matches Day 2 2026-11-18
 - us_durable_202611: 2026-11-25 matches Day 2 2026-11-25
+- us_newhome_202611: 2026-11-25 matches Day 2 2026-11-25
+- us_trade_202612: 2026-12-08 matches Day 2 2026-12-08
 - us_retail_202612: 2026-12-16 matches Day 2 2026-12-16
 - us_housing_202612: 2026-12-17 matches Day 2 2026-12-17
 - us_durable_202612: 2026-12-23 matches Day 2 2026-12-23
+- us_newhome_202612: 2026-12-23 matches Day 2 2026-12-23
+- us_indprod_202604: 2026-04-16 matches Day 2 2026-04-16
+- us_indprod_202605: 2026-05-15 matches Day 2 2026-05-15
+- us_indprod_202606: 2026-06-15 matches Day 2 2026-06-15
+- us_indprod_202607: 2026-07-17 matches Day 2 2026-07-17
+- us_indprod_202608: 2026-08-18 matches Day 2 2026-08-18
+- us_indprod_202609: 2026-09-18 matches Day 2 2026-09-18
+- us_indprod_202610: 2026-10-16 matches Day 2 2026-10-16
+- us_indprod_202611: 2026-11-17 matches Day 2 2026-11-17
+- us_indprod_202612: 2026-12-16 matches Day 2 2026-12-16
 - jp_machord_202606: 2026-06-17 matches Day 2 2026-06-17
 - jp_machord_202607: 2026-07-15 matches Day 2 2026-07-15
 - jp_machord_202608: 2026-08-19 matches Day 2 2026-08-19

@@ -36,6 +36,11 @@ const RELEASES = {
     label: 'BLS PPI',
     eventPrefixes: ['us_ppi'],
   },
+  jolts: {
+    url: 'https://www.bls.gov/schedule/news_release/jolts.htm',
+    label: 'BLS Job Openings and Labor Turnover Survey',
+    eventPrefixes: ['us_jolts'],
+  },
 };
 
 const MONTHS = {
