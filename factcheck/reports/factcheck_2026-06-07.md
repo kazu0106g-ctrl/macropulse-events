@@ -1,12 +1,12 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-06-07T00:33:15.880Z
+Generated: 2026-06-07T23:31:52.273Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-07T00:33:09.101Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-07T23:31:46.896Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -23,7 +23,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-07T00:33:09.279Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-07T23:31:47.084Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -40,7 +40,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-07T00:33:09.959Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-07T23:31:48.083Z)
 
 OK: 5, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -54,7 +54,7 @@ OK: 5, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan 2026
 
-Source: https://www.boj.or.jp/statistics/tk/yoshi/index.htm (fresh at 2026-06-07T00:33:15.877Z)
+Source: https://www.boj.or.jp/statistics/tk/yoshi/index.htm (fresh at 2026-06-07T23:31:52.269Z)
 
 OK: 133, Mismatch: 0, Missing: 0, Phantom: 0
 
