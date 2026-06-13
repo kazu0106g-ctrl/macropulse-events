@@ -28,6 +28,9 @@ jobs:
       - name: Run current-year factcheck
         run: node factcheck/factcheck.js --year "$(date -u +%Y)" --no-cache
 
+      - name: Run current-year structural audit
+        run: node factcheck/audit_events.js --year "$(date -u +%Y)"
+
       - name: Commit factcheck report if changed
         run: |
           if [[ -n "$(git status --porcelain factcheck/reports)" ]]; then
