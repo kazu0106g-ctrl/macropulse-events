@@ -1,12 +1,12 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-06-13T07:56:13.539Z
+Generated: 2026-06-13T07:57:19.062Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-13T07:56:09.737Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-13T07:57:12.526Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -23,7 +23,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-13T07:56:09.973Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-13T07:57:12.619Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -40,7 +40,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-13T07:56:11.049Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-13T07:57:13.178Z)
 
 OK: 4, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -53,7 +53,7 @@ OK: 4, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan 2026
 
-Source: https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628 (fresh at 2026-06-13T07:56:13.537Z)
+Source: https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628 (fresh at 2026-06-13T07:57:19.060Z)
 
 OK: 142, Mismatch: 0, Missing: 0, Phantom: 0
 
