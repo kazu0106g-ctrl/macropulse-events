@@ -46,6 +46,7 @@ const customs_jp = require('./sources/customs_jp');
 const estat_jp = require('./sources/estat_jp');
 const tankan_boj = require('./sources/tankan_boj');
 const michigan = require('./sources/michigan');
+const nbs_china = require('./sources/nbs_china');
 
 const ROOT = path.join(__dirname, '..');
 const EVENTS_PATH = path.join(ROOT, 'events.json');
@@ -234,6 +235,24 @@ async function gatherStatisticalReleases(year, opts) {
   } catch (err) {
     out.push({ label: 'University of Michigan', source: '(error)', error: String(err.message || err), eventIds: [] });
   }
+  // National Bureau of Statistics of China regular release calendar.
+  try {
+    const r = await nbs_china.getReleases(year, opts);
+    for (const rel of r.releases) {
+      out.push({
+        label: rel.label,
+        source: r.source,
+        fromCache: r.fromCache,
+        cachedAt: r.cachedAt,
+        year,
+        releaseDate: rel.releaseDate,
+        referenceLabel: rel.eventId,
+        eventIds: [rel.eventId],
+      });
+    }
+  } catch (err) {
+    out.push({ label: 'NBS China', source: '(error)', error: String(err.message || err), eventIds: [] });
+  }
   return out;
 }
 
@@ -242,7 +261,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
   const findings = [];
   let fromCache = true;
   let cachedAt = new Date();
-  let source = 'BLS+BEA+Census+Federal Reserve+CAO+Customs+eStat+Tankan';
+  let source = 'BLS+BEA+Census+Federal Reserve+CAO+Customs+eStat+Tankan+Michigan+NBS';
   for (const rel of releases) {
     if (rel.error) {
       findings.push({ kind: 'error', note: rel.error, label: rel.label });
@@ -272,7 +291,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
     }
   }
   return {
-    label: 'BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan',
+    label: 'BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan/NBS',
     year,
     source,
     fromCache,

@@ -1,12 +1,12 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-06-13T07:57:19.062Z
+Generated: 2026-06-13T08:08:18.096Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-13T07:57:12.526Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-13T08:08:13.657Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -23,7 +23,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-13T07:57:12.619Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-13T08:08:13.882Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -40,7 +40,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-13T07:57:13.178Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-13T08:08:14.932Z)
 
 OK: 4, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -51,11 +51,11 @@ OK: 4, Mismatch: 0, Missing: 0, Phantom: 0
 - ecb_202610: 2026-10-29 matches Day 2 2026-10-29
 - ecb_202612: 2026-12-17 matches Day 2 2026-12-17
 
-## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan 2026
+## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan/NBS 2026
 
-Source: https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628 (fresh at 2026-06-13T07:57:19.060Z)
+Source: https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html (fresh at 2026-06-13T08:08:18.093Z)
 
-OK: 142, Mismatch: 0, Missing: 0, Phantom: 0
+OK: 197, Mismatch: 0, Missing: 0, Phantom: 0
 
 ### OK
 
@@ -201,3 +201,58 @@ OK: 142, Mismatch: 0, Missing: 0, Phantom: 0
 - us_michigan_202610: 2026-10-09 matches Day 2 2026-10-09
 - us_michigan_202611: 2026-11-06 matches Day 2 2026-11-06
 - us_michigan_202612: 2026-12-04 matches Day 2 2026-12-04
+- cn_gdp_2026Q1: 2026-04-16 matches Day 2 2026-04-16
+- cn_retail_202604: 2026-04-16 matches Day 2 2026-04-16
+- cn_indprod_202604: 2026-04-16 matches Day 2 2026-04-16
+- cn_unemp_202604: 2026-04-16 matches Day 2 2026-04-16
+- cn_retail_202605: 2026-05-18 matches Day 2 2026-05-18
+- cn_indprod_202605: 2026-05-18 matches Day 2 2026-05-18
+- cn_unemp_202605: 2026-05-18 matches Day 2 2026-05-18
+- cn_retail_202606: 2026-06-16 matches Day 2 2026-06-16
+- cn_indprod_202606: 2026-06-16 matches Day 2 2026-06-16
+- cn_unemp_202606: 2026-06-16 matches Day 2 2026-06-16
+- cn_gdp_2026Q2: 2026-07-15 matches Day 2 2026-07-15
+- cn_retail_202607: 2026-07-15 matches Day 2 2026-07-15
+- cn_indprod_202607: 2026-07-15 matches Day 2 2026-07-15
+- cn_unemp_202607: 2026-07-15 matches Day 2 2026-07-15
+- cn_retail_202608: 2026-08-17 matches Day 2 2026-08-17
+- cn_indprod_202608: 2026-08-17 matches Day 2 2026-08-17
+- cn_unemp_202608: 2026-08-17 matches Day 2 2026-08-17
+- cn_retail_202609: 2026-09-15 matches Day 2 2026-09-15
+- cn_indprod_202609: 2026-09-15 matches Day 2 2026-09-15
+- cn_unemp_202609: 2026-09-15 matches Day 2 2026-09-15
+- cn_gdp_2026Q3: 2026-10-19 matches Day 2 2026-10-19
+- cn_retail_202610: 2026-10-19 matches Day 2 2026-10-19
+- cn_indprod_202610: 2026-10-19 matches Day 2 2026-10-19
+- cn_unemp_202610: 2026-10-19 matches Day 2 2026-10-19
+- cn_retail_202611: 2026-11-16 matches Day 2 2026-11-16
+- cn_indprod_202611: 2026-11-16 matches Day 2 2026-11-16
+- cn_unemp_202611: 2026-11-16 matches Day 2 2026-11-16
+- cn_retail_202612: 2026-12-15 matches Day 2 2026-12-15
+- cn_indprod_202612: 2026-12-15 matches Day 2 2026-12-15
+- cn_unemp_202612: 2026-12-15 matches Day 2 2026-12-15
+- cn_pmi_202604: 2026-04-30 matches Day 2 2026-04-30
+- cn_pmi_202605: 2026-05-31 matches Day 2 2026-05-31
+- cn_pmi_202606: 2026-06-30 matches Day 2 2026-06-30
+- cn_pmi_202607: 2026-07-31 matches Day 2 2026-07-31
+- cn_pmi_202608: 2026-08-31 matches Day 2 2026-08-31
+- cn_pmi_202609: 2026-09-30 matches Day 2 2026-09-30
+- cn_pmi_202610: 2026-10-31 matches Day 2 2026-10-31
+- cn_pmi_202611: 2026-11-30 matches Day 2 2026-11-30
+- cn_pmi_202612: 2026-12-31 matches Day 2 2026-12-31
+- cn_cpi_202605: 2026-05-11 matches Day 2 2026-05-11
+- cn_ppi_202605: 2026-05-11 matches Day 2 2026-05-11
+- cn_cpi_202606: 2026-06-10 matches Day 2 2026-06-10
+- cn_ppi_202606: 2026-06-10 matches Day 2 2026-06-10
+- cn_cpi_202607: 2026-07-09 matches Day 2 2026-07-09
+- cn_ppi_202607: 2026-07-09 matches Day 2 2026-07-09
+- cn_cpi_202608: 2026-08-09 matches Day 2 2026-08-09
+- cn_ppi_202608: 2026-08-09 matches Day 2 2026-08-09
+- cn_cpi_202609: 2026-09-09 matches Day 2 2026-09-09
+- cn_ppi_202609: 2026-09-09 matches Day 2 2026-09-09
+- cn_cpi_202610: 2026-10-14 matches Day 2 2026-10-14
+- cn_ppi_202610: 2026-10-14 matches Day 2 2026-10-14
+- cn_cpi_202611: 2026-11-09 matches Day 2 2026-11-09
+- cn_ppi_202611: 2026-11-09 matches Day 2 2026-11-09
+- cn_cpi_202612: 2026-12-09 matches Day 2 2026-12-09
+- cn_ppi_202612: 2026-12-09 matches Day 2 2026-12-09
