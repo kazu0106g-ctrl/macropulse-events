@@ -1,12 +1,12 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-06-13T08:09:28.931Z
+Generated: 2026-06-13T23:34:33.925Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-13T08:09:21.241Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-13T23:34:29.382Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -23,7 +23,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-13T08:09:21.438Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-13T23:34:29.472Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -40,7 +40,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-13T08:09:22.833Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-13T23:34:30.174Z)
 
 OK: 4, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -53,9 +53,9 @@ OK: 4, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan/NBS 2026
 
-Source: https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html (fresh at 2026-06-13T08:09:28.928Z)
+Source: https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html (fresh at 2026-06-13T23:34:33.922Z)
 
-OK: 197, Mismatch: 0, Missing: 0, Phantom: 0
+OK: 192, Mismatch: 0, Missing: 0, Phantom: 0
 
 ### OK
 
@@ -185,11 +185,6 @@ OK: 197, Mismatch: 0, Missing: 0, Phantom: 0
 - jp_trade_202605: 2026-05-28 matches Day 2 2026-05-28
 - jp_trade_202604: 2026-04-28 matches Day 2 2026-04-28
 - jp_trade_202606: 2026-06-05 matches Day 2 2026-06-05
-- jp_cpi_202606: 2026-06-19 matches Day 2 2026-06-19
-- jp_core_cpi_202606: 2026-06-19 matches Day 2 2026-06-19
-- jp_retail_202606: 2026-06-29 matches Day 2 2026-06-29
-- jp_unemp_202606: 2026-06-30 matches Day 2 2026-06-30
-- jp_indprod_202606: 2026-06-30 matches Day 2 2026-06-30
 - jp_tankan_2026Q2: 2026-07-01 matches Day 2 2026-07-01
 - jp_tankan_2026Q3: 2026-10-01 matches Day 2 2026-10-01
 - us_michigan_202604: 2026-04-10 matches Day 2 2026-04-10
