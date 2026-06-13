@@ -1,12 +1,12 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-06-13T07:52:25.953Z
+Generated: 2026-06-13T07:56:13.539Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-13T07:52:20.388Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-06-13T07:56:09.737Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -23,7 +23,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-13T07:52:20.478Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-06-13T07:56:09.973Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -40,7 +40,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-13T07:52:21.059Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-06-13T07:56:11.049Z)
 
 OK: 4, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -51,11 +51,11 @@ OK: 4, Mismatch: 0, Missing: 0, Phantom: 0
 - ecb_202610: 2026-10-29 matches Day 2 2026-10-29
 - ecb_202612: 2026-12-17 matches Day 2 2026-12-17
 
-## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan 2026
+## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan 2026
 
-Source: https://www.boj.or.jp/statistics/tk/yoshi/index.htm (fresh at 2026-06-13T07:52:25.950Z)
+Source: https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628 (fresh at 2026-06-13T07:56:13.537Z)
 
-OK: 133, Mismatch: 0, Missing: 0, Phantom: 0
+OK: 142, Mismatch: 0, Missing: 0, Phantom: 0
 
 ### OK
 
@@ -192,3 +192,12 @@ OK: 133, Mismatch: 0, Missing: 0, Phantom: 0
 - jp_indprod_202606: 2026-06-30 matches Day 2 2026-06-30
 - jp_tankan_2026Q2: 2026-07-01 matches Day 2 2026-07-01
 - jp_tankan_2026Q3: 2026-10-01 matches Day 2 2026-10-01
+- us_michigan_202604: 2026-04-10 matches Day 2 2026-04-10
+- us_michigan_202605: 2026-05-08 matches Day 2 2026-05-08
+- us_michigan_202606: 2026-06-12 matches Day 2 2026-06-12
+- us_michigan_202607: 2026-07-17 matches Day 2 2026-07-17
+- us_michigan_202608: 2026-08-14 matches Day 2 2026-08-14
+- us_michigan_202609: 2026-09-11 matches Day 2 2026-09-11
+- us_michigan_202610: 2026-10-09 matches Day 2 2026-10-09
+- us_michigan_202611: 2026-11-06 matches Day 2 2026-11-06
+- us_michigan_202612: 2026-12-04 matches Day 2 2026-12-04

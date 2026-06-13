@@ -45,6 +45,7 @@ const cao = require('./sources/cao');
 const customs_jp = require('./sources/customs_jp');
 const estat_jp = require('./sources/estat_jp');
 const tankan_boj = require('./sources/tankan_boj');
+const michigan = require('./sources/michigan');
 
 const ROOT = path.join(__dirname, '..');
 const EVENTS_PATH = path.join(ROOT, 'events.json');
@@ -215,6 +216,24 @@ async function gatherStatisticalReleases(year, opts) {
   } catch (err) {
     out.push({ label: 'BOJ Tankan', source: '(error)', error: String(err.message || err), eventIds: [] });
   }
+  // University of Michigan Surveys of Consumers — preliminary sentiment.
+  try {
+    const r = await michigan.getReleases(year, opts);
+    for (const rel of r.releases) {
+      out.push({
+        label: rel.label,
+        source: r.source,
+        fromCache: r.fromCache,
+        cachedAt: r.cachedAt,
+        year,
+        releaseDate: rel.releaseDate,
+        referenceLabel: rel.eventId,
+        eventIds: [rel.eventId],
+      });
+    }
+  } catch (err) {
+    out.push({ label: 'University of Michigan', source: '(error)', error: String(err.message || err), eventIds: [] });
+  }
   return out;
 }
 
@@ -253,7 +272,7 @@ async function checkStatisticalReleases({ events, year, opts }) {
     }
   }
   return {
-    label: 'BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan',
+    label: 'BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan',
     year,
     source,
     fromCache,
