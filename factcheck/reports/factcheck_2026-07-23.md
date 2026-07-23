@@ -1,12 +1,12 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-07-23T23:27:58.328Z
+Generated: 2026-07-23T23:28:47.205Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-07-23T23:27:52.253Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-07-23T23:28:40.832Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -23,7 +23,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-07-23T23:27:52.529Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-07-23T23:28:40.995Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -40,7 +40,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-07-23T23:27:54.102Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-07-23T23:28:42.307Z)
 
 OK: 3, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -52,7 +52,7 @@ OK: 3, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan/NBS 2026
 
-Source: https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html (fresh at 2026-07-23T23:27:58.324Z)
+Source: https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html (fresh at 2026-07-23T23:28:47.201Z)
 
 OK: 196, Mismatch: 0, Missing: 0, Phantom: 0
 
