@@ -187,6 +187,18 @@ const MANUAL_CIK = {
   WBA: '0001618921', // Walgreens Boots Alliance
 };
 
+const DATE_OVERRIDES = {
+  AES: {
+    date: '2026-11-03',
+    source: 'manual_auxiliary_consensus',
+    confirmed: false,
+    officialConfirmed: false,
+    confidence: 'third_party_consensus',
+    needsReview: true,
+    reviewReason: 'third_party_consensus_without_official_confirmation',
+  },
+};
+
 let tickerMap = null;
 async function loadTickerMap() {
   if (tickerMap) return tickerMap;
@@ -445,6 +457,21 @@ async function main() {
   };
   for (const sym of SYMBOLS) {
     process.stdout.write(`${sym.padEnd(6)} `);
+    const override = DATE_OVERRIDES[sym];
+    if (override?.date) {
+      const overrideTs = new Date(override.date).getTime();
+      if (overrideTs >= now - 3 * 86_400_000) {
+        result[sym] = {
+          ...override,
+          lastFilingDate: existing[sym]?.lastFilingDate || null,
+          updatedAt: new Date().toISOString(),
+        };
+        if (override.confirmed === true) stats.officialOrManual++;
+        else stats.auxReplacedEstimate++;
+        console.log(`${override.date}  ${override.source}  confirmed=${override.confirmed} (override)`);
+        continue;
+      }
+    }
     const prev = existing[sym];
     const isManual = prev && prev.source === 'manual';
     if (isManual && prev.date) {
