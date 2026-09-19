@@ -17,3 +17,4 @@ jobs:
       - run: node --check factcheck/factcheck.js
       - run: node --check factcheck/audit_events.js
       - run: node factcheck/sources/customs_jp.test.js
+      - run: node factcheck/sources/fed.test.js
