@@ -76,6 +76,8 @@ function parseYearDates(html, year) {
   const re = new RegExp(`(${Object.keys(MONTHS).join('|')})\\s+(\\d{1,2})`, 'g');
   let m;
   while ((m = re.exec(match[1]))) {
+    const qualifier = match[1].slice(re.lastIndex).match(/^\s*\(([^)]*)\)/);
+    if (qualifier && /annual revision/i.test(qualifier[1])) continue;
     const month = MONTHS[m[1]];
     const day = parseInt(m[2], 10);
     dates.push(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`);
