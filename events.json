@@ -495,17 +495,6 @@
     "previous": null
   },
   {
-    "id": "au_retail_202604",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-04-28",
-    "importance": 1,
-    "forecast": null,
-    "previous": null
-  },
-  {
     "id": "us_gdp_2026Q1",
     "name": "米GDP（速報値）",
     "nameEn": "US GDP (Advance)",
@@ -1419,17 +1408,6 @@
     "previous": null
   },
   {
-    "id": "au_retail_202605",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-05-28",
-    "importance": 1,
-    "forecast": null,
-    "previous": null
-  },
-  {
     "id": "us_pce_202605",
     "name": "米PCE物価指数",
     "nameEn": "US PCE Price Index",
@@ -2299,17 +2277,6 @@
     "previous": null
   },
   {
-    "id": "au_retail_202606",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-06-30",
-    "importance": 1,
-    "forecast": null,
-    "previous": null
-  },
-  {
     "id": "ca_gdp_202606",
     "name": "加GDP",
     "nameEn": "Canada GDP",
@@ -3032,17 +2999,6 @@
     "country": "US",
     "date": "2026-07-28",
     "importance": 2,
-    "forecast": null,
-    "previous": null
-  },
-  {
-    "id": "au_retail_202607",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-07-28",
-    "importance": 1,
     "forecast": null,
     "previous": null
   },
@@ -3993,17 +3949,6 @@
     "previous": null
   },
   {
-    "id": "au_retail_202608",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-08-28",
-    "importance": 1,
-    "forecast": null,
-    "previous": null
-  },
-  {
     "id": "ca_gdp_202608",
     "name": "加GDP",
     "nameEn": "Canada GDP",
@@ -4851,17 +4796,6 @@
     "previous": null
   },
   {
-    "id": "au_retail_202609",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-09-29",
-    "importance": 1,
-    "forecast": null,
-    "previous": null
-  },
-  {
     "id": "jp_tankan_2026Q3",
     "name": "日銀短観",
     "nameEn": "BOJ Tankan Survey",
@@ -5639,17 +5573,6 @@
     "country": "AU",
     "date": "2026-10-28",
     "importance": 3,
-    "forecast": null,
-    "previous": null
-  },
-  {
-    "id": "au_retail_202610",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-10-28",
-    "importance": 1,
     "forecast": null,
     "previous": null
   },
@@ -6578,17 +6501,6 @@
     "previous": null
   },
   {
-    "id": "au_retail_202611",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-11-27",
-    "importance": 1,
-    "forecast": null,
-    "previous": null
-  },
-  {
     "id": "ca_gdp_202611",
     "name": "加GDP",
     "nameEn": "Canada GDP",
@@ -7392,17 +7304,6 @@
     "previous": null
   },
   {
-    "id": "au_retail_202612",
-    "name": "豪小売売上高",
-    "nameEn": "Australia Retail Sales",
-    "nameCn": "澳大利亚零售销售",
-    "country": "AU",
-    "date": "2026-12-23",
-    "importance": 1,
-    "forecast": null,
-    "previous": null
-  },
-  {
     "id": "ca_gdp_202612",
     "name": "加GDP",
     "nameEn": "Canada GDP",
@@ -7498,6 +7399,28 @@
     "country": "JP",
     "date": "2026-03-19",
     "importance": 3,
+    "forecast": null,
+    "previous": null
+  },
+  {
+    "id": "au_household_202611",
+    "name": "豪家計支出指標",
+    "nameEn": "Australia Household Spending Indicator",
+    "nameCn": "澳大利亚家庭支出指标",
+    "country": "AU",
+    "date": "2026-11-04",
+    "importance": 1,
+    "forecast": null,
+    "previous": null
+  },
+  {
+    "id": "au_household_202612",
+    "name": "豪家計支出指標",
+    "nameEn": "Australia Household Spending Indicator",
+    "nameCn": "澳大利亚家庭支出指标",
+    "country": "AU",
+    "date": "2026-12-03",
+    "importance": 1,
     "forecast": null,
     "previous": null
   }

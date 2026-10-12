@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const file = path.join(__dirname, '..', 'events.json');
-const events = JSON.parse(fs.readFileSync(file, 'utf8'));
+let events = JSON.parse(fs.readFileSync(file, 'utf8'));
 const corrections = [
   ['jp_cpi_202610', '2026-10-23', 'https://www.e-stat.go.jp/release-calendar'],
   ['jp_core_cpi_202610', '2026-10-23', 'https://www.e-stat.go.jp/release-calendar'],
@@ -33,6 +33,25 @@ for (const event of events.filter((e) => e.id === 'us_claims_202610')) {
   if (!date) continue;
   changes.push({ id: event.id, previous: event.date, date, source: 'https://oui.doleta.gov/unemploy/archive.asp' });
   event.date = date;
+}
+const retired = events.filter((e) => /^au_retail_2026/.test(e.id));
+if (retired.length) {
+  fs.writeFileSync(path.join(__dirname, 'reports', 'retired_au_retail_20261012.json'), JSON.stringify({
+    reason: 'ABS ceased Retail Trade after the June 2025 reference period; these 2026 dates were not valid release schedules.',
+    source: 'https://www.abs.gov.au/statistics/industry/retail-and-wholesale-trade/retail-trade-australia/latest-release',
+    events: retired,
+  }, null, 2) + '\n');
+  events = events.filter((e) => !/^au_retail_2026/.test(e.id));
+}
+for (const [month, date] of [['202611', '2026-11-04'], ['202612', '2026-12-03']]) {
+  const id = `au_household_${month}`;
+  if (events.some((e) => e.id === id)) continue;
+  events.push({
+    id, name: '\u8c6a\u5bb6\u8a08\u652f\u51fa\u6307\u6a19',
+    nameEn: 'Australia Household Spending Indicator',
+    nameCn: '\u6fb3\u5927\u5229\u4e9a\u5bb6\u5ead\u652f\u51fa\u6307\u6807',
+    country: 'AU', date, importance: 1, forecast: null, previous: null,
+  });
 }
 fs.writeFileSync(file, JSON.stringify(events, null, 2) + '\n');
 console.log(JSON.stringify(changes, null, 2));
