@@ -441,8 +441,15 @@ function md(reports) {
     const mismatches = r.findings.filter((f) => f.kind === 'mismatch');
     const missing = r.findings.filter((f) => f.kind === 'missing');
     const phantom = r.findings.filter((f) => f.kind === 'phantom');
+    const errors = r.findings.filter((f) => f.kind === 'error');
     lines.push(`OK: ${ok.length}, Mismatch: ${mismatches.length}, Missing: ${missing.length}, Phantom: ${phantom.length}`);
     lines.push(``);
+    if (errors.length) {
+      lines.push('### Source Errors');
+      lines.push('');
+      for (const f of errors) lines.push(`- ${f.label}: ${f.note}`);
+      lines.push('');
+    }
     if (mismatches.length) {
       lines.push(`### Mismatch (events.json date differs from official Day 2)`);
       lines.push(``);
@@ -612,7 +619,8 @@ function purgeRelayCache() {
   const phantoms = reports.flatMap((r) => r.findings.filter((f) => f.kind === 'phantom'));
 
   if (!args.apply) {
-    const exit = mismatches.length > 0 || phantoms.length > 0 ? 2 : 0;
+    const sourceErrors = reports.some((r) => r.error || r.notFound || r.findings.some((f) => f.kind === 'error'));
+    const exit = mismatches.length > 0 || phantoms.length > 0 || sourceErrors ? 2 : 0;
     process.exit(exit);
   }
 

@@ -178,6 +178,7 @@ function chooseBestDate({ symbol, secInfo, aux }) {
 
 // Manual CIK overrides for tickers not in SEC's public ticker files.
 const MANUAL_CIK = {
+  AVB: '0000915912', // AvalonBay Communities
   BK: '0001390777', // Bank of New York Mellon; SEC ticker is now BNY.
   CTRA: '0000858470', // Coterra Energy
   EA: '0000712515', // Electronic Arts
@@ -188,14 +189,41 @@ const MANUAL_CIK = {
 };
 
 const DATE_OVERRIDES = {
-  AES: {
-    date: '2026-11-03',
-    source: 'manual_auxiliary_consensus',
-    confirmed: false,
-    officialConfirmed: false,
-    confidence: 'third_party_consensus',
-    needsReview: true,
-    reviewReason: 'third_party_consensus_without_official_confirmation',
+  KO: {
+    date: '2026-10-27',
+    source: 'official_ir_manual',
+    sourceUrl: 'https://investors.coca-colacompany.com/_assets/_13065c743477868af33298f12a236e35/cocacolacompany/news/2026-09-29_The_Coca_Cola_Company_Announces_Timing_of_Third_1173.pdf',
+    confirmed: true,
+    officialConfirmed: true,
+    confidence: 'official_ir_announcement',
+    needsReview: false,
+  },
+  TSLA: {
+    date: '2026-10-21',
+    source: 'official_ir_manual',
+    sourceUrl: 'https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments',
+    confirmed: true,
+    officialConfirmed: true,
+    confidence: 'official_ir_announcement',
+    needsReview: false,
+  },
+  INTC: {
+    date: '2026-10-29',
+    source: 'official_ir_manual',
+    sourceUrl: 'https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html',
+    confirmed: true,
+    officialConfirmed: true,
+    confidence: 'official_ir_announcement',
+    needsReview: false,
+  },
+  TSM: {
+    date: '2026-10-15',
+    source: 'official_ir_manual',
+    sourceUrl: 'https://investor.tsmc.com/english/financial-calendar',
+    confirmed: true,
+    officialConfirmed: true,
+    confidence: 'official_ir_announcement',
+    needsReview: false,
   },
 };
 

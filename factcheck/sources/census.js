@@ -95,8 +95,9 @@ function fetchUrl(url, redirects = 0) {
   });
 }
 
-async function fetchCalendarHtml({ cacheDir = DEFAULT_CACHE_DIR, useCache = true } = {}) {
-  const cachePath = path.join(cacheDir, 'census_calendar.html');
+async function fetchCalendarHtml({ cacheDir = DEFAULT_CACHE_DIR, useCache = true, year } = {}) {
+  const url = year ? `https://www.census.gov/economic-indicators/calendar-listview-${year}.html` : URL;
+  const cachePath = path.join(cacheDir, year ? `census_calendar_${year}.html` : 'census_calendar.html');
   if (useCache) {
     try {
       const stat = fs.statSync(cachePath);
@@ -105,7 +106,7 @@ async function fetchCalendarHtml({ cacheDir = DEFAULT_CACHE_DIR, useCache = true
       }
     } catch (_) {}
   }
-  const html = await fetchUrl(URL);
+  const html = await fetchUrl(url);
   fs.mkdirSync(cacheDir, { recursive: true });
   fs.writeFileSync(cachePath, html, 'utf8');
   return { html, fromCache: false, cachedAt: new Date() };
@@ -180,8 +181,11 @@ function parseCalendarEntries(html) {
 
 // Returns one record per indicator per release date found in year.
 async function getReleases(year, opts = {}) {
-  const { html, fromCache, cachedAt } = await fetchCalendarHtml(opts);
+  const { html, fromCache, cachedAt } = await fetchCalendarHtml({ ...opts, year });
   const raw = parseCalendarEntries(html);
+  if (!raw.some((entry) => entry.date.startsWith(`${year}-`))) {
+    throw new Error(`Census calendar contains no releases for ${year}`);
+  }
 
   // Group by prefix, keeping only entries matching the requested year.
   // De-duplicate: if a prefix has two releases in the same month (catch-up),
@@ -205,7 +209,7 @@ async function getReleases(year, opts = {}) {
   }
 
   return {
-    source: URL,
+    source: `https://www.census.gov/economic-indicators/calendar-listview-${year}.html`,
     year,
     fromCache,
     cachedAt,
