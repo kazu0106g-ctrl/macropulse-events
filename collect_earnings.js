@@ -184,6 +184,7 @@ const MANUAL_CIK = {
   EA: '0000712515', // Electronic Arts
   EQR: '0000906107', // Equity Residential; SEC ticker metadata changed.
   MMC: '0000062709', // Marsh & McLennan
+  PSKY: '0002041610', // Paramount Skydance
   SATS: '0001415404', // EchoStar; SEC ticker is now ECHO.
   WBA: '0001618921', // Walgreens Boots Alliance
 };
