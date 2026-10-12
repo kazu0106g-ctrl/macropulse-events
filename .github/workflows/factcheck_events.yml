@@ -29,9 +29,11 @@ jobs:
         run: node factcheck/factcheck.js --year "$(date -u +%Y)" --no-cache
 
       - name: Run current-year structural audit
+        if: always()
         run: node factcheck/audit_events.js --year "$(date -u +%Y)"
 
       - name: Commit factcheck report if changed
+        if: always()
         run: |
           if [[ -n "$(git status --porcelain factcheck/reports)" ]]; then
             git config user.name  "github-actions[bot]"
