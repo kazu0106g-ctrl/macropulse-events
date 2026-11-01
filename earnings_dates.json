@@ -10,7 +10,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:17.584Z"
+    "updatedAt": "2026-11-01T00:30:12.667Z"
   },
   "MSFT": {
     "date": "2027-01-27",
@@ -19,7 +19,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:01.320Z"
+    "updatedAt": "2026-11-01T00:32:28.097Z"
   },
   "AMZN": {
     "date": "2027-02-04",
@@ -28,7 +28,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:05.050Z"
+    "updatedAt": "2026-11-01T00:30:03.820Z"
   },
   "GOOGL": {
     "date": "2027-02-03",
@@ -37,7 +37,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:03.438Z"
+    "updatedAt": "2026-11-01T00:30:02.078Z"
   },
   "META": {
     "date": "2027-01-27",
@@ -46,7 +46,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:59.123Z"
+    "updatedAt": "2026-11-01T00:32:26.259Z"
   },
   "KO": {
     "date": "2027-02-09",
@@ -55,7 +55,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:00.312Z"
+    "updatedAt": "2026-11-01T00:30:48.332Z"
   },
   "MCD": {
     "date": "2026-11-04",
@@ -66,7 +66,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:57.256Z"
+    "updatedAt": "2026-11-01T00:32:24.573Z"
   },
   "NKE": {
     "date": "2026-12-17",
@@ -77,7 +77,7 @@
     "lastFilingDate": "2026-10-01",
     "auxiliaryDate": "2026-12-17",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:17.915Z"
+    "updatedAt": "2026-11-01T00:32:42.257Z"
   },
   "SBUX": {
     "date": "2027-01-27",
@@ -86,7 +86,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:12.211Z"
+    "updatedAt": "2026-11-01T00:33:23.275Z"
   },
   "TSLA": {
     "date": "2027-01-27",
@@ -95,18 +95,20 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:24.162Z"
+    "updatedAt": "2026-11-01T00:33:31.474Z"
   },
   "NVDA": {
-    "date": "2026-11-18",
-    "source": "sec_8k_yoy_estimate+alpha_vantage_calendar",
-    "confirmed": true,
+    "date": "2026-11-17",
+    "source": "alpha_vantage_calendar",
+    "confirmed": false,
     "officialConfirmed": false,
-    "confidence": "multi_source_agreed",
+    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-08-26",
-    "auxiliaryDate": "2026-11-18",
-    "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:23.192Z"
+    "secEstimateDate": "2026-11-18",
+    "secEstimateSource": "sec_8k_yoy_estimate",
+    "needsReview": true,
+    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
+    "updatedAt": "2026-11-01T00:32:46.277Z"
   },
   "LMT": {
     "date": "2027-01-28",
@@ -115,7 +117,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:48.628Z"
+    "updatedAt": "2026-11-01T00:32:17.990Z"
   },
   "UNH": {
     "date": "2027-01-26",
@@ -124,7 +126,7 @@
     "lastFilingDate": "2026-10-13",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:36.447Z"
+    "updatedAt": "2026-11-01T00:33:41.819Z"
   },
   "JNJ": {
     "date": "2027-01-20",
@@ -133,7 +135,7 @@
     "lastFilingDate": "2026-10-13",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:32.226Z"
+    "updatedAt": "2026-11-01T00:32:05.108Z"
   },
   "GOOG": {
     "date": "2027-02-03",
@@ -142,7 +144,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:03.665Z"
+    "updatedAt": "2026-11-01T00:30:02.291Z"
   },
   "AVGO": {
     "date": "2026-12-10",
@@ -153,7 +155,7 @@
     "lastFilingDate": "2026-09-02",
     "auxiliaryDate": "2026-12-10",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:36.400Z"
+    "updatedAt": "2026-11-01T00:30:28.930Z"
   },
   "ORCL": {
     "date": "2026-12-09",
@@ -164,7 +166,7 @@
     "lastFilingDate": "2026-09-10",
     "auxiliaryDate": "2026-12-09",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:29.221Z"
+    "updatedAt": "2026-11-01T00:32:50.513Z"
   },
   "CRM": {
     "date": "2026-12-02",
@@ -175,7 +177,7 @@
     "lastFilingDate": "2026-08-26",
     "auxiliaryDate": "2026-12-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:04.045Z"
+    "updatedAt": "2026-11-01T00:33:17.192Z"
   },
   "ADBE": {
     "date": "2026-12-09",
@@ -186,7 +188,7 @@
     "lastFilingDate": "2026-09-10",
     "auxiliaryDate": "2026-12-09",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:06:56.082Z"
+    "updatedAt": "2026-11-01T00:29:53.989Z"
   },
   "NFLX": {
     "date": "2027-01-19",
@@ -195,7 +197,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:09.403Z"
+    "updatedAt": "2026-11-01T00:32:35.169Z"
   },
   "AMD": {
     "date": "2026-11-03",
@@ -206,18 +208,16 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:06:56.533Z"
+    "updatedAt": "2026-11-01T00:29:54.633Z"
   },
   "INTC": {
-    "date": "2026-10-29",
-    "source": "official_ir_manual",
-    "sourceUrl": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
-    "confirmed": true,
-    "officialConfirmed": true,
-    "confidence": "official_ir_announcement",
-    "needsReview": false,
-    "lastFilingDate": "2026-07-23",
-    "updatedAt": "2026-10-31T01:09:24.152Z"
+    "date": "2027-01-21",
+    "source": "sec_8k_yoy_estimate",
+    "confirmed": false,
+    "lastFilingDate": "2026-10-29",
+    "needsReview": true,
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:31:59.667Z"
   },
   "QCOM": {
     "date": "2026-11-04",
@@ -228,7 +228,7 @@
     "lastFilingDate": "2026-07-29",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:50.602Z"
+    "updatedAt": "2026-11-01T00:33:07.220Z"
   },
   "IBM": {
     "date": "2027-01-27",
@@ -237,7 +237,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:20.609Z"
+    "updatedAt": "2026-11-01T00:31:56.080Z"
   },
   "TXN": {
     "date": "2027-01-26",
@@ -246,7 +246,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:24.392Z"
+    "updatedAt": "2026-11-01T00:33:31.686Z"
   },
   "INTU": {
     "date": "2026-11-19",
@@ -257,7 +257,7 @@
     "lastFilingDate": "2026-08-25",
     "auxiliaryDate": "2026-11-19",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:26.710Z"
+    "updatedAt": "2026-11-01T00:32:01.419Z"
   },
   "NOW": {
     "date": "2027-01-27",
@@ -266,7 +266,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:07.520Z"
+    "updatedAt": "2026-11-01T00:33:19.655Z"
   },
   "ADI": {
     "date": "2026-11-24",
@@ -277,7 +277,7 @@
     "lastFilingDate": "2026-08-19",
     "auxiliaryDate": "2026-11-24",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:12.783Z"
+    "updatedAt": "2026-11-01T00:30:10.094Z"
   },
   "LRCX": {
     "date": "2027-01-27",
@@ -286,7 +286,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:44.563Z"
+    "updatedAt": "2026-11-01T00:32:14.143Z"
   },
   "KLAC": {
     "date": "2027-01-28",
@@ -295,7 +295,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:40.986Z"
+    "updatedAt": "2026-11-01T00:32:11.079Z"
   },
   "MU": {
     "date": "2026-12-16",
@@ -306,7 +306,7 @@
     "lastFilingDate": "2026-09-30",
     "auxiliaryDate": "2026-12-16",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:00.932Z"
+    "updatedAt": "2026-11-01T00:32:27.728Z"
   },
   "MRVL": {
     "date": "2026-12-01",
@@ -317,7 +317,7 @@
     "lastFilingDate": "2026-08-27",
     "auxiliaryDate": "2026-12-01",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:12.145Z"
+    "updatedAt": "2026-11-01T00:34:08.096Z"
   },
   "NXPI": {
     "date": "2027-02-02",
@@ -326,7 +326,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:24.646Z"
+    "updatedAt": "2026-11-01T00:32:47.042Z"
   },
   "CDNS": {
     "date": "2027-02-16",
@@ -335,7 +335,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:40.151Z"
+    "updatedAt": "2026-11-01T00:30:32.414Z"
   },
   "SNPS": {
     "date": "2026-12-09",
@@ -346,7 +346,7 @@
     "lastFilingDate": "2026-08-26",
     "auxiliaryDate": "2026-12-09",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:17.129Z"
+    "updatedAt": "2026-11-01T00:33:26.877Z"
   },
   "SMCI": {
     "date": "2026-11-03",
@@ -359,7 +359,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:15.864Z"
+    "updatedAt": "2026-11-01T00:33:25.983Z"
   },
   "PANW": {
     "date": "2026-11-18",
@@ -370,7 +370,7 @@
     "lastFilingDate": "2026-09-01",
     "auxiliaryDate": "2026-11-18",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:30.823Z"
+    "updatedAt": "2026-11-01T00:32:51.826Z"
   },
   "CRWD": {
     "date": "2026-12-01",
@@ -381,7 +381,7 @@
     "lastFilingDate": "2026-08-26",
     "auxiliaryDate": "2026-12-01",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:12.365Z"
+    "updatedAt": "2026-11-01T00:30:59.165Z"
   },
   "FTNT": {
     "date": "2027-02-04",
@@ -390,7 +390,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:56.807Z"
+    "updatedAt": "2026-11-01T00:31:35.575Z"
   },
   "ZS": {
     "date": "2026-11-24",
@@ -401,7 +401,7 @@
     "lastFilingDate": "2026-09-03",
     "auxiliaryDate": "2026-11-24",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:17.755Z"
+    "updatedAt": "2026-11-01T00:34:12.538Z"
   },
   "DDOG": {
     "date": "2026-11-04",
@@ -414,7 +414,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:18.179Z"
+    "updatedAt": "2026-11-01T00:31:01.990Z"
   },
   "OKTA": {
     "date": "2026-12-01",
@@ -425,7 +425,7 @@
     "lastFilingDate": "2026-08-26",
     "auxiliaryDate": "2026-12-01",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:12.835Z"
+    "updatedAt": "2026-11-01T00:34:08.726Z"
   },
   "MDB": {
     "date": "2026-12-07",
@@ -438,7 +438,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:11.026Z"
+    "updatedAt": "2026-11-01T00:34:07.011Z"
   },
   "WDAY": {
     "date": "2026-11-24",
@@ -451,7 +451,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:58.039Z"
+    "updatedAt": "2026-11-01T00:33:56.293Z"
   },
   "PYPL": {
     "date": "2027-02-02",
@@ -460,7 +460,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:32.642Z"
+    "updatedAt": "2026-11-01T00:32:53.602Z"
   },
   "COIN": {
     "date": "2027-02-11",
@@ -469,7 +469,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:01.775Z"
+    "updatedAt": "2026-11-01T00:30:49.392Z"
   },
   "PLTR": {
     "date": "2026-11-02",
@@ -480,7 +480,7 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:30.591Z"
+    "updatedAt": "2026-11-01T00:32:51.615Z"
   },
   "MSTR": {
     "date": "2027-02-04",
@@ -489,7 +489,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:07.061Z"
+    "updatedAt": "2026-11-01T00:34:04.459Z"
   },
   "ABNB": {
     "date": "2026-11-05",
@@ -500,7 +500,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:06:58.917Z"
+    "updatedAt": "2026-11-01T00:29:57.621Z"
   },
   "UBER": {
     "date": "2026-11-04",
@@ -513,7 +513,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:32.677Z"
+    "updatedAt": "2026-11-01T00:33:38.390Z"
   },
   "SNAP": {
     "date": "2026-11-04",
@@ -524,7 +524,7 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:15.801Z"
+    "updatedAt": "2026-11-01T00:34:10.587Z"
   },
   "DOCU": {
     "date": "2026-12-03",
@@ -535,7 +535,7 @@
     "lastFilingDate": "2026-09-03",
     "auxiliaryDate": "2026-12-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:07.968Z"
+    "updatedAt": "2026-11-01T00:34:05.261Z"
   },
   "ZM": {
     "date": "2026-11-23",
@@ -546,7 +546,7 @@
     "lastFilingDate": "2026-08-25",
     "auxiliaryDate": "2026-11-23",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:17.114Z"
+    "updatedAt": "2026-11-01T00:34:11.923Z"
   },
   "JPM": {
     "date": "2027-01-14",
@@ -559,7 +559,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:32.915Z"
+    "updatedAt": "2026-11-01T00:32:05.780Z"
   },
   "BAC": {
     "date": "2027-01-13",
@@ -568,7 +568,7 @@
     "lastFilingDate": "2026-10-14",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:27.791Z"
+    "updatedAt": "2026-11-01T00:30:21.602Z"
   },
   "WFC": {
     "date": "2027-01-13",
@@ -577,7 +577,7 @@
     "lastFilingDate": "2026-10-13",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:50.840Z"
+    "updatedAt": "2026-11-01T00:33:51.741Z"
   },
   "C": {
     "date": "2027-01-13",
@@ -586,7 +586,7 @@
     "lastFilingDate": "2026-10-13",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:58.003Z"
+    "updatedAt": "2026-11-01T00:30:46.248Z"
   },
   "GS": {
     "date": "2027-01-14",
@@ -595,7 +595,7 @@
     "lastFilingDate": "2026-10-13",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:11.233Z"
+    "updatedAt": "2026-11-01T00:31:45.527Z"
   },
   "MS": {
     "date": "2027-01-14",
@@ -604,7 +604,7 @@
     "lastFilingDate": "2026-10-14",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:05.843Z"
+    "updatedAt": "2026-11-01T00:32:31.818Z"
   },
   "BLK": {
     "date": "2027-01-14",
@@ -613,7 +613,7 @@
     "lastFilingDate": "2026-10-14",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:32.070Z"
+    "updatedAt": "2026-11-01T00:30:24.308Z"
   },
   "SCHW": {
     "date": "2027-01-20",
@@ -622,7 +622,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:51.103Z"
+    "updatedAt": "2026-11-01T00:30:40.986Z"
   },
   "AXP": {
     "date": "2027-01-29",
@@ -631,7 +631,7 @@
     "lastFilingDate": "2026-10-23",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:07.586Z"
+    "updatedAt": "2026-11-01T00:30:06.014Z"
   },
   "V": {
     "date": "2027-01-28",
@@ -640,7 +640,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:42.915Z"
+    "updatedAt": "2026-11-01T00:33:47.490Z"
   },
   "MA": {
     "date": "2027-01-28",
@@ -649,7 +649,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:56.069Z"
+    "updatedAt": "2026-11-01T00:32:23.449Z"
   },
   "USB": {
     "date": "2027-01-19",
@@ -660,7 +660,7 @@
     "lastFilingDate": "2026-10-15",
     "auxiliaryDate": "2027-01-19",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:32.449Z"
+    "updatedAt": "2026-11-01T00:33:38.179Z"
   },
   "PGR": {
     "date": "2027-01-27",
@@ -669,7 +669,7 @@
     "lastFilingDate": "2026-10-14",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:43.944Z"
+    "updatedAt": "2026-11-01T00:33:02.622Z"
   },
   "CB": {
     "date": "2027-02-02",
@@ -678,7 +678,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:54.355Z"
+    "updatedAt": "2026-11-01T00:30:43.146Z"
   },
   "SPGI": {
     "date": "2027-02-09",
@@ -687,7 +687,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:03.311Z"
+    "updatedAt": "2026-11-01T00:33:16.516Z"
   },
   "ICE": {
     "date": "2027-02-04",
@@ -696,7 +696,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:24.685Z"
+    "updatedAt": "2026-11-01T00:32:00.234Z"
   },
   "CME": {
     "date": "2027-02-03",
@@ -705,7 +705,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:59.541Z"
+    "updatedAt": "2026-11-01T00:30:47.733Z"
   },
   "COF": {
     "date": "2027-01-21",
@@ -714,7 +714,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:41.651Z"
+    "updatedAt": "2026-11-01T00:30:33.588Z"
   },
   "LLY": {
     "date": "2027-02-03",
@@ -723,7 +723,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:47.006Z"
+    "updatedAt": "2026-11-01T00:32:16.423Z"
   },
   "PFE": {
     "date": "2026-11-03",
@@ -734,20 +734,16 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:34.185Z"
+    "updatedAt": "2026-11-01T00:32:54.921Z"
   },
   "ABBV": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-02-03",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-02-03",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:06:55.385Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:29:53.418Z"
   },
   "MRK": {
     "date": "2027-02-02",
@@ -756,7 +752,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:58.719Z"
+    "updatedAt": "2026-11-01T00:32:25.903Z"
   },
   "TMO": {
     "date": "2027-01-28",
@@ -765,7 +761,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:25.588Z"
+    "updatedAt": "2026-11-01T00:33:32.642Z"
   },
   "ABT": {
     "date": "2027-01-21",
@@ -774,7 +770,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:06:54.299Z"
+    "updatedAt": "2026-11-01T00:29:52.499Z"
   },
   "DHR": {
     "date": "2027-01-27",
@@ -783,7 +779,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:14.640Z"
+    "updatedAt": "2026-11-01T00:31:01.430Z"
   },
   "BMY": {
     "date": "2027-02-04",
@@ -792,7 +788,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:35.824Z"
+    "updatedAt": "2026-11-01T00:30:28.300Z"
   },
   "AMGN": {
     "date": "2026-11-03",
@@ -803,7 +799,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:11.543Z"
+    "updatedAt": "2026-11-01T00:30:08.927Z"
   },
   "GILD": {
     "date": "2027-02-09",
@@ -812,7 +808,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:10.017Z"
+    "updatedAt": "2026-11-01T00:31:44.334Z"
   },
   "VRTX": {
     "date": "2026-11-02",
@@ -823,20 +819,16 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:39.843Z"
+    "updatedAt": "2026-11-01T00:33:44.980Z"
   },
   "REGN": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-01-29",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-01-29",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:57.111Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:33:11.779Z"
   },
   "CI": {
     "date": "2026-11-05",
@@ -849,7 +841,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:55.591Z"
+    "updatedAt": "2026-11-01T00:30:44.274Z"
   },
   "ELV": {
     "date": "2027-01-27",
@@ -858,7 +850,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:37.682Z"
+    "updatedAt": "2026-11-01T00:31:19.535Z"
   },
   "ISRG": {
     "date": "2027-01-21",
@@ -867,7 +859,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:27.014Z"
+    "updatedAt": "2026-11-01T00:32:01.676Z"
   },
   "SYK": {
     "date": "2027-01-28",
@@ -876,7 +868,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:15.286Z"
+    "updatedAt": "2026-11-01T00:33:25.464Z"
   },
   "BSX": {
     "date": "2027-02-03",
@@ -885,7 +877,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:35.437Z"
+    "updatedAt": "2026-11-01T00:30:27.917Z"
   },
   "MDT": {
     "date": "2026-11-17",
@@ -896,7 +888,7 @@
     "lastFilingDate": "2026-09-01",
     "auxiliaryDate": "2026-11-17",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:58.304Z"
+    "updatedAt": "2026-11-01T00:32:25.531Z"
   },
   "BIIB": {
     "date": "2027-02-05",
@@ -905,7 +897,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:31.847Z"
+    "updatedAt": "2026-11-01T00:30:24.092Z"
   },
   "DXCM": {
     "date": "2027-02-11",
@@ -914,7 +906,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:21.934Z"
+    "updatedAt": "2026-11-01T00:31:05.640Z"
   },
   "IDXX": {
     "date": "2026-11-02",
@@ -925,7 +917,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:21.430Z"
+    "updatedAt": "2026-11-01T00:31:56.971Z"
   },
   "ZTS": {
     "date": "2026-11-05",
@@ -938,7 +930,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:02.865Z"
+    "updatedAt": "2026-11-01T00:34:00.588Z"
   },
   "WMT": {
     "date": "2026-11-19",
@@ -949,7 +941,7 @@
     "lastFilingDate": "2026-08-20",
     "auxiliaryDate": "2026-11-19",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:46.965Z"
+    "updatedAt": "2026-11-01T00:33:49.789Z"
   },
   "COST": {
     "date": "2026-12-10",
@@ -960,7 +952,7 @@
     "lastFilingDate": "2026-09-24",
     "auxiliaryDate": "2026-12-10",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:11.500Z"
+    "updatedAt": "2026-11-01T00:30:58.296Z"
   },
   "PG": {
     "date": "2027-01-21",
@@ -969,7 +961,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:43.676Z"
+    "updatedAt": "2026-11-01T00:33:02.392Z"
   },
   "PEP": {
     "date": "2027-02-02",
@@ -978,7 +970,7 @@
     "lastFilingDate": "2026-10-08",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:33.957Z"
+    "updatedAt": "2026-11-01T00:32:54.705Z"
   },
   "LOW": {
     "date": "2026-11-18",
@@ -989,7 +981,7 @@
     "lastFilingDate": "2026-08-19",
     "auxiliaryDate": "2026-11-18",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:49.384Z"
+    "updatedAt": "2026-11-01T00:32:18.573Z"
   },
   "HD": {
     "date": "2026-11-17",
@@ -1000,7 +992,7 @@
     "lastFilingDate": "2026-08-18",
     "auxiliaryDate": "2026-11-17",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:16.007Z"
+    "updatedAt": "2026-11-01T00:31:51.243Z"
   },
   "TJX": {
     "date": "2026-11-18",
@@ -1011,7 +1003,7 @@
     "lastFilingDate": "2026-08-19",
     "auxiliaryDate": "2026-11-18",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:26.171Z"
+    "updatedAt": "2026-11-01T00:33:33.231Z"
   },
   "TGT": {
     "date": "2026-11-18",
@@ -1022,7 +1014,7 @@
     "lastFilingDate": "2026-08-19",
     "auxiliaryDate": "2026-11-18",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:21.840Z"
+    "updatedAt": "2026-11-01T00:33:29.779Z"
   },
   "DIS": {
     "date": "2026-11-17",
@@ -1035,7 +1027,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:47.193Z"
+    "updatedAt": "2026-11-01T00:33:50.002Z"
   },
   "CMCSA": {
     "date": "2027-01-28",
@@ -1044,7 +1036,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:02.246Z"
+    "updatedAt": "2026-11-01T00:30:49.838Z"
   },
   "MDLZ": {
     "date": "2027-02-02",
@@ -1053,7 +1045,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:03.365Z"
+    "updatedAt": "2026-11-01T00:32:29.997Z"
   },
   "MO": {
     "date": "2027-01-28",
@@ -1062,7 +1054,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:04.419Z"
+    "updatedAt": "2026-11-01T00:30:03.187Z"
   },
   "PM": {
     "date": "2027-02-05",
@@ -1071,20 +1063,16 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:36.491Z"
+    "updatedAt": "2026-11-01T00:32:56.343Z"
   },
   "CL": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-01-29",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-01-29",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:02.015Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:30:49.626Z"
   },
   "KHC": {
     "date": "2026-11-04",
@@ -1097,7 +1085,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:41.691Z"
+    "updatedAt": "2026-11-01T00:32:11.774Z"
   },
   "MNST": {
     "date": "2026-11-05",
@@ -1108,7 +1096,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:04.845Z"
+    "updatedAt": "2026-11-01T00:32:31.045Z"
   },
   "KDP": {
     "date": "2026-11-03",
@@ -1121,7 +1109,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:35.733Z"
+    "updatedAt": "2026-11-01T00:32:07.059Z"
   },
   "ORLY": {
     "date": "2027-02-03",
@@ -1130,7 +1118,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:25.418Z"
+    "updatedAt": "2026-11-01T00:32:47.753Z"
   },
   "YUM": {
     "date": "2026-11-03",
@@ -1141,7 +1129,7 @@
     "lastFilingDate": "2026-07-30",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:01.089Z"
+    "updatedAt": "2026-11-01T00:33:59.203Z"
   },
   "CMG": {
     "date": "2027-02-02",
@@ -1150,7 +1138,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:53.981Z"
+    "updatedAt": "2026-11-01T00:30:42.927Z"
   },
   "DPZ": {
     "date": "2027-01-12",
@@ -1159,7 +1147,7 @@
     "lastFilingDate": "2026-10-13",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:27.233Z"
+    "updatedAt": "2026-11-01T00:31:10.151Z"
   },
   "BKNG": {
     "date": "2026-11-03",
@@ -1168,11 +1156,11 @@
     "officialConfirmed": false,
     "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-08-04",
-    "secEstimateDate": "2026-10-27",
+    "secEstimateDate": "2027-01-26",
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:34.528Z"
+    "updatedAt": "2026-11-01T00:30:26.675Z"
   },
   "EXPE": {
     "date": "2026-11-04",
@@ -1185,7 +1173,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:47.164Z"
+    "updatedAt": "2026-11-01T00:31:28.099Z"
   },
   "MAR": {
     "date": "2026-11-02",
@@ -1198,7 +1186,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:53.158Z"
+    "updatedAt": "2026-11-01T00:32:21.679Z"
   },
   "HLT": {
     "date": "2027-02-10",
@@ -1207,7 +1195,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:15.780Z"
+    "updatedAt": "2026-11-01T00:31:51.030Z"
   },
   "CAT": {
     "date": "2027-01-28",
@@ -1216,7 +1204,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:43.941Z"
+    "updatedAt": "2026-11-01T00:30:35.867Z"
   },
   "DE": {
     "date": "2026-11-25",
@@ -1227,7 +1215,7 @@
     "lastFilingDate": "2026-08-20",
     "auxiliaryDate": "2026-11-25",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:19.681Z"
+    "updatedAt": "2026-11-01T00:31:03.460Z"
   },
   "HON": {
     "date": "2027-01-28",
@@ -1236,7 +1224,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:16.415Z"
+    "updatedAt": "2026-11-01T00:31:51.656Z"
   },
   "UNP": {
     "date": "2027-01-26",
@@ -1245,7 +1233,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:34.171Z"
+    "updatedAt": "2026-11-01T00:33:39.765Z"
   },
   "UPS": {
     "date": "2027-01-26",
@@ -1254,7 +1242,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:35.320Z"
+    "updatedAt": "2026-11-01T00:33:40.911Z"
   },
   "FDX": {
     "date": "2027-01-27",
@@ -1263,7 +1251,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:52.016Z"
+    "updatedAt": "2026-11-01T00:31:32.192Z"
   },
   "BA": {
     "date": "2027-01-26",
@@ -1272,7 +1260,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:34.303Z"
+    "updatedAt": "2026-11-01T00:30:26.445Z"
   },
   "RTX": {
     "date": "2027-01-26",
@@ -1281,7 +1269,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:54.053Z"
+    "updatedAt": "2026-11-01T00:33:09.676Z"
   },
   "GE": {
     "date": "2027-01-21",
@@ -1290,7 +1278,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:04.859Z"
+    "updatedAt": "2026-11-01T00:31:39.769Z"
   },
   "NOC": {
     "date": "2027-01-26",
@@ -1299,20 +1287,16 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:20.794Z"
+    "updatedAt": "2026-11-01T00:32:44.590Z"
   },
   "GD": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-01-27",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-01-27",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:07.496Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:31:42.131Z"
   },
   "ETN": {
     "date": "2026-11-03",
@@ -1323,7 +1307,7 @@
     "lastFilingDate": "2026-07-31",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:31.618Z"
+    "updatedAt": "2026-11-01T00:31:15.699Z"
   },
   "PH": {
     "date": "2026-11-05",
@@ -1334,7 +1318,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:31.995Z"
+    "updatedAt": "2026-11-01T00:32:53.023Z"
   },
   "EMR": {
     "date": "2026-11-04",
@@ -1347,7 +1331,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:38.143Z"
+    "updatedAt": "2026-11-01T00:31:20.004Z"
   },
   "MMM": {
     "date": "2027-01-19",
@@ -1356,7 +1340,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:06:50.394Z"
+    "updatedAt": "2026-11-01T00:29:51.551Z"
   },
   "ADP": {
     "date": "2027-01-27",
@@ -1365,7 +1349,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:24.229Z"
+    "updatedAt": "2026-11-01T00:30:18.250Z"
   },
   "PAYX": {
     "date": "2026-12-18",
@@ -1376,33 +1360,25 @@
     "lastFilingDate": "2026-09-23",
     "auxiliaryDate": "2026-12-18",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:32.413Z"
+    "updatedAt": "2026-11-01T00:32:53.381Z"
   },
   "XOM": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-01-29",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-01-29",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:49.180Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:31:29.890Z"
   },
   "CVX": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-01-29",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-01-29",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:53.424Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:30:42.561Z"
   },
   "COP": {
     "date": "2026-11-05",
@@ -1413,7 +1389,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:04.202Z"
+    "updatedAt": "2026-11-01T00:30:51.320Z"
   },
   "EOG": {
     "date": "2026-11-05",
@@ -1426,7 +1402,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:39.130Z"
+    "updatedAt": "2026-11-01T00:31:20.711Z"
   },
   "SLB": {
     "date": "2027-01-22",
@@ -1435,7 +1411,7 @@
     "lastFilingDate": "2026-10-23",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:05.587Z"
+    "updatedAt": "2026-11-01T00:33:18.403Z"
   },
   "PSX": {
     "date": "2027-02-03",
@@ -1444,7 +1420,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:37.071Z"
+    "updatedAt": "2026-11-01T00:32:56.947Z"
   },
   "MPC": {
     "date": "2026-11-03",
@@ -1455,7 +1431,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:52.496Z"
+    "updatedAt": "2026-11-01T00:32:21.191Z"
   },
   "OXY": {
     "date": "2026-11-09",
@@ -1468,7 +1444,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:25.644Z"
+    "updatedAt": "2026-11-01T00:32:47.965Z"
   },
   "VLO": {
     "date": "2027-01-28",
@@ -1477,7 +1453,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:37.879Z"
+    "updatedAt": "2026-11-01T00:33:43.200Z"
   },
   "FANG": {
     "date": "2026-11-02",
@@ -1490,7 +1466,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:22.322Z"
+    "updatedAt": "2026-11-01T00:31:06.328Z"
   },
   "NEE": {
     "date": "2027-01-26",
@@ -1499,7 +1475,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:17.516Z"
+    "updatedAt": "2026-11-01T00:32:41.860Z"
   },
   "SO": {
     "date": "2026-11-05",
@@ -1512,7 +1488,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:10.367Z"
+    "updatedAt": "2026-11-01T00:33:21.957Z"
   },
   "DUK": {
     "date": "2026-11-05",
@@ -1525,7 +1501,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:30.566Z"
+    "updatedAt": "2026-11-01T00:31:14.485Z"
   },
   "XEL": {
     "date": "2027-02-04",
@@ -1534,7 +1510,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:00.027Z"
+    "updatedAt": "2026-11-01T00:33:58.163Z"
   },
   "PLD": {
     "date": "2027-01-20",
@@ -1543,7 +1519,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:44.681Z"
+    "updatedAt": "2026-11-01T00:33:03.468Z"
   },
   "EQIX": {
     "date": "2027-02-10",
@@ -1552,7 +1528,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:40.652Z"
+    "updatedAt": "2026-11-01T00:31:22.293Z"
   },
   "AMT": {
     "date": "2027-02-23",
@@ -1561,7 +1537,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:09.368Z"
+    "updatedAt": "2026-11-01T00:30:06.965Z"
   },
   "LIN": {
     "date": "2027-02-04",
@@ -1570,7 +1546,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:47.231Z"
+    "updatedAt": "2026-11-01T00:32:16.637Z"
   },
   "SHW": {
     "date": "2027-01-28",
@@ -1579,7 +1555,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:07.751Z"
+    "updatedAt": "2026-11-01T00:33:19.881Z"
   },
   "VZ": {
     "date": "2027-01-29",
@@ -1588,7 +1564,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:39.242Z"
+    "updatedAt": "2026-11-01T00:33:44.446Z"
   },
   "T": {
     "date": "2027-01-27",
@@ -1597,7 +1573,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:22.497Z"
+    "updatedAt": "2026-11-01T00:30:16.738Z"
   },
   "TMUS": {
     "date": "2027-02-10",
@@ -1606,7 +1582,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:19.912Z"
+    "updatedAt": "2026-11-01T00:33:28.011Z"
   },
   "BRK-B": {
     "date": "2026-11-02",
@@ -1615,7 +1591,7 @@
     "lastFilingDate": "2026-08-11",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:30.445Z"
+    "updatedAt": "2026-11-01T00:30:22.989Z"
   },
   "CVS": {
     "date": "2026-11-04",
@@ -1628,16 +1604,16 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:14.158Z"
+    "updatedAt": "2026-11-01T00:31:01.032Z"
   },
   "EA": {
-    "date": "2026-10-27",
+    "date": "2027-01-26",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-05-05",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:36.624Z"
+    "updatedAt": "2026-11-01T00:31:19.048Z"
   },
   "F": {
     "date": "2027-02-09",
@@ -1646,7 +1622,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:56.579Z"
+    "updatedAt": "2026-11-01T00:31:35.346Z"
   },
   "GM": {
     "date": "2027-01-26",
@@ -1655,7 +1631,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:08.977Z"
+    "updatedAt": "2026-11-01T00:31:43.405Z"
   },
   "CCL": {
     "date": "2026-12-18",
@@ -1666,7 +1642,7 @@
     "lastFilingDate": "2026-09-29",
     "auxiliaryDate": "2026-12-18",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:42.434Z"
+    "updatedAt": "2026-11-01T00:30:34.383Z"
   },
   "DAL": {
     "date": "2027-01-12",
@@ -1675,7 +1651,7 @@
     "lastFilingDate": "2026-10-09",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:20.293Z"
+    "updatedAt": "2026-11-01T00:31:04.061Z"
   },
   "UAL": {
     "date": "2027-01-19",
@@ -1684,7 +1660,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:34.573Z"
+    "updatedAt": "2026-11-01T00:33:40.151Z"
   },
   "LUV": {
     "date": "2027-01-27",
@@ -1693,7 +1669,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:11.047Z"
+    "updatedAt": "2026-11-01T00:33:22.545Z"
   },
   "ASML": {
     "date": "2027-01-13",
@@ -1702,7 +1678,7 @@
     "lastFilingDate": "2026-10-14",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:03.102Z"
+    "updatedAt": "2026-11-01T00:34:00.800Z"
   },
   "ARM": {
     "date": "2026-11-04",
@@ -1715,7 +1691,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:03.329Z"
+    "updatedAt": "2026-11-01T00:34:01.011Z"
   },
   "TSM": {
     "date": "2027-01-14",
@@ -1724,7 +1700,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:03.555Z"
+    "updatedAt": "2026-11-01T00:34:01.225Z"
   },
   "BABA": {
     "date": "2026-11-24",
@@ -1737,7 +1713,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:03.786Z"
+    "updatedAt": "2026-11-01T00:34:01.441Z"
   },
   "PDD": {
     "date": "2026-11-17",
@@ -1750,7 +1726,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:04.013Z"
+    "updatedAt": "2026-11-01T00:34:01.672Z"
   },
   "JD": {
     "date": "2026-11-12",
@@ -1761,7 +1737,7 @@
     "lastFilingDate": "2026-08-13",
     "auxiliaryDate": "2026-11-12",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:04.249Z"
+    "updatedAt": "2026-11-01T00:34:01.884Z"
   },
   "BIDU": {
     "date": "2026-11-16",
@@ -1774,7 +1750,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:04.480Z"
+    "updatedAt": "2026-11-01T00:34:02.298Z"
   },
   "NIO": {
     "date": "2026-11-24",
@@ -1787,7 +1763,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:04.706Z"
+    "updatedAt": "2026-11-01T00:34:02.510Z"
   },
   "TM": {
     "date": "2026-11-04",
@@ -1800,7 +1776,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:04.948Z"
+    "updatedAt": "2026-11-01T00:34:02.726Z"
   },
   "SONY": {
     "date": "2026-11-05",
@@ -1813,7 +1789,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:05.185Z"
+    "updatedAt": "2026-11-01T00:34:02.955Z"
   },
   "SPOT": {
     "date": "2027-02-09",
@@ -1822,7 +1798,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:05.407Z"
+    "updatedAt": "2026-11-01T00:34:03.269Z"
   },
   "XYZ": {
     "date": "2026-11-03",
@@ -1835,7 +1811,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:33.126Z"
+    "updatedAt": "2026-11-01T00:30:25.398Z"
   },
   "MMC": {
     "date": "2027-01-28",
@@ -1844,7 +1820,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:11.423Z"
+    "updatedAt": "2026-11-01T00:34:07.374Z"
   },
   "WBA": {
     "date": "2027-01-12",
@@ -1853,7 +1829,7 @@
     "lastFilingDate": "2025-06-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:16.883Z"
+    "updatedAt": "2026-11-01T00:34:11.708Z"
   },
   "AOS": {
     "date": "2027-01-28",
@@ -1862,7 +1838,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:06:50.790Z"
+    "updatedAt": "2026-11-01T00:29:51.938Z"
   },
   "ACN": {
     "date": "2026-12-17",
@@ -1873,7 +1849,7 @@
     "lastFilingDate": "2026-10-01",
     "auxiliaryDate": "2026-12-17",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:06:55.616Z"
+    "updatedAt": "2026-11-01T00:29:53.631Z"
   },
   "AES": {
     "date": "2026-11-03",
@@ -1886,7 +1862,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:06:57.824Z"
+    "updatedAt": "2026-11-01T00:29:56.383Z"
   },
   "AFL": {
     "date": "2026-11-04",
@@ -1899,7 +1875,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:06:58.052Z"
+    "updatedAt": "2026-11-01T00:29:56.593Z"
   },
   "A": {
     "date": "2026-11-23",
@@ -1910,7 +1886,7 @@
     "lastFilingDate": "2026-08-26",
     "auxiliaryDate": "2026-11-23",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:06:58.455Z"
+    "updatedAt": "2026-11-01T00:29:57.057Z"
   },
   "APD": {
     "date": "2026-11-05",
@@ -1921,7 +1897,7 @@
     "lastFilingDate": "2026-07-30",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:06:58.685Z"
+    "updatedAt": "2026-11-01T00:29:57.408Z"
   },
   "AKAM": {
     "date": "2026-11-05",
@@ -1932,7 +1908,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:06:59.510Z"
+    "updatedAt": "2026-11-01T00:29:58.113Z"
   },
   "ALB": {
     "date": "2026-11-04",
@@ -1943,7 +1919,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:00.250Z"
+    "updatedAt": "2026-11-01T00:29:58.752Z"
   },
   "ARE": {
     "date": "2027-01-25",
@@ -1952,7 +1928,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:00.714Z"
+    "updatedAt": "2026-11-01T00:29:59.137Z"
   },
   "ALGN": {
     "date": "2027-02-03",
@@ -1961,7 +1937,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:01.303Z"
+    "updatedAt": "2026-11-01T00:29:59.856Z"
   },
   "ALLE": {
     "date": "2027-02-16",
@@ -1970,7 +1946,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:01.704Z"
+    "updatedAt": "2026-11-01T00:30:00.411Z"
   },
   "LNT": {
     "date": "2027-02-19",
@@ -1979,7 +1955,7 @@
     "lastFilingDate": "2026-10-30",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:02.476Z"
+    "updatedAt": "2026-11-01T00:30:01.044Z"
   },
   "ALL": {
     "date": "2026-11-04",
@@ -1990,7 +1966,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:03.203Z"
+    "updatedAt": "2026-11-01T00:30:01.864Z"
   },
   "AMCR": {
     "date": "2026-11-04",
@@ -2001,7 +1977,7 @@
     "lastFilingDate": "2026-08-12",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:05.276Z"
+    "updatedAt": "2026-11-01T00:30:04.060Z"
   },
   "AEE": {
     "date": "2026-11-05",
@@ -2014,7 +1990,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:06.192Z"
+    "updatedAt": "2026-11-01T00:30:04.983Z"
   },
   "AEP": {
     "date": "2027-02-11",
@@ -2023,7 +1999,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:06.432Z"
+    "updatedAt": "2026-11-01T00:30:05.201Z"
   },
   "AIG": {
     "date": "2026-11-03",
@@ -2034,7 +2010,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:07.813Z"
+    "updatedAt": "2026-11-01T00:30:06.244Z"
   },
   "AWK": {
     "date": "2027-02-17",
@@ -2043,7 +2019,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:10.201Z"
+    "updatedAt": "2026-11-01T00:30:07.809Z"
   },
   "AMP": {
     "date": "2027-01-28",
@@ -2052,7 +2028,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:10.433Z"
+    "updatedAt": "2026-11-01T00:30:08.024Z"
   },
   "AME": {
     "date": "2026-11-03",
@@ -2065,7 +2041,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:11.148Z"
+    "updatedAt": "2026-11-01T00:30:08.576Z"
   },
   "APH": {
     "date": "2027-01-27",
@@ -2074,7 +2050,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:12.539Z"
+    "updatedAt": "2026-11-01T00:30:09.873Z"
   },
   "AON": {
     "date": "2027-01-29",
@@ -2083,7 +2059,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:14.373Z"
+    "updatedAt": "2026-11-01T00:30:11.090Z"
   },
   "APA": {
     "date": "2026-11-04",
@@ -2096,7 +2072,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:14.628Z"
+    "updatedAt": "2026-11-01T00:30:11.323Z"
   },
   "APO": {
     "date": "2026-11-03",
@@ -2109,7 +2085,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:17.359Z"
+    "updatedAt": "2026-11-01T00:30:12.454Z"
   },
   "APP": {
     "date": "2026-11-04",
@@ -2120,7 +2096,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:18.415Z"
+    "updatedAt": "2026-11-01T00:30:13.417Z"
   },
   "APTV": {
     "date": "2026-11-03",
@@ -2133,7 +2109,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:18.648Z"
+    "updatedAt": "2026-11-01T00:30:13.652Z"
   },
   "ACGL": {
     "date": "2027-02-08",
@@ -2142,7 +2118,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:19.442Z"
+    "updatedAt": "2026-11-01T00:30:14.350Z"
   },
   "ADM": {
     "date": "2026-11-03",
@@ -2153,7 +2129,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:19.670Z"
+    "updatedAt": "2026-11-01T00:30:14.578Z"
   },
   "ARES": {
     "date": "2027-02-04",
@@ -2162,7 +2138,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:20.329Z"
+    "updatedAt": "2026-11-01T00:30:15.172Z"
   },
   "ANET": {
     "date": "2026-11-03",
@@ -2173,7 +2149,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:20.566Z"
+    "updatedAt": "2026-11-01T00:30:15.384Z"
   },
   "AJG": {
     "date": "2027-01-28",
@@ -2182,7 +2158,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:21.217Z"
+    "updatedAt": "2026-11-01T00:30:16.022Z"
   },
   "AIZ": {
     "date": "2026-11-03",
@@ -2193,7 +2169,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:21.451Z"
+    "updatedAt": "2026-11-01T00:30:16.238Z"
   },
   "ATO": {
     "date": "2026-11-04",
@@ -2204,7 +2180,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:23.251Z"
+    "updatedAt": "2026-11-01T00:30:17.520Z"
   },
   "ADSK": {
     "date": "2026-11-24",
@@ -2215,7 +2191,7 @@
     "lastFilingDate": "2026-08-27",
     "auxiliaryDate": "2026-11-24",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:24.004Z"
+    "updatedAt": "2026-11-01T00:30:18.037Z"
   },
   "AZO": {
     "date": "2026-12-08",
@@ -2226,7 +2202,7 @@
     "lastFilingDate": "2026-09-22",
     "auxiliaryDate": "2026-12-08",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:24.632Z"
+    "updatedAt": "2026-11-01T00:30:18.632Z"
   },
   "AVB": {
     "date": "2026-10-29",
@@ -2235,7 +2211,7 @@
     "lastFilingDate": "2026-07-23",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:24.870Z"
+    "updatedAt": "2026-11-01T00:30:18.954Z"
   },
   "AVY": {
     "date": "2027-02-03",
@@ -2244,7 +2220,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:25.754Z"
+    "updatedAt": "2026-11-01T00:30:19.768Z"
   },
   "AXON": {
     "date": "2026-11-05",
@@ -2257,7 +2233,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:26.330Z"
+    "updatedAt": "2026-11-01T00:30:20.279Z"
   },
   "BKR": {
     "date": "2027-01-25",
@@ -2266,7 +2242,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:26.942Z"
+    "updatedAt": "2026-11-01T00:30:20.818Z"
   },
   "BALL": {
     "date": "2026-11-03",
@@ -2277,7 +2253,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:27.522Z"
+    "updatedAt": "2026-11-01T00:30:21.367Z"
   },
   "BAX": {
     "date": "2027-02-11",
@@ -2286,7 +2262,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:29.983Z"
+    "updatedAt": "2026-11-01T00:30:22.562Z"
   },
   "BDX": {
     "date": "2026-11-05",
@@ -2297,7 +2273,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:30.214Z"
+    "updatedAt": "2026-11-01T00:30:22.775Z"
   },
   "BBY": {
     "date": "2026-11-24",
@@ -2308,7 +2284,7 @@
     "lastFilingDate": "2026-08-27",
     "auxiliaryDate": "2026-11-24",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:30.911Z"
+    "updatedAt": "2026-11-01T00:30:23.205Z"
   },
   "TECH": {
     "date": "2026-11-04",
@@ -2319,7 +2295,7 @@
     "lastFilingDate": "2026-08-12",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:31.622Z"
+    "updatedAt": "2026-11-01T00:30:23.790Z"
   },
   "BX": {
     "date": "2027-01-28",
@@ -2328,7 +2304,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:32.780Z"
+    "updatedAt": "2026-11-01T00:30:25.182Z"
   },
   "BK": {
     "date": "2027-01-12",
@@ -2337,7 +2313,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:33.731Z"
+    "updatedAt": "2026-11-01T00:30:25.890Z"
   },
   "BR": {
     "date": "2026-11-03",
@@ -2348,7 +2324,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:36.785Z"
+    "updatedAt": "2026-11-01T00:30:29.360Z"
   },
   "BRO": {
     "date": "2027-01-25",
@@ -2357,7 +2333,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:37.577Z"
+    "updatedAt": "2026-11-01T00:30:30.055Z"
   },
   "BF-B": {
     "date": "2026-12-03",
@@ -2366,7 +2342,7 @@
     "lastFilingDate": "2026-09-02",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:38.206Z"
+    "updatedAt": "2026-11-01T00:30:30.467Z"
   },
   "BLDR": {
     "date": "2027-02-16",
@@ -2375,7 +2351,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:38.437Z"
+    "updatedAt": "2026-11-01T00:30:30.819Z"
   },
   "BG": {
     "date": "2027-02-03",
@@ -2384,7 +2360,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:39.040Z"
+    "updatedAt": "2026-11-01T00:30:31.364Z"
   },
   "BXP": {
     "date": "2027-01-27",
@@ -2393,7 +2369,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:39.541Z"
+    "updatedAt": "2026-11-01T00:30:31.809Z"
   },
   "CHRW": {
     "date": "2027-01-27",
@@ -2402,7 +2378,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:39.767Z"
+    "updatedAt": "2026-11-01T00:30:32.043Z"
   },
   "CPT": {
     "date": "2026-11-05",
@@ -2413,7 +2389,7 @@
     "lastFilingDate": "2026-07-30",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:40.770Z"
+    "updatedAt": "2026-11-01T00:30:32.832Z"
   },
   "CPB": {
     "date": "2026-12-08",
@@ -2424,7 +2400,7 @@
     "lastFilingDate": "2026-09-03",
     "auxiliaryDate": "2026-12-08",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:41.177Z"
+    "updatedAt": "2026-11-01T00:30:33.235Z"
   },
   "CAH": {
     "date": "2026-11-05",
@@ -2437,7 +2413,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:42.050Z"
+    "updatedAt": "2026-11-01T00:30:33.979Z"
   },
   "CARR": {
     "date": "2027-02-04",
@@ -2446,7 +2422,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:42.684Z"
+    "updatedAt": "2026-11-01T00:30:34.594Z"
   },
   "CVNA": {
     "date": "2027-02-17",
@@ -2455,7 +2431,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:42.910Z"
+    "updatedAt": "2026-11-01T00:30:34.807Z"
   },
   "CASY": {
     "date": "2026-12-08",
@@ -2466,20 +2442,16 @@
     "lastFilingDate": "2026-09-08",
     "auxiliaryDate": "2026-12-08",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:43.143Z"
+    "updatedAt": "2026-11-01T00:30:35.019Z"
   },
   "CBOE": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-02-05",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-02-05",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:44.374Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:30:36.322Z"
   },
   "CBRE": {
     "date": "2027-02-11",
@@ -2488,7 +2460,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:44.940Z"
+    "updatedAt": "2026-11-01T00:30:37.030Z"
   },
   "CDW": {
     "date": "2026-11-04",
@@ -2501,7 +2473,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:45.697Z"
+    "updatedAt": "2026-11-01T00:30:37.709Z"
   },
   "COR": {
     "date": "2026-11-04",
@@ -2514,7 +2486,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:48.226Z"
+    "updatedAt": "2026-11-01T00:30:38.554Z"
   },
   "CNC": {
     "date": "2027-02-05",
@@ -2523,7 +2495,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:48.789Z"
+    "updatedAt": "2026-11-01T00:30:39.059Z"
   },
   "CNP": {
     "date": "2027-02-18",
@@ -2532,7 +2504,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:50.022Z"
+    "updatedAt": "2026-11-01T00:30:40.047Z"
   },
   "CF": {
     "date": "2026-11-04",
@@ -2543,7 +2515,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:50.444Z"
+    "updatedAt": "2026-11-01T00:30:40.404Z"
   },
   "CRL": {
     "date": "2026-11-04",
@@ -2554,7 +2526,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:50.871Z"
+    "updatedAt": "2026-11-01T00:30:40.773Z"
   },
   "CHTR": {
     "date": "2026-11-06",
@@ -2567,20 +2539,16 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:52.792Z"
+    "updatedAt": "2026-11-01T00:30:42.002Z"
   },
   "CHD": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-01-29",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-01-29",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:07:54.754Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:30:43.529Z"
   },
   "CIEN": {
     "date": "2026-12-10",
@@ -2591,7 +2559,7 @@
     "lastFilingDate": "2026-09-03",
     "auxiliaryDate": "2026-12-10",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:54.980Z"
+    "updatedAt": "2026-11-01T00:30:43.761Z"
   },
   "CINF": {
     "date": "2027-02-08",
@@ -2600,7 +2568,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:07:56.630Z"
+    "updatedAt": "2026-11-01T00:30:45.039Z"
   },
   "CTAS": {
     "date": "2026-12-17",
@@ -2611,7 +2579,7 @@
     "lastFilingDate": "2026-09-23",
     "auxiliaryDate": "2026-12-17",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:57.347Z"
+    "updatedAt": "2026-11-01T00:30:45.609Z"
   },
   "CFG": {
     "date": "2027-01-20",
@@ -2622,7 +2590,7 @@
     "lastFilingDate": "2026-10-16",
     "auxiliaryDate": "2027-01-20",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:58.770Z"
+    "updatedAt": "2026-11-01T00:30:46.934Z"
   },
   "CLX": {
     "date": "2026-11-02",
@@ -2633,7 +2601,7 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:59.157Z"
+    "updatedAt": "2026-11-01T00:30:47.346Z"
   },
   "CMS": {
     "date": "2027-02-04",
@@ -2642,7 +2610,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:00.088Z"
+    "updatedAt": "2026-11-01T00:30:48.120Z"
   },
   "CTSH": {
     "date": "2027-02-03",
@@ -2651,7 +2619,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:01.130Z"
+    "updatedAt": "2026-11-01T00:30:48.833Z"
   },
   "COHR": {
     "date": "2026-11-04",
@@ -2662,7 +2630,7 @@
     "lastFilingDate": "2026-08-12",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:01.371Z"
+    "updatedAt": "2026-11-01T00:30:49.045Z"
   },
   "FIX": {
     "date": "2027-02-18",
@@ -2671,7 +2639,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:03.289Z"
+    "updatedAt": "2026-11-01T00:30:50.571Z"
   },
   "CAG": {
     "date": "2026-12-18",
@@ -2682,7 +2650,7 @@
     "lastFilingDate": "2026-09-30",
     "auxiliaryDate": "2026-12-18",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:03.677Z"
+    "updatedAt": "2026-11-01T00:30:50.959Z"
   },
   "ED": {
     "date": "2026-11-05",
@@ -2693,7 +2661,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:04.683Z"
+    "updatedAt": "2026-11-01T00:30:51.931Z"
   },
   "STZ": {
     "date": "2027-01-06",
@@ -2702,7 +2670,7 @@
     "lastFilingDate": "2026-10-06",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:05.527Z"
+    "updatedAt": "2026-11-01T00:30:52.709Z"
   },
   "CEG": {
     "date": "2026-11-09",
@@ -2715,7 +2683,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:06.112Z"
+    "updatedAt": "2026-11-01T00:30:53.207Z"
   },
   "COO": {
     "date": "2026-12-03",
@@ -2726,7 +2694,7 @@
     "lastFilingDate": "2026-09-09",
     "auxiliaryDate": "2026-12-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:06.756Z"
+    "updatedAt": "2026-11-01T00:30:53.775Z"
   },
   "CPRT": {
     "date": "2026-11-19",
@@ -2737,7 +2705,7 @@
     "lastFilingDate": "2026-09-10",
     "auxiliaryDate": "2026-11-19",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:07.309Z"
+    "updatedAt": "2026-11-01T00:30:54.863Z"
   },
   "GLW": {
     "date": "2027-01-27",
@@ -2746,7 +2714,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:08.523Z"
+    "updatedAt": "2026-11-01T00:30:55.416Z"
   },
   "CPAY": {
     "date": "2026-11-04",
@@ -2757,7 +2725,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:08.748Z"
+    "updatedAt": "2026-11-01T00:30:55.629Z"
   },
   "CTVA": {
     "date": "2026-11-11",
@@ -2770,7 +2738,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:10.629Z"
+    "updatedAt": "2026-11-01T00:30:57.570Z"
   },
   "CSGP": {
     "date": "2027-02-23",
@@ -2779,7 +2747,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:11.276Z"
+    "updatedAt": "2026-11-01T00:30:58.083Z"
   },
   "CTRA": {
     "date": "2026-11-02",
@@ -2788,7 +2756,7 @@
     "lastFilingDate": "2026-02-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:11.734Z"
+    "updatedAt": "2026-11-01T00:30:58.571Z"
   },
   "CRH": {
     "date": "2027-02-17",
@@ -2797,7 +2765,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:12.142Z"
+    "updatedAt": "2026-11-01T00:30:58.944Z"
   },
   "CCI": {
     "date": "2027-02-03",
@@ -2806,7 +2774,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:13.096Z"
+    "updatedAt": "2026-11-01T00:31:00.007Z"
   },
   "CSX": {
     "date": "2027-01-21",
@@ -2815,7 +2783,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:13.496Z"
+    "updatedAt": "2026-11-01T00:31:00.451Z"
   },
   "CMI": {
     "date": "2026-11-05",
@@ -2826,7 +2794,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:13.722Z"
+    "updatedAt": "2026-11-01T00:31:00.664Z"
   },
   "DRI": {
     "date": "2026-12-17",
@@ -2837,7 +2805,7 @@
     "lastFilingDate": "2026-09-24",
     "auxiliaryDate": "2026-12-17",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:17.955Z"
+    "updatedAt": "2026-11-01T00:31:01.776Z"
   },
   "DVA": {
     "date": "2027-02-01",
@@ -2846,7 +2814,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:18.410Z"
+    "updatedAt": "2026-11-01T00:31:02.222Z"
   },
   "DECK": {
     "date": "2027-01-28",
@@ -2855,7 +2823,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:19.263Z"
+    "updatedAt": "2026-11-01T00:31:03.062Z"
   },
   "DELL": {
     "date": "2026-11-24",
@@ -2866,7 +2834,7 @@
     "lastFilingDate": "2026-09-01",
     "auxiliaryDate": "2026-11-24",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:20.067Z"
+    "updatedAt": "2026-11-01T00:31:03.848Z"
   },
   "DVN": {
     "date": "2026-11-05",
@@ -2879,7 +2847,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:21.330Z"
+    "updatedAt": "2026-11-01T00:31:04.889Z"
   },
   "DLR": {
     "date": "2027-02-04",
@@ -2888,7 +2856,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:23.878Z"
+    "updatedAt": "2026-11-01T00:31:07.867Z"
   },
   "DG": {
     "date": "2026-12-03",
@@ -2899,7 +2867,7 @@
     "lastFilingDate": "2026-08-27",
     "auxiliaryDate": "2026-12-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:25.834Z"
+    "updatedAt": "2026-11-01T00:31:08.642Z"
   },
   "DLTR": {
     "date": "2026-12-02",
@@ -2910,33 +2878,25 @@
     "lastFilingDate": "2026-08-27",
     "auxiliaryDate": "2026-12-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:26.577Z"
+    "updatedAt": "2026-11-01T00:31:09.383Z"
   },
   "D": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-02-22",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-02-22",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:26.805Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:31:09.596Z"
   },
   "DASH": {
-    "date": "2026-11-04",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-02-17",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-29",
-    "secEstimateDate": "2027-02-17",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:27.862Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:31:10.934Z"
   },
   "DOV": {
     "date": "2027-01-28",
@@ -2945,7 +2905,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:28.256Z"
+    "updatedAt": "2026-11-01T00:31:11.373Z"
   },
   "DOW": {
     "date": "2027-01-28",
@@ -2954,7 +2914,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:28.483Z"
+    "updatedAt": "2026-11-01T00:31:11.800Z"
   },
   "DHI": {
     "date": "2027-01-19",
@@ -2963,7 +2923,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:29.054Z"
+    "updatedAt": "2026-11-01T00:31:12.486Z"
   },
   "DTE": {
     "date": "2026-11-05",
@@ -2976,7 +2936,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:29.776Z"
+    "updatedAt": "2026-11-01T00:31:13.563Z"
   },
   "DD": {
     "date": "2026-11-03",
@@ -2989,7 +2949,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:31.011Z"
+    "updatedAt": "2026-11-01T00:31:14.852Z"
   },
   "EBAY": {
     "date": "2027-02-17",
@@ -2998,7 +2958,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:31.848Z"
+    "updatedAt": "2026-11-01T00:31:15.910Z"
   },
   "ECL": {
     "date": "2027-02-09",
@@ -3007,7 +2967,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:35.126Z"
+    "updatedAt": "2026-11-01T00:31:17.792Z"
   },
   "EIX": {
     "date": "2027-02-17",
@@ -3016,7 +2976,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:35.701Z"
+    "updatedAt": "2026-11-01T00:31:18.300Z"
   },
   "EW": {
     "date": "2026-11-04",
@@ -3029,7 +2989,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:36.285Z"
+    "updatedAt": "2026-11-01T00:31:18.698Z"
   },
   "EME": {
     "date": "2027-02-25",
@@ -3038,7 +2998,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:37.914Z"
+    "updatedAt": "2026-11-01T00:31:19.769Z"
   },
   "ETR": {
     "date": "2026-11-02",
@@ -3051,7 +3011,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:38.719Z"
+    "updatedAt": "2026-11-01T00:31:20.355Z"
   },
   "EPAM": {
     "date": "2026-11-05",
@@ -3062,7 +3022,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:39.368Z"
+    "updatedAt": "2026-11-01T00:31:20.940Z"
   },
   "EQT": {
     "date": "2027-02-16",
@@ -3071,7 +3031,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:39.958Z"
+    "updatedAt": "2026-11-01T00:31:21.584Z"
   },
   "EFX": {
     "date": "2027-02-03",
@@ -3080,16 +3040,16 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:40.264Z"
+    "updatedAt": "2026-11-01T00:31:21.822Z"
   },
   "EQR": {
-    "date": "2026-10-27",
+    "date": "2027-01-26",
     "source": "sec_8k_yoy_estimate",
     "confirmed": false,
     "lastFilingDate": "2026-07-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:41.604Z"
+    "updatedAt": "2026-11-01T00:31:22.957Z"
   },
   "ERIE": {
     "date": "2027-02-22",
@@ -3098,7 +3058,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:41.834Z"
+    "updatedAt": "2026-11-01T00:31:23.171Z"
   },
   "ESS": {
     "date": "2027-02-03",
@@ -3107,7 +3067,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:42.400Z"
+    "updatedAt": "2026-11-01T00:31:23.815Z"
   },
   "EL": {
     "date": "2026-11-02",
@@ -3120,7 +3080,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:42.626Z"
+    "updatedAt": "2026-11-01T00:31:24.051Z"
   },
   "EG": {
     "date": "2027-02-03",
@@ -3129,7 +3089,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:43.167Z"
+    "updatedAt": "2026-11-01T00:31:24.578Z"
   },
   "EVRG": {
     "date": "2026-11-05",
@@ -3140,7 +3100,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:43.888Z"
+    "updatedAt": "2026-11-01T00:31:25.276Z"
   },
   "ES": {
     "date": "2026-11-04",
@@ -3153,20 +3113,16 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:44.115Z"
+    "updatedAt": "2026-11-01T00:31:25.505Z"
   },
   "EXC": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-02-11",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-02-11",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:44.705Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:31:26.014Z"
   },
   "EXE": {
     "date": "2027-02-16",
@@ -3175,7 +3131,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:46.933Z"
+    "updatedAt": "2026-11-01T00:31:27.884Z"
   },
   "EXPD": {
     "date": "2026-11-03",
@@ -3186,7 +3142,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:47.808Z"
+    "updatedAt": "2026-11-01T00:31:28.602Z"
   },
   "EXR": {
     "date": "2027-02-18",
@@ -3195,7 +3151,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:48.200Z"
+    "updatedAt": "2026-11-01T00:31:29.006Z"
   },
   "FFIV": {
     "date": "2027-01-26",
@@ -3204,7 +3160,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:49.588Z"
+    "updatedAt": "2026-11-01T00:31:30.256Z"
   },
   "FDS": {
     "date": "2026-12-17",
@@ -3215,7 +3171,7 @@
     "lastFilingDate": "2026-09-30",
     "auxiliaryDate": "2026-12-17",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:49.818Z"
+    "updatedAt": "2026-11-01T00:31:30.487Z"
   },
   "FICO": {
     "date": "2026-11-04",
@@ -3226,7 +3182,7 @@
     "lastFilingDate": "2026-07-29",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:50.592Z"
+    "updatedAt": "2026-11-01T00:31:30.886Z"
   },
   "FAST": {
     "date": "2027-01-19",
@@ -3235,20 +3191,16 @@
     "lastFilingDate": "2026-10-14",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:50.822Z"
+    "updatedAt": "2026-11-01T00:31:31.099Z"
   },
   "FRT": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-02-11",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-02-11",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:51.242Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:31:31.516Z"
   },
   "FIS": {
     "date": "2026-11-04",
@@ -3259,7 +3211,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:08:52.246Z"
+    "updatedAt": "2026-11-01T00:31:32.455Z"
   },
   "FITB": {
     "date": "2027-01-19",
@@ -3268,7 +3220,7 @@
     "lastFilingDate": "2026-10-19",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:53.340Z"
+    "updatedAt": "2026-11-01T00:31:33.495Z"
   },
   "FSLR": {
     "date": "2027-02-23",
@@ -3277,7 +3229,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:53.759Z"
+    "updatedAt": "2026-11-01T00:31:33.866Z"
   },
   "FE": {
     "date": "2027-02-16",
@@ -3286,7 +3238,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:54.149Z"
+    "updatedAt": "2026-11-01T00:31:34.250Z"
   },
   "FISV": {
     "date": "2026-11-03",
@@ -3299,7 +3251,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:54.777Z"
+    "updatedAt": "2026-11-01T00:31:34.761Z"
   },
   "FTV": {
     "date": "2027-02-03",
@@ -3308,7 +3260,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:58.965Z"
+    "updatedAt": "2026-11-01T00:31:36.064Z"
   },
   "BEN": {
     "date": "2026-11-06",
@@ -3319,7 +3271,7 @@
     "lastFilingDate": "2026-07-31",
     "auxiliaryDate": "2026-11-06",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:00.804Z"
+    "updatedAt": "2026-11-01T00:31:37.791Z"
   },
   "FCX": {
     "date": "2027-01-21",
@@ -3328,7 +3280,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:03.353Z"
+    "updatedAt": "2026-11-01T00:31:38.515Z"
   },
   "GRMN": {
     "date": "2027-02-17",
@@ -3337,7 +3289,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:03.584Z"
+    "updatedAt": "2026-11-01T00:31:38.729Z"
   },
   "IT": {
     "date": "2026-11-03",
@@ -3348,7 +3300,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:04.282Z"
+    "updatedAt": "2026-11-01T00:31:39.211Z"
   },
   "GEHC": {
     "date": "2027-02-03",
@@ -3357,7 +3309,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:05.246Z"
+    "updatedAt": "2026-11-01T00:31:40.120Z"
   },
   "GEV": {
     "date": "2027-01-27",
@@ -3366,7 +3318,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:05.652Z"
+    "updatedAt": "2026-11-01T00:31:40.470Z"
   },
   "GEN": {
     "date": "2027-02-04",
@@ -3375,7 +3327,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:06.522Z"
+    "updatedAt": "2026-11-01T00:31:41.220Z"
   },
   "GNRC": {
     "date": "2027-02-10",
@@ -3384,7 +3336,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:07.108Z"
+    "updatedAt": "2026-11-01T00:31:41.767Z"
   },
   "GIS": {
     "date": "2026-12-16",
@@ -3395,7 +3347,7 @@
     "lastFilingDate": "2026-09-23",
     "auxiliaryDate": "2026-12-16",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:08.260Z"
+    "updatedAt": "2026-11-01T00:31:42.717Z"
   },
   "GPC": {
     "date": "2027-02-16",
@@ -3404,7 +3356,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:09.791Z"
+    "updatedAt": "2026-11-01T00:31:44.120Z"
   },
   "GPN": {
     "date": "2026-11-05",
@@ -3417,7 +3369,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:10.247Z"
+    "updatedAt": "2026-11-01T00:31:44.661Z"
   },
   "GL": {
     "date": "2027-02-03",
@@ -3426,7 +3378,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:10.734Z"
+    "updatedAt": "2026-11-01T00:31:45.030Z"
   },
   "GDDY": {
     "date": "2027-02-23",
@@ -3435,7 +3387,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:10.978Z"
+    "updatedAt": "2026-11-01T00:31:45.288Z"
   },
   "HAL": {
     "date": "2027-01-20",
@@ -3444,7 +3396,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:12.181Z"
+    "updatedAt": "2026-11-01T00:31:46.266Z"
   },
   "HIG": {
     "date": "2027-01-28",
@@ -3453,7 +3405,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:12.930Z"
+    "updatedAt": "2026-11-01T00:31:47.209Z"
   },
   "HAS": {
     "date": "2027-02-09",
@@ -3462,7 +3414,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:13.323Z"
+    "updatedAt": "2026-11-01T00:31:47.584Z"
   },
   "HCA": {
     "date": "2027-01-26",
@@ -3471,7 +3423,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:13.729Z"
+    "updatedAt": "2026-11-01T00:31:48.023Z"
   },
   "DOC": {
     "date": "2026-11-02",
@@ -3484,7 +3436,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:14.112Z"
+    "updatedAt": "2026-11-01T00:31:48.459Z"
   },
   "HSIC": {
     "date": "2026-11-03",
@@ -3495,7 +3447,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:14.751Z"
+    "updatedAt": "2026-11-01T00:31:49.520Z"
   },
   "HSY": {
     "date": "2027-02-04",
@@ -3504,7 +3456,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:15.005Z"
+    "updatedAt": "2026-11-01T00:31:49.751Z"
   },
   "HPE": {
     "date": "2026-12-03",
@@ -3515,7 +3467,7 @@
     "lastFilingDate": "2026-09-02",
     "auxiliaryDate": "2026-12-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:15.393Z"
+    "updatedAt": "2026-11-01T00:31:50.639Z"
   },
   "HRL": {
     "date": "2026-12-03",
@@ -3526,7 +3478,7 @@
     "lastFilingDate": "2026-08-27",
     "auxiliaryDate": "2026-12-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:17.129Z"
+    "updatedAt": "2026-11-01T00:31:52.603Z"
   },
   "HST": {
     "date": "2026-11-04",
@@ -3537,7 +3489,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:17.563Z"
+    "updatedAt": "2026-11-01T00:31:53.031Z"
   },
   "HWM": {
     "date": "2027-02-11",
@@ -3546,7 +3498,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:17.789Z"
+    "updatedAt": "2026-11-01T00:31:53.372Z"
   },
   "HPQ": {
     "date": "2026-11-24",
@@ -3557,7 +3509,7 @@
     "lastFilingDate": "2026-08-26",
     "auxiliaryDate": "2026-11-24",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:18.280Z"
+    "updatedAt": "2026-11-01T00:31:53.766Z"
   },
   "HUBB": {
     "date": "2027-02-02",
@@ -3566,7 +3518,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:18.515Z"
+    "updatedAt": "2026-11-01T00:31:53.979Z"
   },
   "HUM": {
     "date": "2026-11-06",
@@ -3579,7 +3531,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:19.293Z"
+    "updatedAt": "2026-11-01T00:31:54.713Z"
   },
   "HBAN": {
     "date": "2027-01-21",
@@ -3588,7 +3540,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:19.759Z"
+    "updatedAt": "2026-11-01T00:31:55.084Z"
   },
   "HII": {
     "date": "2027-02-04",
@@ -3597,7 +3549,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:20.216Z"
+    "updatedAt": "2026-11-01T00:31:55.435Z"
   },
   "IEX": {
     "date": "2027-02-03",
@@ -3606,7 +3558,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:21.202Z"
+    "updatedAt": "2026-11-01T00:31:56.756Z"
   },
   "ITW": {
     "date": "2027-02-02",
@@ -3615,7 +3567,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:21.852Z"
+    "updatedAt": "2026-11-01T00:31:57.485Z"
   },
   "INCY": {
     "date": "2027-02-09",
@@ -3624,7 +3576,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:22.377Z"
+    "updatedAt": "2026-11-01T00:31:57.959Z"
   },
   "IR": {
     "date": "2027-02-11",
@@ -3633,7 +3585,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:22.954Z"
+    "updatedAt": "2026-11-01T00:31:58.348Z"
   },
   "PODD": {
     "date": "2026-11-04",
@@ -3646,7 +3598,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:23.952Z"
+    "updatedAt": "2026-11-01T00:31:59.183Z"
   },
   "IBKR": {
     "date": "2027-01-19",
@@ -3655,7 +3607,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:24.197Z"
+    "updatedAt": "2026-11-01T00:31:59.880Z"
   },
   "IFF": {
     "date": "2026-11-03",
@@ -3666,7 +3618,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:25.291Z"
+    "updatedAt": "2026-11-01T00:32:00.785Z"
   },
   "IP": {
     "date": "2027-01-28",
@@ -3675,7 +3627,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:26.464Z"
+    "updatedAt": "2026-11-01T00:32:01.208Z"
   },
   "IVZ": {
     "date": "2027-01-26",
@@ -3684,7 +3636,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:28.019Z"
+    "updatedAt": "2026-11-01T00:32:02.372Z"
   },
   "INVH": {
     "date": "2027-02-17",
@@ -3693,7 +3645,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:28.502Z"
+    "updatedAt": "2026-11-01T00:32:02.954Z"
   },
   "IQV": {
     "date": "2027-02-04",
@@ -3702,7 +3654,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:30.208Z"
+    "updatedAt": "2026-11-01T00:32:03.478Z"
   },
   "IRM": {
     "date": "2026-11-05",
@@ -3715,7 +3667,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:30.450Z"
+    "updatedAt": "2026-11-01T00:32:03.706Z"
   },
   "JBHT": {
     "date": "2027-01-14",
@@ -3724,7 +3676,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:30.679Z"
+    "updatedAt": "2026-11-01T00:32:03.920Z"
   },
   "JBL": {
     "date": "2026-12-16",
@@ -3735,7 +3687,7 @@
     "lastFilingDate": "2026-09-30",
     "auxiliaryDate": "2026-12-16",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:30.916Z"
+    "updatedAt": "2026-11-01T00:32:04.133Z"
   },
   "JKHY": {
     "date": "2026-11-03",
@@ -3748,7 +3700,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:31.538Z"
+    "updatedAt": "2026-11-01T00:32:04.491Z"
   },
   "J": {
     "date": "2026-11-23",
@@ -3761,7 +3713,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:32.002Z"
+    "updatedAt": "2026-11-01T00:32:04.892Z"
   },
   "JCI": {
     "date": "2027-02-03",
@@ -3770,20 +3722,16 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:32.639Z"
+    "updatedAt": "2026-11-01T00:32:05.524Z"
   },
   "KVUE": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-02-16",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-02-16",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:34.331Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:32:06.150Z"
   },
   "KEY": {
     "date": "2027-01-20",
@@ -3796,18 +3744,20 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:36.867Z"
+    "updatedAt": "2026-11-01T00:32:07.725Z"
   },
   "KEYS": {
-    "date": "2026-11-23",
-    "source": "sec_8k_yoy_estimate+alpha_vantage_calendar",
-    "confirmed": true,
+    "date": "2026-11-19",
+    "source": "alpha_vantage_calendar",
+    "confirmed": false,
     "officialConfirmed": false,
-    "confidence": "multi_source_agreed",
+    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-08-18",
-    "auxiliaryDate": "2026-11-23",
-    "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:37.287Z"
+    "secEstimateDate": "2026-11-23",
+    "secEstimateSource": "sec_8k_yoy_estimate",
+    "needsReview": true,
+    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
+    "updatedAt": "2026-11-01T00:32:08.075Z"
   },
   "KMB": {
     "date": "2026-11-05",
@@ -3820,7 +3770,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:38.924Z"
+    "updatedAt": "2026-11-01T00:32:09.339Z"
   },
   "KIM": {
     "date": "2027-02-11",
@@ -3829,7 +3779,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:39.159Z"
+    "updatedAt": "2026-11-01T00:32:09.553Z"
   },
   "KMI": {
     "date": "2027-01-20",
@@ -3838,7 +3788,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:40.003Z"
+    "updatedAt": "2026-11-01T00:32:10.218Z"
   },
   "KKR": {
     "date": "2026-11-09",
@@ -3851,7 +3801,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:40.760Z"
+    "updatedAt": "2026-11-01T00:32:10.865Z"
   },
   "KR": {
     "date": "2026-12-03",
@@ -3862,7 +3812,7 @@
     "lastFilingDate": "2026-09-11",
     "auxiliaryDate": "2026-12-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:42.574Z"
+    "updatedAt": "2026-11-01T00:32:12.426Z"
   },
   "LHX": {
     "date": "2027-01-28",
@@ -3871,7 +3821,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:42.980Z"
+    "updatedAt": "2026-11-01T00:32:12.776Z"
   },
   "LH": {
     "date": "2027-02-16",
@@ -3880,7 +3830,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:44.321Z"
+    "updatedAt": "2026-11-01T00:32:13.928Z"
   },
   "LVS": {
     "date": "2027-01-27",
@@ -3889,7 +3839,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:45.129Z"
+    "updatedAt": "2026-11-01T00:32:14.686Z"
   },
   "LDOS": {
     "date": "2026-11-03",
@@ -3900,7 +3850,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:45.709Z"
+    "updatedAt": "2026-11-01T00:32:15.169Z"
   },
   "LEN": {
     "date": "2026-12-15",
@@ -3911,7 +3861,7 @@
     "lastFilingDate": "2026-09-16",
     "auxiliaryDate": "2026-12-15",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:46.264Z"
+    "updatedAt": "2026-11-01T00:32:15.670Z"
   },
   "LII": {
     "date": "2027-01-27",
@@ -3920,7 +3870,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:46.785Z"
+    "updatedAt": "2026-11-01T00:32:16.211Z"
   },
   "LYV": {
     "date": "2026-11-05",
@@ -3933,7 +3883,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:48.213Z"
+    "updatedAt": "2026-11-01T00:32:17.577Z"
   },
   "L": {
     "date": "2026-11-02",
@@ -3944,7 +3894,7 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:48.860Z"
+    "updatedAt": "2026-11-01T00:32:18.202Z"
   },
   "LULU": {
     "date": "2026-12-10",
@@ -3955,7 +3905,7 @@
     "lastFilingDate": "2026-09-03",
     "auxiliaryDate": "2026-12-10",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:50.423Z"
+    "updatedAt": "2026-11-01T00:32:19.455Z"
   },
   "LITE": {
     "date": "2026-11-05",
@@ -3968,20 +3918,16 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:50.647Z"
+    "updatedAt": "2026-11-01T00:32:19.667Z"
   },
   "LYB": {
-    "date": "2026-10-30",
-    "source": "alpha_vantage_calendar",
+    "date": "2027-01-29",
+    "source": "sec_8k_yoy_estimate",
     "confirmed": false,
-    "officialConfirmed": false,
-    "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-10-30",
-    "secEstimateDate": "2027-01-29",
-    "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
-    "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:51.069Z"
+    "reviewReason": "sec_estimate_without_auxiliary_confirmation",
+    "updatedAt": "2026-11-01T00:32:20.050Z"
   },
   "MTB": {
     "date": "2027-01-19",
@@ -3994,7 +3940,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:52.090Z"
+    "updatedAt": "2026-11-01T00:32:20.844Z"
   },
   "MRSH": {
     "date": "2027-01-28",
@@ -4003,7 +3949,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:53.611Z"
+    "updatedAt": "2026-11-01T00:32:22.119Z"
   },
   "MLM": {
     "date": "2026-11-04",
@@ -4016,7 +3962,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:55.605Z"
+    "updatedAt": "2026-11-01T00:32:22.923Z"
   },
   "MAS": {
     "date": "2027-02-09",
@@ -4025,7 +3971,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:55.835Z"
+    "updatedAt": "2026-11-01T00:32:23.236Z"
   },
   "MKC": {
     "date": "2027-01-21",
@@ -4034,7 +3980,7 @@
     "lastFilingDate": "2026-10-01",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:09:56.674Z"
+    "updatedAt": "2026-11-01T00:32:24.010Z"
   },
   "MCK": {
     "date": "2026-11-04",
@@ -4045,7 +3991,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:57.870Z"
+    "updatedAt": "2026-11-01T00:32:25.103Z"
   },
   "MET": {
     "date": "2026-11-04",
@@ -4056,7 +4002,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:09:59.640Z"
+    "updatedAt": "2026-11-01T00:32:26.657Z"
   },
   "MTD": {
     "date": "2026-11-05",
@@ -4067,7 +4013,7 @@
     "lastFilingDate": "2026-07-30",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:00.087Z"
+    "updatedAt": "2026-11-01T00:32:26.869Z"
   },
   "MGM": {
     "date": "2027-02-04",
@@ -4076,7 +4022,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:00.480Z"
+    "updatedAt": "2026-11-01T00:32:27.296Z"
   },
   "MCHP": {
     "date": "2026-11-05",
@@ -4087,7 +4033,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:00.705Z"
+    "updatedAt": "2026-11-01T00:32:27.518Z"
   },
   "MAA": {
     "date": "2027-02-03",
@@ -4096,7 +4042,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:02.325Z"
+    "updatedAt": "2026-11-01T00:32:29.178Z"
   },
   "MRNA": {
     "date": "2026-11-06",
@@ -4109,7 +4055,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:02.795Z"
+    "updatedAt": "2026-11-01T00:32:29.557Z"
   },
   "TAP": {
     "date": "2026-11-05",
@@ -4122,7 +4068,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:03.127Z"
+    "updatedAt": "2026-11-01T00:32:29.778Z"
   },
   "MPWR": {
     "date": "2027-02-04",
@@ -4131,7 +4077,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:03.852Z"
+    "updatedAt": "2026-11-01T00:32:30.371Z"
   },
   "MCO": {
     "date": "2027-02-17",
@@ -4140,7 +4086,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:05.589Z"
+    "updatedAt": "2026-11-01T00:32:31.580Z"
   },
   "MOS": {
     "date": "2026-11-03",
@@ -4151,7 +4097,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:07.324Z"
+    "updatedAt": "2026-11-01T00:32:33.301Z"
   },
   "MSI": {
     "date": "2026-11-04",
@@ -4164,7 +4110,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:07.908Z"
+    "updatedAt": "2026-11-01T00:32:33.806Z"
   },
   "MSCI": {
     "date": "2027-01-27",
@@ -4173,7 +4119,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:08.335Z"
+    "updatedAt": "2026-11-01T00:32:34.253Z"
   },
   "NDAQ": {
     "date": "2027-01-28",
@@ -4182,7 +4128,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:08.895Z"
+    "updatedAt": "2026-11-01T00:32:34.747Z"
   },
   "NTAP": {
     "date": "2026-12-01",
@@ -4195,7 +4141,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:09.139Z"
+    "updatedAt": "2026-11-01T00:32:34.958Z"
   },
   "NEM": {
     "date": "2027-02-18",
@@ -4204,7 +4150,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:09.801Z"
+    "updatedAt": "2026-11-01T00:32:35.514Z"
   },
   "NWSA": {
     "date": "2026-11-04",
@@ -4217,7 +4163,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:14.351Z"
+    "updatedAt": "2026-11-01T00:32:38.432Z"
   },
   "NWS": {
     "date": "2026-11-04",
@@ -4230,7 +4176,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:17.115Z"
+    "updatedAt": "2026-11-01T00:32:41.392Z"
   },
   "NI": {
     "date": "2027-02-10",
@@ -4239,7 +4185,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:18.638Z"
+    "updatedAt": "2026-11-01T00:32:42.753Z"
   },
   "NDSN": {
     "date": "2026-12-09",
@@ -4250,7 +4196,7 @@
     "lastFilingDate": "2026-08-19",
     "auxiliaryDate": "2026-12-09",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:19.294Z"
+    "updatedAt": "2026-11-01T00:32:43.318Z"
   },
   "NSC": {
     "date": "2027-01-28",
@@ -4259,7 +4205,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:19.794Z"
+    "updatedAt": "2026-11-01T00:32:43.692Z"
   },
   "NTRS": {
     "date": "2027-01-21",
@@ -4268,7 +4214,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:20.408Z"
+    "updatedAt": "2026-11-01T00:32:44.235Z"
   },
   "NCLH": {
     "date": "2027-01-28",
@@ -4277,7 +4223,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:21.831Z"
+    "updatedAt": "2026-11-01T00:32:45.457Z"
   },
   "NRG": {
     "date": "2026-11-09",
@@ -4290,7 +4236,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:22.075Z"
+    "updatedAt": "2026-11-01T00:32:45.692Z"
   },
   "NUE": {
     "date": "2027-01-25",
@@ -4299,7 +4245,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:22.965Z"
+    "updatedAt": "2026-11-01T00:32:46.065Z"
   },
   "NVR": {
     "date": "2027-01-27",
@@ -4308,7 +4254,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:23.463Z"
+    "updatedAt": "2026-11-01T00:32:46.492Z"
   },
   "ODFL": {
     "date": "2027-02-03",
@@ -4317,7 +4263,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:26.645Z"
+    "updatedAt": "2026-11-01T00:32:48.669Z"
   },
   "OMC": {
     "date": "2027-02-17",
@@ -4326,7 +4272,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:27.401Z"
+    "updatedAt": "2026-11-01T00:32:49.166Z"
   },
   "ON": {
     "date": "2026-11-02",
@@ -4337,7 +4283,7 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:28.166Z"
+    "updatedAt": "2026-11-01T00:32:49.657Z"
   },
   "OKE": {
     "date": "2027-02-22",
@@ -4346,7 +4292,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:28.837Z"
+    "updatedAt": "2026-11-01T00:32:50.161Z"
   },
   "OTIS": {
     "date": "2027-01-27",
@@ -4355,7 +4301,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:29.778Z"
+    "updatedAt": "2026-11-01T00:32:50.868Z"
   },
   "PCAR": {
     "date": "2027-01-26",
@@ -4364,7 +4310,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:30.006Z"
+    "updatedAt": "2026-11-01T00:32:51.172Z"
   },
   "PKG": {
     "date": "2027-01-27",
@@ -4373,7 +4319,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:30.356Z"
+    "updatedAt": "2026-11-01T00:32:51.403Z"
   },
   "PSKY": {
     "date": "2026-11-09",
@@ -4382,7 +4328,7 @@
     "lastFilingDate": "2026-08-04",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:31.414Z"
+    "updatedAt": "2026-11-01T00:32:52.390Z"
   },
   "PNR": {
     "date": "2027-02-02",
@@ -4391,7 +4337,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:33.539Z"
+    "updatedAt": "2026-11-01T00:32:54.322Z"
   },
   "PCG": {
     "date": "2027-02-11",
@@ -4400,7 +4346,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:34.794Z"
+    "updatedAt": "2026-11-01T00:32:55.553Z"
   },
   "PNW": {
     "date": "2026-11-03",
@@ -4413,7 +4359,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:38.589Z"
+    "updatedAt": "2026-11-01T00:32:58.413Z"
   },
   "PNC": {
     "date": "2027-01-15",
@@ -4422,7 +4368,7 @@
     "lastFilingDate": "2026-10-15",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:39.894Z"
+    "updatedAt": "2026-11-01T00:32:59.555Z"
   },
   "POOL": {
     "date": "2027-02-18",
@@ -4431,7 +4377,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:41.124Z"
+    "updatedAt": "2026-11-01T00:33:00.665Z"
   },
   "PPG": {
     "date": "2027-01-26",
@@ -4440,7 +4386,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:41.358Z"
+    "updatedAt": "2026-11-01T00:33:00.879Z"
   },
   "PPL": {
     "date": "2026-11-06",
@@ -4453,7 +4399,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:42.597Z"
+    "updatedAt": "2026-11-01T00:33:01.439Z"
   },
   "PFG": {
     "date": "2027-02-08",
@@ -4462,7 +4408,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:43.253Z"
+    "updatedAt": "2026-11-01T00:33:01.815Z"
   },
   "PRU": {
     "date": "2026-11-03",
@@ -4475,7 +4421,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:45.936Z"
+    "updatedAt": "2026-11-01T00:33:04.397Z"
   },
   "PEG": {
     "date": "2026-11-02",
@@ -4486,7 +4432,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:46.169Z"
+    "updatedAt": "2026-11-01T00:33:04.724Z"
   },
   "PTC": {
     "date": "2026-11-04",
@@ -4497,7 +4443,7 @@
     "lastFilingDate": "2026-07-29",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:46.690Z"
+    "updatedAt": "2026-11-01T00:33:05.091Z"
   },
   "PSA": {
     "date": "2027-02-11",
@@ -4506,7 +4452,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:48.268Z"
+    "updatedAt": "2026-11-01T00:33:05.767Z"
   },
   "PHM": {
     "date": "2027-01-28",
@@ -4515,7 +4461,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:48.780Z"
+    "updatedAt": "2026-11-01T00:33:06.203Z"
   },
   "PWR": {
     "date": "2027-02-18",
@@ -4524,7 +4470,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:50.369Z"
+    "updatedAt": "2026-11-01T00:33:07.007Z"
   },
   "DGX": {
     "date": "2027-02-09",
@@ -4533,7 +4479,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:51.307Z"
+    "updatedAt": "2026-11-01T00:33:07.726Z"
   },
   "Q": {
     "date": "2026-11-04",
@@ -4546,7 +4492,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:52.156Z"
+    "updatedAt": "2026-11-01T00:33:08.218Z"
   },
   "RL": {
     "date": "2026-11-05",
@@ -4557,7 +4503,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:52.658Z"
+    "updatedAt": "2026-11-01T00:33:08.575Z"
   },
   "RJF": {
     "date": "2027-01-27",
@@ -4566,7 +4512,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:53.501Z"
+    "updatedAt": "2026-11-01T00:33:09.297Z"
   },
   "O": {
     "date": "2026-11-02",
@@ -4577,7 +4523,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:10:55.473Z"
+    "updatedAt": "2026-11-01T00:33:10.619Z"
   },
   "REG": {
     "date": "2026-11-05",
@@ -4586,11 +4532,11 @@
     "officialConfirmed": false,
     "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-07-29",
-    "secEstimateDate": "2026-10-27",
+    "secEstimateDate": "2027-01-26",
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:56.541Z"
+    "updatedAt": "2026-11-01T00:33:11.292Z"
   },
   "RF": {
     "date": "2027-01-15",
@@ -4599,7 +4545,7 @@
     "lastFilingDate": "2026-10-16",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:57.947Z"
+    "updatedAt": "2026-11-01T00:33:12.507Z"
   },
   "RSG": {
     "date": "2027-02-16",
@@ -4608,7 +4554,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:58.536Z"
+    "updatedAt": "2026-11-01T00:33:12.904Z"
   },
   "RMD": {
     "date": "2027-01-28",
@@ -4617,7 +4563,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:59.236Z"
+    "updatedAt": "2026-11-01T00:33:13.256Z"
   },
   "RVTY": {
     "date": "2026-11-03",
@@ -4630,7 +4576,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:10:59.707Z"
+    "updatedAt": "2026-11-01T00:33:13.607Z"
   },
   "HOOD": {
     "date": "2027-02-09",
@@ -4639,7 +4585,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:10:59.940Z"
+    "updatedAt": "2026-11-01T00:33:13.820Z"
   },
   "ROK": {
     "date": "2026-11-05",
@@ -4650,7 +4596,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:00.390Z"
+    "updatedAt": "2026-11-01T00:33:14.177Z"
   },
   "ROL": {
     "date": "2027-02-10",
@@ -4659,7 +4605,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:00.627Z"
+    "updatedAt": "2026-11-01T00:33:14.406Z"
   },
   "ROP": {
     "date": "2027-01-26",
@@ -4668,7 +4614,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:01.301Z"
+    "updatedAt": "2026-11-01T00:33:14.889Z"
   },
   "ROST": {
     "date": "2026-11-19",
@@ -4679,7 +4625,7 @@
     "lastFilingDate": "2026-08-20",
     "auxiliaryDate": "2026-11-19",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:01.695Z"
+    "updatedAt": "2026-11-01T00:33:15.345Z"
   },
   "RCL": {
     "date": "2027-01-28",
@@ -4688,7 +4634,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:02.710Z"
+    "updatedAt": "2026-11-01T00:33:16.013Z"
   },
   "SNDK": {
     "date": "2027-01-28",
@@ -4697,7 +4643,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:04.467Z"
+    "updatedAt": "2026-11-01T00:33:17.549Z"
   },
   "SBAC": {
     "date": "2026-11-02",
@@ -4708,7 +4654,7 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:04.960Z"
+    "updatedAt": "2026-11-01T00:33:17.907Z"
   },
   "STX": {
     "date": "2027-01-26",
@@ -4717,7 +4663,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:06.183Z"
+    "updatedAt": "2026-11-01T00:33:18.949Z"
   },
   "SRE": {
     "date": "2026-11-05",
@@ -4730,7 +4676,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:07.290Z"
+    "updatedAt": "2026-11-01T00:33:19.442Z"
   },
   "SWKS": {
     "date": "2026-11-03",
@@ -4741,7 +4687,7 @@
     "lastFilingDate": "2026-07-28",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:08.534Z"
+    "updatedAt": "2026-11-01T00:33:20.446Z"
   },
   "SJM": {
     "date": "2026-11-24",
@@ -4752,7 +4698,7 @@
     "lastFilingDate": "2026-08-26",
     "auxiliaryDate": "2026-11-24",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:08.764Z"
+    "updatedAt": "2026-11-01T00:33:20.663Z"
   },
   "SW": {
     "date": "2027-02-10",
@@ -4761,7 +4707,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:09.228Z"
+    "updatedAt": "2026-11-01T00:33:21.016Z"
   },
   "SNA": {
     "date": "2027-02-04",
@@ -4770,7 +4716,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:09.458Z"
+    "updatedAt": "2026-11-01T00:33:21.232Z"
   },
   "SOLV": {
     "date": "2026-11-05",
@@ -4781,7 +4727,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:09.966Z"
+    "updatedAt": "2026-11-01T00:33:21.603Z"
   },
   "SWK": {
     "date": "2026-11-04",
@@ -4794,7 +4740,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:11.756Z"
+    "updatedAt": "2026-11-01T00:33:22.921Z"
   },
   "STT": {
     "date": "2027-01-15",
@@ -4803,7 +4749,7 @@
     "lastFilingDate": "2026-10-14",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:12.826Z"
+    "updatedAt": "2026-11-01T00:33:23.796Z"
   },
   "STLD": {
     "date": "2027-01-26",
@@ -4812,7 +4758,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:14.097Z"
+    "updatedAt": "2026-11-01T00:33:24.599Z"
   },
   "SYF": {
     "date": "2027-01-26",
@@ -4821,7 +4767,7 @@
     "lastFilingDate": "2026-10-20",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:16.647Z"
+    "updatedAt": "2026-11-01T00:33:26.482Z"
   },
   "SYY": {
     "date": "2026-11-03",
@@ -4830,11 +4776,11 @@
     "officialConfirmed": false,
     "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-08-04",
-    "secEstimateDate": "2026-10-27",
+    "secEstimateDate": "2027-01-26",
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:18.208Z"
+    "updatedAt": "2026-11-01T00:33:27.516Z"
   },
   "TROW": {
     "date": "2027-02-03",
@@ -4843,7 +4789,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:20.142Z"
+    "updatedAt": "2026-11-01T00:33:28.353Z"
   },
   "TPR": {
     "date": "2026-11-05",
@@ -4854,7 +4800,7 @@
     "lastFilingDate": "2026-08-13",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:20.617Z"
+    "updatedAt": "2026-11-01T00:33:28.823Z"
   },
   "TRGP": {
     "date": "2026-11-05",
@@ -4867,7 +4813,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:21.419Z"
+    "updatedAt": "2026-11-01T00:33:29.426Z"
   },
   "TEL": {
     "date": "2027-01-20",
@@ -4876,7 +4822,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:22.734Z"
+    "updatedAt": "2026-11-01T00:33:30.334Z"
   },
   "TDY": {
     "date": "2027-01-20",
@@ -4885,7 +4831,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:23.416Z"
+    "updatedAt": "2026-11-01T00:33:30.887Z"
   },
   "TER": {
     "date": "2027-02-02",
@@ -4894,7 +4840,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:23.648Z"
+    "updatedAt": "2026-11-01T00:33:31.117Z"
   },
   "TPL": {
     "date": "2026-11-04",
@@ -4905,7 +4851,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:24.846Z"
+    "updatedAt": "2026-11-01T00:33:32.048Z"
   },
   "TXT": {
     "date": "2027-01-27",
@@ -4914,7 +4860,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:25.077Z"
+    "updatedAt": "2026-11-01T00:33:32.260Z"
   },
   "TKO": {
     "date": "2026-11-04",
@@ -4925,7 +4871,7 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:26.573Z"
+    "updatedAt": "2026-11-01T00:33:33.447Z"
   },
   "TTD": {
     "date": "2026-11-09",
@@ -4938,7 +4884,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:27.441Z"
+    "updatedAt": "2026-11-01T00:33:33.974Z"
   },
   "TSCO": {
     "date": "2027-01-28",
@@ -4947,7 +4893,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:27.880Z"
+    "updatedAt": "2026-11-01T00:33:34.336Z"
   },
   "TT": {
     "date": "2027-01-28",
@@ -4956,7 +4902,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:28.111Z"
+    "updatedAt": "2026-11-01T00:33:34.548Z"
   },
   "TDG": {
     "date": "2026-11-11",
@@ -4967,7 +4913,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-11",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:28.862Z"
+    "updatedAt": "2026-11-01T00:33:35.246Z"
   },
   "TRV": {
     "date": "2027-01-20",
@@ -4976,7 +4922,7 @@
     "lastFilingDate": "2026-10-16",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:29.145Z"
+    "updatedAt": "2026-11-01T00:33:35.458Z"
   },
   "TRMB": {
     "date": "2026-11-04",
@@ -4987,7 +4933,7 @@
     "lastFilingDate": "2026-08-12",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:29.789Z"
+    "updatedAt": "2026-11-01T00:33:35.949Z"
   },
   "TFC": {
     "date": "2027-01-20",
@@ -4998,7 +4944,7 @@
     "lastFilingDate": "2026-10-16",
     "auxiliaryDate": "2027-01-20",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:30.020Z"
+    "updatedAt": "2026-11-01T00:33:36.162Z"
   },
   "TYL": {
     "date": "2027-02-10",
@@ -5007,7 +4953,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:30.439Z"
+    "updatedAt": "2026-11-01T00:33:36.586Z"
   },
   "TSN": {
     "date": "2026-11-16",
@@ -5020,7 +4966,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:31.762Z"
+    "updatedAt": "2026-11-01T00:33:37.660Z"
   },
   "UDR": {
     "date": "2026-11-02",
@@ -5033,7 +4979,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:33.377Z"
+    "updatedAt": "2026-11-01T00:33:39.063Z"
   },
   "ULTA": {
     "date": "2026-12-03",
@@ -5044,7 +4990,7 @@
     "lastFilingDate": "2026-08-27",
     "auxiliaryDate": "2026-12-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:33.780Z"
+    "updatedAt": "2026-11-01T00:33:39.413Z"
   },
   "URI": {
     "date": "2027-01-27",
@@ -5053,7 +4999,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:36.221Z"
+    "updatedAt": "2026-11-01T00:33:41.606Z"
   },
   "UHS": {
     "date": "2027-01-26",
@@ -5062,7 +5008,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:37.294Z"
+    "updatedAt": "2026-11-01T00:33:42.713Z"
   },
   "VTR": {
     "date": "2027-02-04",
@@ -5071,7 +5017,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:38.131Z"
+    "updatedAt": "2026-11-01T00:33:43.416Z"
   },
   "VLTO": {
     "date": "2027-02-02",
@@ -5080,7 +5026,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:38.363Z"
+    "updatedAt": "2026-11-01T00:33:43.627Z"
   },
   "VRSN": {
     "date": "2027-02-04",
@@ -5089,7 +5035,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:38.597Z"
+    "updatedAt": "2026-11-01T00:33:43.856Z"
   },
   "VRSK": {
     "date": "2026-11-05",
@@ -5102,7 +5048,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:39.004Z"
+    "updatedAt": "2026-11-01T00:33:44.234Z"
   },
   "VRT": {
     "date": "2027-02-10",
@@ -5111,7 +5057,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:40.588Z"
+    "updatedAt": "2026-11-01T00:33:45.639Z"
   },
   "VTRS": {
     "date": "2026-11-05",
@@ -5122,7 +5068,7 @@
     "lastFilingDate": "2026-08-06",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:41.215Z"
+    "updatedAt": "2026-11-01T00:33:46.189Z"
   },
   "VICI": {
     "date": "2027-02-24",
@@ -5131,7 +5077,7 @@
     "lastFilingDate": "2026-10-28",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:42.293Z"
+    "updatedAt": "2026-11-01T00:33:46.996Z"
   },
   "VST": {
     "date": "2026-11-06",
@@ -5144,7 +5090,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:43.516Z"
+    "updatedAt": "2026-11-01T00:33:47.973Z"
   },
   "VMC": {
     "date": "2027-02-16",
@@ -5153,7 +5099,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:44.237Z"
+    "updatedAt": "2026-11-01T00:33:48.456Z"
   },
   "WRB": {
     "date": "2027-01-25",
@@ -5162,7 +5108,7 @@
     "lastFilingDate": "2026-10-19",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:44.465Z"
+    "updatedAt": "2026-11-01T00:33:48.667Z"
   },
   "GWW": {
     "date": "2026-11-04",
@@ -5175,7 +5121,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:44.876Z"
+    "updatedAt": "2026-11-01T00:33:48.883Z"
   },
   "WAB": {
     "date": "2027-02-10",
@@ -5184,7 +5130,7 @@
     "lastFilingDate": "2026-10-21",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:46.564Z"
+    "updatedAt": "2026-11-01T00:33:49.432Z"
   },
   "WBD": {
     "date": "2026-11-05",
@@ -5202,7 +5148,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:47.901Z"
+    "updatedAt": "2026-11-01T00:33:50.358Z"
   },
   "WAT": {
     "date": "2026-11-03",
@@ -5213,7 +5159,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:48.911Z"
+    "updatedAt": "2026-11-01T00:33:50.799Z"
   },
   "WEC": {
     "date": "2027-02-04",
@@ -5222,7 +5168,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:50.610Z"
+    "updatedAt": "2026-11-01T00:33:51.527Z"
   },
   "WELL": {
     "date": "2027-02-09",
@@ -5231,7 +5177,7 @@
     "lastFilingDate": "2026-10-26",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:51.560Z"
+    "updatedAt": "2026-11-01T00:33:52.275Z"
   },
   "WST": {
     "date": "2027-02-11",
@@ -5240,7 +5186,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:54.794Z"
+    "updatedAt": "2026-11-01T00:33:52.802Z"
   },
   "WDC": {
     "date": "2027-01-28",
@@ -5249,7 +5195,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:55.031Z"
+    "updatedAt": "2026-11-01T00:33:53.214Z"
   },
   "WY": {
     "date": "2027-01-22",
@@ -5262,7 +5208,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:55.611Z"
+    "updatedAt": "2026-11-01T00:33:53.860Z"
   },
   "WSM": {
     "date": "2026-11-18",
@@ -5273,7 +5219,7 @@
     "lastFilingDate": "2026-08-26",
     "auxiliaryDate": "2026-11-18",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:55.990Z"
+    "updatedAt": "2026-11-01T00:33:54.284Z"
   },
   "WMB": {
     "date": "2026-11-02",
@@ -5284,7 +5230,7 @@
     "lastFilingDate": "2026-08-03",
     "auxiliaryDate": "2026-11-02",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:57.067Z"
+    "updatedAt": "2026-11-01T00:33:55.248Z"
   },
   "WTW": {
     "date": "2027-02-02",
@@ -5293,7 +5239,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:11:57.466Z"
+    "updatedAt": "2026-11-01T00:33:55.715Z"
   },
   "WYNN": {
     "date": "2026-11-05",
@@ -5304,7 +5250,7 @@
     "lastFilingDate": "2026-08-04",
     "auxiliaryDate": "2026-11-05",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:59.195Z"
+    "updatedAt": "2026-11-01T00:33:57.410Z"
   },
   "XYL": {
     "date": "2027-02-09",
@@ -5313,7 +5259,7 @@
     "lastFilingDate": "2026-10-27",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:00.653Z"
+    "updatedAt": "2026-11-01T00:33:58.837Z"
   },
   "ZBRA": {
     "date": "2026-11-03",
@@ -5322,11 +5268,11 @@
     "officialConfirmed": false,
     "confidence": "auxiliary_conflicts_with_sec_estimate",
     "lastFilingDate": "2026-08-04",
-    "secEstimateDate": "2026-10-27",
+    "secEstimateDate": "2027-01-26",
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:01.336Z"
+    "updatedAt": "2026-11-01T00:33:59.439Z"
   },
   "ZBH": {
     "date": "2026-11-04",
@@ -5337,7 +5283,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:01.951Z"
+    "updatedAt": "2026-11-01T00:34:00.071Z"
   },
   "BRK-A": {
     "date": "2026-11-02",
@@ -5346,7 +5292,7 @@
     "lastFilingDate": "2026-08-11",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:07.334Z"
+    "updatedAt": "2026-11-01T00:34:04.672Z"
   },
   "CSCO": {
     "date": "2026-11-11",
@@ -5357,7 +5303,7 @@
     "lastFilingDate": "2026-08-12",
     "auxiliaryDate": "2026-11-11",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:57.745Z"
+    "updatedAt": "2026-11-01T00:30:46.004Z"
   },
   "AMAT": {
     "date": "2026-11-12",
@@ -5368,7 +5314,7 @@
     "lastFilingDate": "2026-08-13",
     "auxiliaryDate": "2026-11-12",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:07:18.187Z"
+    "updatedAt": "2026-11-01T00:30:13.195Z"
   },
   "NET": {
     "date": "2026-11-05",
@@ -5381,7 +5327,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:12.375Z"
+    "updatedAt": "2026-11-01T00:34:08.308Z"
   },
   "TEAM": {
     "date": "2026-11-05",
@@ -5394,7 +5340,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:16.029Z"
+    "updatedAt": "2026-11-01T00:34:10.808Z"
   },
   "SHOP": {
     "date": "2026-11-03",
@@ -5405,7 +5351,7 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-03",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:12:14.731Z"
+    "updatedAt": "2026-11-01T00:34:10.217Z"
   },
   "LYFT": {
     "date": "2026-11-05",
@@ -5418,7 +5364,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:09.699Z"
+    "updatedAt": "2026-11-01T00:34:06.316Z"
   },
   "PINS": {
     "date": "2027-02-11",
@@ -5427,7 +5373,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:13.404Z"
+    "updatedAt": "2026-11-01T00:34:09.100Z"
   },
   "RBLX": {
     "date": "2027-02-04",
@@ -5436,7 +5382,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:13.870Z"
+    "updatedAt": "2026-11-01T00:34:09.488Z"
   },
   "ROKU": {
     "date": "2026-11-02",
@@ -5449,7 +5395,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:14.504Z"
+    "updatedAt": "2026-11-01T00:34:09.981Z"
   },
   "U": {
     "date": "2026-11-05",
@@ -5462,7 +5408,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:12:16.652Z"
+    "updatedAt": "2026-11-01T00:34:11.395Z"
   },
   "TWLO": {
     "date": "2027-02-11",
@@ -5471,7 +5417,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:16.259Z"
+    "updatedAt": "2026-11-01T00:34:11.037Z"
   },
   "ILMN": {
     "date": "2027-02-04",
@@ -5480,7 +5426,7 @@
     "lastFilingDate": "2026-10-29",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:08.396Z"
+    "updatedAt": "2026-11-01T00:34:05.652Z"
   },
   "TTWO": {
     "date": "2026-11-09",
@@ -5493,7 +5439,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:20.376Z"
+    "updatedAt": "2026-11-01T00:33:28.573Z"
   },
   "AAL": {
     "date": "2027-01-26",
@@ -5502,7 +5448,7 @@
     "lastFilingDate": "2026-10-22",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:12:07.740Z"
+    "updatedAt": "2026-11-01T00:34:05.049Z"
   },
   "SATS": {
     "date": "2026-11-13",
@@ -5511,7 +5457,7 @@
     "lastFilingDate": "2026-08-10",
     "needsReview": true,
     "reviewReason": "sec_estimate_without_auxiliary_confirmation",
-    "updatedAt": "2026-10-31T01:08:34.897Z"
+    "updatedAt": "2026-11-01T00:31:17.582Z"
   },
   "FOXA": {
     "date": "2026-11-02",
@@ -5524,7 +5470,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:08:59.724Z"
+    "updatedAt": "2026-11-01T00:31:36.850Z"
   },
   "FOX": {
     "date": "2026-11-02",
@@ -5537,7 +5483,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:09:00.547Z"
+    "updatedAt": "2026-11-01T00:31:37.577Z"
   },
   "SPG": {
     "date": "2026-11-05",
@@ -5550,7 +5496,7 @@
     "secEstimateSource": "sec_8k_yoy_estimate",
     "needsReview": true,
     "reviewReason": "sec_estimate_differs_from_auxiliary_calendar",
-    "updatedAt": "2026-10-31T01:11:07.996Z"
+    "updatedAt": "2026-11-01T00:33:20.094Z"
   },
   "STE": {
     "date": "2026-11-04",
@@ -5561,6 +5507,6 @@
     "lastFilingDate": "2026-08-05",
     "auxiliaryDate": "2026-11-04",
     "needsReview": false,
-    "updatedAt": "2026-10-31T01:11:14.891Z"
+    "updatedAt": "2026-11-01T00:33:25.094Z"
   }
 }
