@@ -27,6 +27,8 @@ const fixes = [
   ['au_unemp_202611', '2026-11-19', 'https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia'],
   ['rba_202612', '2026-12-08', 'https://www.rba.gov.au/schedules-events/board-meeting-schedules.html'],
   ['boc_202612', '2026-12-09', 'https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/'],
+  ['us_existhome_202611', '2026-11-12', 'https://www.nar.realtor/press-releases/nar-statistical-news-release-schedule'],
+  ['us_existhome_202612', '2026-12-09', 'https://www.nar.realtor/press-releases/nar-statistical-news-release-schedule'],
 ];
 const changes = [];
 for (const [id, date, source] of fixes) {
@@ -59,5 +61,12 @@ for (const date of ['2026-12-24', '2026-12-31']) {
 }
 fs.writeFileSync(file, JSON.stringify(events, null, 2) + '\n');
 const report = path.join(__dirname, 'reports', 'calendar_corrections_2026-11-07.json');
-if (changes.length) fs.writeFileSync(report, JSON.stringify(changes, null, 2) + '\n');
+if (changes.length) {
+  const previous = fs.existsSync(report) ? JSON.parse(fs.readFileSync(report, 'utf8')) : [];
+  const merged = [...previous];
+  for (const change of changes) {
+    if (!merged.some((entry) => entry.id === change.id && entry.date === change.date)) merged.push(change);
+  }
+  fs.writeFileSync(report, JSON.stringify(merged, null, 2) + '\n');
+}
 console.log(`Corrected ${changes.filter((e) => e.before).length}; added ${changes.filter((e) => !e.before).length}`);
