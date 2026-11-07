@@ -160,5 +160,17 @@
     "before": null,
     "date": "2026-12-31",
     "source": "https://oui.doleta.gov/unemploy/archive.asp"
+  },
+  {
+    "id": "us_existhome_202611",
+    "before": "2026-11-19",
+    "date": "2026-11-12",
+    "source": "https://www.nar.realtor/press-releases/nar-statistical-news-release-schedule"
+  },
+  {
+    "id": "us_existhome_202612",
+    "before": "2026-12-21",
+    "date": "2026-12-09",
+    "source": "https://www.nar.realtor/press-releases/nar-statistical-news-release-schedule"
   }
 ]
