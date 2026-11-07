@@ -14,6 +14,7 @@ jobs:
         with:
           node-version: '24'
       - run: node --check collect_earnings.js
+      - run: node collect_earnings.test.js
       - run: node --check factcheck/factcheck.js
       - run: node --check factcheck/audit_events.js
       - run: node factcheck/sources/customs_jp.test.js

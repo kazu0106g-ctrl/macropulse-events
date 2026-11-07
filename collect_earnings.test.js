@@ -1,0 +1,20 @@
+'use strict';
+
+const assert = require('node:assert/strict');
+const { todayUtcTs, advanceEstimate, chooseBestDate } = require('./collect_earnings');
+const now = Date.parse('2026-11-07T09:00:00Z');
+const secInfo = { date: '2027-01-29', source: 'sec_8k_yoy_estimate', confirmed: false };
+assert.equal(todayUtcTs(now), Date.parse('2026-11-07T00:00:00Z'));
+const stale = chooseBestDate({ secInfo, aux: { date: '2026-11-06', source: 'alpha_vantage_calendar' }, now });
+assert.equal(stale.date, '2027-01-29');
+assert.equal(stale.confirmed, false);
+assert.equal(stale.needsReview, true);
+const current = chooseBestDate({ secInfo, aux: { date: '2026-11-07', source: 'alpha_vantage_calendar' }, now });
+assert.equal(current.date, '2026-11-07');
+const agreed = chooseBestDate({ secInfo, aux: { date: '2027-01-29', source: 'alpha_vantage_calendar' }, now });
+assert.equal(agreed.confirmed, true);
+assert.equal(agreed.officialConfirmed, false);
+assert.equal(advanceEstimate('2026-11-04', now).toISOString().slice(0, 10), '2027-02-03');
+assert.equal(advanceEstimate('2026-11-07', now).toISOString().slice(0, 10), '2026-11-07');
+assert.ok(advanceEstimate('2025-11-04', now).getTime() >= todayUtcTs(now));
+console.log('earnings date rollover tests passed');

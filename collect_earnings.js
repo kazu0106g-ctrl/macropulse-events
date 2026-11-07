@@ -45,6 +45,17 @@ function ymd(d) {
   return `${d.getUTCFullYear()}-${String(d.getUTCMonth()+1).padStart(2,'0')}-${String(d.getUTCDate()).padStart(2,'0')}`;
 }
 
+function todayUtcTs(now = Date.now()) {
+  const date = new Date(now);
+  return Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate());
+}
+
+function advanceEstimate(date, now = Date.now()) {
+  const estimated = new Date(date);
+  while (estimated.getTime() < todayUtcTs(now)) estimated.setUTCDate(estimated.getUTCDate() + 91);
+  return estimated;
+}
+
 function parseCsv(text) {
   const rows = [];
   let row = [];
@@ -120,14 +131,15 @@ async function loadAlphaVantageCalendar() {
     const date = (row[dateIdx] || '').trim();
     if (!symbol || !/^\d{4}-\d{2}-\d{2}$/.test(date)) continue;
     const ts = Date.parse(`${date}T00:00:00Z`);
-    if (!Number.isFinite(ts) || ts < todayDate - 2 * 86_400_000) continue;
+    if (!Number.isFinite(ts) || ts < todayDate) continue;
     bySymbol[symbol] = { date, source: 'alpha_vantage_calendar' };
   }
   return { bySymbol, source: 'alpha_vantage_calendar', count: Object.keys(bySymbol).length };
 }
 
-function chooseBestDate({ symbol, secInfo, aux }) {
+function chooseBestDate({ symbol, secInfo, aux, now = Date.now() }) {
   if (!secInfo || secInfo.error) return secInfo;
+  if (aux && (!Number.isFinite(Date.parse(aux.date)) || Date.parse(aux.date) < todayUtcTs(now))) aux = null;
   if (secInfo.confirmed === true || secInfo.source === 'manual') {
     return {
       ...secInfo,
@@ -187,9 +199,24 @@ const MANUAL_CIK = {
   PSKY: '0002041610', // Paramount Skydance
   SATS: '0001415404', // EchoStar; SEC ticker is now ECHO.
   WBA: '0001618921', // Walgreens Boots Alliance
+  WBD: '0001437107', // Warner Bros. Discovery
 };
 
 const DATE_OVERRIDES = {
+  NVDA: {
+    date: '2026-11-17', source: 'official_ir_manual',
+    sourceUrl: 'https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx',
+    confirmed: true, officialConfirmed: true, confidence: 'official_ir_announcement', needsReview: false,
+  },
+  DIS: {
+    date: '2026-11-17', source: 'official_ir_manual',
+    sourceUrl: 'https://investors.thewaltdisneycompany.com/news/news-details/2026/The-Walt-Disney-Company-Executives-to-Discuss-Fiscal-Full-Year-and-Fourth-Quarter-2026-Financial-Results-via-Webcast/default.aspx',
+    confirmed: true, officialConfirmed: true, confidence: 'official_ir_announcement', needsReview: false,
+  },
+  CSCO: {
+    date: '2026-11-12', source: 'official_ir_manual', sourceUrl: 'https://investor.cisco.com/overview/',
+    confirmed: true, officialConfirmed: true, confidence: 'official_ir_announcement', needsReview: false,
+  },
   KO: {
     date: '2026-10-27',
     source: 'official_ir_manual',
@@ -399,7 +426,7 @@ async function collectSymbol(symbol) {
       const parsed = extractEarningsDate(text, filingDate);
       if (parsed) {
         const parsedTs = new Date(parsed).getTime();
-        if (parsedTs >= todayTs - 2 * 86_400_000) {
+        if (parsedTs >= todayUtcTs(todayTs)) {
           return {
             date: parsed,
             source: 'sec_8k_preannounce',
@@ -442,10 +469,7 @@ async function collectSymbol(symbol) {
     estimated = new Date(lastDate);
     estimated.setDate(estimated.getDate() + 91);
   }
-  const tolerance = 5 * 86_400_000;
-  while (estimated.getTime() < todayTs - tolerance) {
-    estimated.setDate(estimated.getDate() + 91);
-  }
+  estimated = advanceEstimate(estimated, todayTs);
 
   return {
     date: ymd(estimated),
@@ -465,7 +489,7 @@ async function main() {
   } catch (_) {}
 
   // Preserve any manually curated entries (source: 'manual').
-  // Their date is only refreshed when it's already in the past (>=3 days ago),
+  // Their date is refreshed once it is in the past,
   // at which point we fall back to auto-estimation for the next quarter.
   const now = Date.now();
   let auxCalendar = { bySymbol: {}, source: 'none', count: 0 };
@@ -489,7 +513,7 @@ async function main() {
     const override = DATE_OVERRIDES[sym];
     if (override?.date) {
       const overrideTs = new Date(override.date).getTime();
-      if (overrideTs >= now - 3 * 86_400_000) {
+      if (overrideTs >= todayUtcTs(now)) {
         result[sym] = {
           ...override,
           lastFilingDate: existing[sym]?.lastFilingDate || null,
@@ -505,7 +529,7 @@ async function main() {
     const isManual = prev && prev.source === 'manual';
     if (isManual && prev.date) {
       const prevTs = new Date(prev.date).getTime();
-      if (prevTs >= now - 3 * 86_400_000) {
+      if (prevTs >= todayUtcTs(now)) {
         console.log(`${prev.date}  manual (kept)`);
         continue; // keep manual entry until its date passes
       }
@@ -554,4 +578,5 @@ async function main() {
   console.log(`[stats] ${JSON.stringify(stats)}`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+module.exports = { todayUtcTs, advanceEstimate, chooseBestDate };
+if (require.main === module) main().catch(e => { console.error(e); process.exit(1); });
