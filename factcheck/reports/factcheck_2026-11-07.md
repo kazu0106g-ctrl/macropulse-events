@@ -1,12 +1,12 @@
 # Macropulse-events factcheck report
 
-Generated: 2026-11-07T01:58:27.606Z
+Generated: 2026-11-07T04:58:52.454Z
 
 Compares events.json against authoritative issuer pages.
 
 ## BOJ 2026
 
-Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-11-07T01:58:21.000Z)
+Source: https://www.boj.or.jp/mopo/mpmsche_minu/index.htm (fresh at 2026-11-07T04:58:45.908Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -23,7 +23,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## FOMC 2026
 
-Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-11-07T01:58:21.154Z)
+Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (fresh at 2026-11-07T04:58:46.019Z)
 
 OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -40,7 +40,7 @@ OK: 8, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## ECB 2026
 
-Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-11-07T01:58:22.400Z)
+Source: https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html (fresh at 2026-11-07T04:58:47.657Z)
 
 OK: 1, Mismatch: 0, Missing: 0, Phantom: 0
 
@@ -50,18 +50,9 @@ OK: 1, Mismatch: 0, Missing: 0, Phantom: 0
 
 ## BLS/BEA/Census/Federal Reserve/CAO/Customs/eStat/Tankan/Michigan/NBS 2026
 
-Source: https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html (fresh at 2026-11-07T01:58:27.603Z)
+Source: https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html (fresh at 2026-11-07T04:58:52.451Z)
 
-OK: 142, Mismatch: 4, Missing: 0, Phantom: 0
-
-### Mismatch (events.json date differs from official Day 2)
-
-| id | events.json | official Day 1 | official Day 2 | label | note |
-|---|---|---|---|---|---|
-| jp_cpi_202611 | 2026-11-19 | null | 2026-11-20 | jp_cpi_202611 | Japan CPI (消費者物価指数・全国) schedule says 2026-11-20 |
-| jp_core_cpi_202611 | 2026-11-19 | null | 2026-11-20 | jp_core_cpi_202611 | Japan CPI (消費者物価指数・全国) schedule says 2026-11-20 |
-| jp_retail_202611 | 2026-11-26 | null | 2026-11-30 | jp_retail_202611 | Japan Retail Sales (商業動態統計・速報) schedule says 2026-11-30 |
-| jp_indprod_202611 | 2026-11-26 | null | 2026-11-30 | jp_indprod_202611 | Japan Industrial Production (鉱工業生産・速報) schedule says 2026-11-30 |
+OK: 146, Mismatch: 0, Missing: 0, Phantom: 0
 
 ### OK
 
@@ -141,6 +132,10 @@ OK: 142, Mismatch: 4, Missing: 0, Phantom: 0
 - jp_trade_202606: 2026-06-17 matches Day 2 2026-06-17
 - jp_trade_202605: 2026-05-21 matches Day 2 2026-05-21
 - jp_trade_202604: 2026-04-22 matches Day 2 2026-04-22
+- jp_cpi_202611: 2026-11-20 matches Day 2 2026-11-20
+- jp_core_cpi_202611: 2026-11-20 matches Day 2 2026-11-20
+- jp_retail_202611: 2026-11-30 matches Day 2 2026-11-30
+- jp_indprod_202611: 2026-11-30 matches Day 2 2026-11-30
 - jp_tankan_2026Q3: 2026-10-01 matches Day 2 2026-10-01
 - jp_tankan_2026Q2: 2026-07-01 matches Day 2 2026-07-01
 - us_michigan_202604: 2026-04-10 matches Day 2 2026-04-10
