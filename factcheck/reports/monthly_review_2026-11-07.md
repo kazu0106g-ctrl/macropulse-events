@@ -1,5 +1,13 @@
 # Monthly Calendar Review - 2026-11-07
 
+## Final Verification
+
+- Earnings workflow: https://github.com/kazu0106g-ctrl/macropulse-events/actions/runs/42340744196 (success; collection errors 0).
+- Issuer validation workflow: https://github.com/kazu0106g-ctrl/macropulse-events/actions/runs/42340746314 (success).
+- Published earnings: 536 symbols; confirmed 60; review required 476; missing dates 0; dates before November 7 are 0.
+- At 2026-11-07 05:06 UTC, all 677 public `/events` records matched the reviewed JSON, and published earnings JSON matched the latest checkout.
+- Purged both events and earnings caches. Checked date, confirmation flag and source through `/earnings/latest` for NVDA, DIS, CSCO, WBD, TECH, CHTR, WMT and AAPL; all matched the published earnings data.
+
 ## Calendar
 
 - Audited all 677 records for structure and valid dates.
